@@ -1,0 +1,282 @@
+<!-- !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+<html>
+<head>
+<title>DataSnap REST Project</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/json-min.js"></script>
+<script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+<script type="text/javascript" src="js/connection.js"></script>
+<script type="text/javascript" src="js/serverfunctions.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+
+function serverMethods()
+{
+  return new TServerMethods1(connectionInfo);
+}
+
+$(document).ready(function() {
+  $('#AddInt #button').click (function (){
+    res = serverMethods().AddInt(
+      $('#AddInt #a').val(),
+      $('#AddInt #b').val());
+    $('#AddInt #result').val (res.result);
+  });
+
+  $('#AddDouble #button').click (function (){
+    res = serverMethods().AddDouble(
+      $('#AddDouble #a').val(),
+      $('#AddDouble #b').val());
+    $('#AddDouble #result').val (res.result);
+  });
+
+  $('#IsOK #button').click (function (){
+    res = serverMethods().IsOK ();
+    if (res.result)
+    {
+      $('#IsOK #result').val ('ok');
+      $('#IsOK #result').attr('style', 'color: green;');
+    };
+  });
+
+  $('#GetLargeString #button').click (function (){
+    res = serverMethods().GetLargeString(
+      $('#GetLargeString #nCount').val());
+    $('#GetLargeString #result').val (res.result);
+  });
+
+  $('#GetLargeString #button2').click (function (){
+    var methExec = serverMethods().executor;
+    res = methExec.executeMethod("GetLargeString", "GET", [100], null, true, {"ss.c": "20"}, null);
+    $('#GetLargeString #result').val (res.result);
+  });
+
+  $('#GetLargeString #button3').click (function (){
+    var methExec = serverMethods().executor;
+    res = methExec.executeMethod("GetLargeString", "GET", [100], null, true, {"ss.r": "85,15"}, null);
+    $('#GetLargeString #result').val (res.result);
+  });
+
+  $('#GetPerson #button').click (function (){
+    res = serverMethods().GetPerson();
+    var obj = res.result.fields;
+    $('#GetPerson #result').val (
+      obj.FFirstName + ' ' + obj.FLastName + ' ' + obj.FAge.toString());
+  });
+
+  $('#GetPersonWithData #button').click (function (){
+    res = serverMethods().GetPersonWithData ();
+    var obj = res.result.fields;
+    $('#GetPersonWithData #result').val (
+      obj.FFirstName + ' ' + obj.FLastName + ' ' + obj.FAge.toString() + ' ' +
+        obj.FDateOfBirth);
+    var stringlist = res.result.fields.FMoreData.fields.FSerStringItemList;
+    $('#GetPersonWithData #list').val (
+      stringlist[0].fields.FString + ' ' + stringlist[1].fields.FString);
+  });
+
+  $('#GetCustomers #button').click (function (){
+    res = serverMethods().GetCustomers().result;
+    var strHtml = '<tr>';
+    for (var n=0; n < res.table.length; n++) {
+      strHtml = strHtml + '<th>' + res.table[n][0] + '</th> ';
+    }
+    strHtml = strHtml + '</tr>'
+    $('#GetCustomers #result').html(strHtml);
+
+    for (var m=0; m < res.CustNo.length; m++) {
+        var strHtml = '<tr>';
+        for (var n=0; n < res.table.length; n++) {
+          fieldname = res.table[n][0];
+          strHtml = strHtml + '<td>' + res[fieldname][m] + '</td> ';
+        }
+        strHtml = strHtml + '</tr>'
+        $('#GetCustomers #result').html(
+          $('#GetCustomers #result').html() + strHtml);
+    };
+  });
+
+  var page = 0;
+
+  $('#GetCustomers_paging #button').click (function (){
+    var methExec = serverMethods().executor;
+    res = methExec.executeMethod("GetCustomers", "GET", [], null, true, {"t.r": (page*3+1 + ",3")}, null);
+    res = res.result[0];
+
+    var strHtml = '<tr>';
+    for (var n=0; n < res.table.length; n++) {
+      strHtml = strHtml + '<th>' + res.table[n][0] + '</th> ';
+    }
+    strHtml = strHtml + '</tr>'
+    $('#GetCustomers_paging #result').html(strHtml);
+
+    for (var m=0; m < res.CustNo.length; m++) {
+        var strHtml = '<tr>';
+        for (n=0; n < res.table.length; n++) {
+          fieldname = res.table[n][0];
+          strHtml = strHtml + '<td>' + res[fieldname][m] + '</td> ';
+        }
+        strHtml = strHtml + '</tr>'
+        $('#GetCustomers_paging #result').html(
+          $('#GetCustomers_paging #result').html() + strHtml);
+    };
+    page++;
+    $('#GetCustomers_paging #button').html("page"+(page+1));
+  });
+
+  $('#GetImage #button').click (function (){
+    $('#GetImage #result').attr ('src', '/datasnap/rest/TServerMethods1/GetImage');
+  });
+
+  $('#GetPersonJson #button').click (function (){
+    res = serverMethods().GetPersonJson();
+    var obj = res.result;
+    $('#GetPersonJson #result').val (
+      obj.FirstName + ' ' + obj.LastName + ' ' + obj.Age);
+  });
+
+  $('#GetNamesJson #button').click (function (){
+    res = serverMethods().GetNamesJson();
+    var array = res.result;
+    var strarray = '';
+    for (var n=0; n<array.length; n++) {
+      strarray = strarray + array[n] + ' ';
+    };
+    $('#GetNamesJson #result').val (strarray);
+  });
+
+});
+
+
+</script>
+</head>
+
+<body>
+    <h1>JClient for the RestXEDataTypes Project</h1>
+
+
+    <h3>function AddInt (a, b: Integer): Integer</h3>
+    <div id="AddInt">
+      <table>
+        <tr>
+          <td><label>a:</label> <input id="a" type="text" value="10" /></td>
+          <td><label>b:</label> <input id="b" type="text" value="32" /></td>
+          <td><label>result: </label> <input id="result" type="text" value="" /></td>
+          <td><button id="button">AddInt</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function AddDouble (a, b: Double): Double;</h3>
+    <div id="AddDouble">
+      <table>
+        <tr>
+          <td><label>a:</label> <input id="a" type="text" value="1.02" /></td>
+          <td><label>b:</label> <input id="b" type="text" value="3.2" /></td>
+          <td><label>result: </label> <input id="result" type="text" value="" /></td>
+          <td><button id="button">Add Double</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function IsOK: Boolean;</h3>
+    <div id="IsOK">
+      <table>
+        <tr>
+          <td><label>result: </label> <input id="result" type="text" value="" /></td>
+          <td><button id="button">IsOK</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function GetLargeString (nCount: Integer): string;</h3>
+    <div id="GetLargeString">
+      <table>
+        <tr>
+          <td><label>nCount:</label> <input id="nCount" type="text" value="15" /></td>
+          <td><label>result: </label> <input id="result" type="text" value="" /></td>
+          <td><button id="button">GetLargeString</button></td>
+          <td><button id="button2">GetLargeString 100 (first 20)</button></td>
+          <td><button id="button3">GetLargeString 100 (last 15)</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function GetPerson: TPerson;</h3>
+    <div id="GetPerson">
+      <table>
+        <tr>
+          <td><label>result: </label> <input id="result" type="text" value="" /></td>
+          <td><button id="button">GetPerson</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function GetPersonWithData: TPersonData;</h3>
+    <div id="GetPersonWithData">
+      <table>
+        <tr>
+          <td><label>result: </label> <input id="result" type="text" value="" /></td>
+          <td><label>list: </label> <input id="list" type="text" value="" /></td>
+          <td><button id="button">GetPersonWithData</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function GetCustomers: TDataSet;</h3>
+    <div id="GetCustomers">
+      <table>
+        <tr>
+          <td valign="top"><button id="button">GetCustomers</button></td>
+          <td valign="top">
+            <table id="result" border="1" cellspacing="0"></table>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function GetCustomers: TDataSet; (paging)</h3>
+    <div id="GetCustomers_paging">
+      <table>
+        <tr>
+          <td valign="top">GetCustomers: <button id="button">Page1</button></td>
+          <td valign="top">
+            <table id="result" border="1" cellspacing="0"></table>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function GetImage: TStream;</h3>
+    <div id="GetImage">
+      <table>
+        <tr>
+          <td><label>result: </label> <img id="result" /></td>
+          <td><button id="button">GetImage</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function GetPersonJson: TJSONObject;</h3>
+    <div id="GetPersonJson">
+      <table>
+        <tr>
+          <td><label>result: </label> <input id="result" type="text" value="" /></td>
+          <td><button id="button">GetPersonJson</button></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>function GetNamesJson: TJSONArray;</h3>
+    <div id="GetNamesJson">
+      <table>
+        <tr>
+          <td><label>result: </label> <input id="result" type="text" value="" /></td>
+          <td><button id="button">GetNamesJson</button></td>
+        </tr>
+      </table>
+    </div>
+
+</body>
+</html>

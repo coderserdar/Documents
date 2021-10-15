@@ -1,0 +1,80 @@
+<!-- !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+<html>
+<head>
+<title>DataSnap REST Project</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/json-min.js"></script>
+<script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+<script type="text/javascript" src="js/connection.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/serverfunctions.js"></script>
+<script type="text/javascript" src="js/uimapper.js"></script>
+
+<script type="text/javascript">
+
+function serverMethods()
+{
+  return new TCompanyServer(connectionInfo);
+};
+
+$(document).ready(function() {
+
+    $("#buttonGet").click(function(e) {
+      theObj = serverMethods().Company();
+      TCompanyDataToForm (theObj.result);
+    });
+
+	$("#buttonUpdate").click(function(e) {
+      var mydata = new Object;
+      FormToTCompanyData (mydata);
+      serverMethods().updateCompany (mydata);
+	});
+
+	$("#buttonDelete").click(function(e) {
+       serverMethods().cancelCompany ();
+	});
+
+	$("#buttonNew").click(function(e) {
+      var mydata = new Object;
+      FormToTCompanyData (mydata);
+      serverMethods().acceptCompany (mydata);
+	});
+
+});
+
+</script>
+</head>
+<body>
+  <#serverfunctioninvoker>
+  <h1>JObjects Example: Company Page</h1>
+
+  <hr>
+
+<!-- automatic form -->
+<#scaffolding class="CompanyData.TCompanyData">
+
+<!-- manual form:
+<table id="TCompanyData">
+<tr><td><b>Company Data:</b></td></tr>
+<tr><td><label>Company Name: </label></td><td><input type="text" id="CompanyName" size="50" value=""></td></tr>
+<tr><td><label>Address: </label></td><td><input type="text" id="Address" size="50" value=""></td></tr>
+<tr><td><label>City: </label></td><td><input type="text" id="City" size="50" value=""></td></tr>
+<tr><td><label>ZipCode: </label></td><td><input type="text" id="ZipCode" size="50" value=""></td></tr>
+<tr><td><label>State: </label></td><td><input type="text" id="State" size="50" value=""></td></tr>
+<tr><td><label>Country: </label></td><td><input type="text" id="Country" size="50" value=""></td></tr>
+<tr><td><b>Contact Information:</b></td></tr>
+<tr><td><label>Full Name: </label></td><td><input type="text" id="ContactFullName" size="50" value=""></td></tr>
+<tr><td><label>Email: </label></td><td><input type="text" id="ContactEmail" size="50" value=""></td></tr>
+<tr><td><label>Phone: </label></td><td><input type="text" id="ContactPhone" size="50" value=""></td></tr>
+</table>
+-->
+
+<br/>
+<input type="button" value="New" id="buttonNew">
+<input type="button" value="Get" id="buttonGet">
+<input type="button" value="Update" id="buttonUpdate">
+<input type="button" value="Delete" id="buttonDelete">
+
+</body>
+</html>

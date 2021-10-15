@@ -1,0 +1,93 @@
+<!-- !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+<html>
+<head>
+<title>DataSnap REST Project</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/json-min.js"></script>
+<script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+<script type="text/javascript" src="js/connection.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/serverfunctions.js"></script>
+<script type="text/javascript" src="js/uimapper.js"></script>
+
+<script type="text/javascript">
+
+function serverMethods()
+{
+  return new TObjectsRest(connectionInfo);
+};
+
+function refreshList()
+{
+		thearray = serverMethods().List().result;
+		var theMarkup = ["<br>"];
+		for (var i=0; i < thearray.length; i++) {
+		  theMarkup = theMarkup +  "<a href='#'>" + thearray[i] + "</a><br>";
+		}
+		// add markup to container
+		$("#list").html(theMarkup);
+		$("#list").find("a").click(function(e) {
+          theObj = serverMethods().MyData ($(this).html());
+          TMyDataToForm (theObj.result);
+        });
+};
+
+$(document).ready(function() {
+    // populate the UI
+    refreshList();
+
+    // redo the operation when refresh is clicked
+	$("#refresh").click(function(e) {
+	  refreshList();
+	} );
+
+	$("#buttonUpdate").click(function(e) {
+      var mydata = new Object;
+      FormToTMyData (mydata);
+      serverMethods().updateMyData (mydata.Name, mydata);
+	});
+
+	$("#buttonDelete").click(function(e) {
+       serverMethods().cancelMyData ($("#TMyData #Name").val());
+       refreshList();
+	});
+
+	$("#buttonNew").click(function(e) {
+      var mydata = new Object;
+      FormToTMyData (mydata);
+      serverMethods().acceptMyData (mydata.Name, mydata);
+      refreshList();
+	});
+
+});
+
+</script>
+</head>
+<body>
+  <#serverfunctioninvoker>
+  <h1>JObjects Example</h1>
+
+  <div>List of objects:
+    <br>
+    <div id="list" style="padding-left: 20px"></div>
+    <br>
+    <a href="#" id="refresh">Refresh List</a>
+  </div>
+  <hr>
+
+<div id="TMyData">
+<p>Current Element:
+<br/>
+<input type="text" id="Name" size="50" value="">
+<br/>
+<input type="text" id="Value" size="50" value="">
+</div>
+
+<br/>
+<input type="button" value="Update" id="buttonUpdate">
+<input type="button" value="Delete" id="buttonDelete">
+<input type="button" value="New" id="buttonNew">
+
+</body>
+</html>

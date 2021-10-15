@@ -1,0 +1,55 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Data Rest Server</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<script type="text/javascript" src="js/base64.js"></script>
+<script type="text/javascript" src="js/json-min.js"></script>
+<script type="text/javascript" src="js/serverfunctionexecutor.js"></script>
+<script type="text/javascript" src="js/connection.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/serverfunctions.js"></script>
+<script type="text/javascript">
+
+function serverMethods()
+{
+  return new TServerData(connectionInfo);
+};
+
+$(document).ready(function() {
+
+    var theMetaArray = serverMethods().Meta().result;
+    var headMarkup = "<tr>"; // table header
+    for (var j=0; j < theMetaArray.length; j++) {
+        headMarkup = headMarkup +  "<th>" + theMetaArray[j] + "</th>";
+    };
+	headMarkup = headMarkup +  "</tr>";
+    $("#head").html(headMarkup);
+
+	thearray = serverMethods().Data().result;
+    var bodyMarkup = ''; // table content
+    for (var i=0; i < thearray.length; i++) {
+      bodyMarkup = bodyMarkup + "<tr>";
+      for (var j=0; j < theMetaArray.length; j++) {
+        bodyMarkup = bodyMarkup + "<td>" +
+          thearray[i][theMetaArray[j]] + "</td>";
+        };
+      bodyMarkup = bodyMarkup + "</tr>";
+    };
+    $("#body").html(bodyMarkup);
+});
+</script>
+
+</head>
+<body>
+<h1>jQuery and Delphi 2010 REST</h1>
+
+<p>This is your data:</p>
+
+<table id="result" border="1" cellspacing="0">
+  <thead id="head"></thead>
+  <tbody id="body"></tbody>
+</table>
+
+</body>
+</html>
