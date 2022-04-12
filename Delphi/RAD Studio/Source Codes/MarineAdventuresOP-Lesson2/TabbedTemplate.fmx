@@ -1,0 +1,270 @@
+object TabbedForm: TTabbedForm
+  Left = 0
+  Top = 0
+  Caption = 'TabbedForm'
+  ClientHeight = 460
+  ClientWidth = 320
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMobile = True
+  DesignerWidth = 320
+  DesignerHeight = 480
+  DesignerDeviceName = 'iPhone'
+  DesignerOrientation = 0
+  DesignerOSVersion = '7'
+  object HeaderToolBar: TToolBar
+    Height = 44.000000000000000000
+    TabOrder = 0
+    Width = 320.000000000000000000
+    object ToolBarLabel: TLabel
+      Align = Contents
+      Height = 44.000000000000000000
+      StyleLookup = 'toollabel'
+      TextSettings.HorzAlign = Center
+      Text = 'Marine Adventures (OP)'
+      Width = 320.000000000000000000
+    end
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    FullSize = True
+    Height = 416.000000000000000000
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = Bottom
+    Width = 320.000000000000000000
+    object CustomersTabItem: TTabItem
+      CustomIcon = <
+        item
+        end>
+      Height = 49.000000000000000000
+      IsSelected = True
+      StyleLookup = 'tabitemtoprated'
+      TabOrder = 0
+      Text = 'Customers'
+      Width = 80.000000000000000000
+      object CustomerListView: TListView
+        ItemAppearanceClassName = 'TListItemAppearance'
+        ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        ItemIndex = 0
+        Align = Client
+        Height = 367.000000000000000000
+        TabOrder = 0
+        Width = 320.000000000000000000
+        SearchVisible = True
+      end
+    end
+    object EmployeeTabItem: TTabItem
+      CustomIcon = <
+        item
+        end>
+      Height = 49.000000000000000000
+      IsSelected = False
+      StyleLookup = 'tabitemcontacts'
+      TabOrder = 0
+      Text = 'Employee'
+      Width = 80.000000000000000000
+    end
+    object PartsTabItem: TTabItem
+      CustomIcon = <
+        item
+        end>
+      Height = 49.000000000000000000
+      IsSelected = False
+      StyleLookup = 'tabitembookmarks'
+      TabOrder = 0
+      Text = 'parts'
+      Width = 80.000000000000000000
+    end
+    object SettingsTabItem: TTabItem
+      CustomIcon = <
+        item
+        end>
+      Height = 49.000000000000000000
+      IsSelected = False
+      StyleLookup = 'tabitemmostviewed'
+      TabOrder = 0
+      Text = 'Settings'
+      Width = 80.000000000000000000
+      object SettingsListBox: TListBox
+        Align = Client
+        Height = 367.000000000000000000
+        StyleLookup = 'transparentlistboxstyle'
+        TabOrder = 0
+        Width = 320.000000000000000000
+        DefaultItemStyles.ItemStyle = 'listboxitemnodetail'
+        DefaultItemStyles.GroupHeaderStyle = ''
+        DefaultItemStyles.GroupFooterStyle = ''
+        object ListBoxGroupHeader2: TListBoxGroupHeader
+          Height = 22.000000000000000000
+          TabOrder = 4
+          Text = 'Employee Login'
+          Width = 320.000000000000000000
+        end
+        object ListBoxItem1: TListBoxItem
+          Height = 44.000000000000000000
+          Position.Y = 22.000000000000000000
+          StyleLookup = 'listboxitemnodetail'
+          TabOrder = 0
+          Text = 'Username'
+          Width = 320.000000000000000000
+          object UsernameEdit: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Right
+            TabOrder = 1
+            Position.X = 104.000000000000000000
+            Position.Y = 7.000000000000000000
+            Width = 212.000000000000000000
+            Height = 30.000000000000000000
+            Margins.Right = 4.000000000000000000
+          end
+        end
+        object ListBoxItem3: TListBoxItem
+          Height = 44.000000000000000000
+          Position.Y = 66.000000000000000000
+          StyleLookup = 'listboxitemnodetail'
+          TabOrder = 2
+          Text = 'Password'
+          Width = 320.000000000000000000
+          object PasswordEdit: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Right
+            TabOrder = 0
+            Password = True
+            Position.X = 104.000000000000000000
+            Position.Y = 7.000000000000000000
+            Width = 212.000000000000000000
+            Height = 30.000000000000000000
+            Margins.Right = 4.000000000000000000
+          end
+        end
+        object ListBoxGroupHeader3: TListBoxGroupHeader
+          Height = 22.000000000000000000
+          Position.Y = 110.000000000000000000
+          TabOrder = 5
+          Text = 'Push Notifications'
+          Width = 320.000000000000000000
+        end
+        object ListBoxItem2: TListBoxItem
+          Height = 44.000000000000000000
+          Position.Y = 132.000000000000000000
+          StyleLookup = 'listboxitemnodetail'
+          TabOrder = 1
+          Text = 'Orders Shipped'
+          Width = 320.000000000000000000
+          object OrdersShippedPushNotificationsSwitch: TSwitch
+            Align = Right
+            Height = 35.000000000000000000
+            IsChecked = False
+            Margins.Right = 4.000000000000000000
+            Position.X = 261.000000000000000000
+            Position.Y = 4.000000000000000000
+            TabOrder = 1
+            Width = 55.000000000000000000
+          end
+        end
+        object ListBoxItem4: TListBoxItem
+          Height = 44.000000000000000000
+          Position.Y = 176.000000000000000000
+          StyleLookup = 'listboxitemnodetail'
+          TabOrder = 3
+          Text = 'Parts Backordered'
+          Width = 320.000000000000000000
+          object PartsBackorderedPushNotificationsSwitch: TSwitch
+            Align = Right
+            Height = 35.000000000000000000
+            IsChecked = False
+            Margins.Right = 4.000000000000000000
+            Position.X = 261.000000000000000000
+            Position.Y = 4.000000000000000000
+            TabOrder = 0
+            Width = 55.000000000000000000
+          end
+        end
+        object ListBoxItem5: TListBoxItem
+          Height = 44.000000000000000000
+          Position.Y = 220.000000000000000000
+          StyleLookup = 'listboxitemnodetail'
+          TabOrder = 6
+          Text = 'Inventory Low'
+          Width = 320.000000000000000000
+          object InventoryLowPushNotificationSwitch: TSwitch
+            Align = Right
+            Height = 35.000000000000000000
+            IsChecked = False
+            Margins.Right = 4.000000000000000000
+            Position.X = 261.000000000000000000
+            Position.Y = 4.000000000000000000
+            TabOrder = 0
+            Width = 55.000000000000000000
+          end
+        end
+      end
+    end
+  end
+  object GestureManager1: TGestureManager
+    Left = 208
+    Top = 184
+    GestureData = <
+      item
+        Control = Owner
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end>
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 212
+    Top = 309
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = PrototypeBindSource1
+      FieldName = 'ContactName1'
+      Control = CustomerListView
+      FillExpressions = <>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object PrototypeBindSource1: TPrototypeBindSource
+    AutoActivate = True
+    AutoPost = False
+    FieldDefs = <
+      item
+        Name = 'ContactName1'
+        Generator = 'ContactNames'
+        ReadOnly = False
+      end
+      item
+        Name = 'ContactTitle1'
+        Generator = 'ContactTitles'
+        ReadOnly = False
+      end
+      item
+        Name = 'ContactBitmap1'
+        FieldType = ftBitmap
+        Generator = 'ContactBitmaps'
+        ReadOnly = False
+      end
+      item
+        Name = 'DateField1'
+        FieldType = ftDate
+        Generator = 'Date'
+        ReadOnly = False
+      end>
+    ScopeMappings = <>
+    Left = 208
+    Top = 248
+  end
+end

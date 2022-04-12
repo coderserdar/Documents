@@ -1,0 +1,37 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 337
+  ClientWidth = 635
+  object MaskEdit1: TEdit
+Position.Point = '(88,128)'
+    Width = 121
+    Height = 21
+    PasswordChar = '*'
+    TabOrder = 0
+    Text = 'MaskEdit1'
+  end
+  object ComboBox1: TComboBox
+Position.Point = '(256,176)'
+    Width = 145
+    Height = 21
+    TabOrder = 1
+    Items.Strings = (
+      'Line A'
+      'Line B'
+      'Line C')
+  end
+  object StyleBook1: TStyleBook
+      Left = 8
+      Top = 8
+    Resource.Strings = (
+      'object _1: TLayout'
+      '  Align = alClient'
+      '  Position.Point = '#39'(0,33)'#39
+      '  Width = 842.000000000000000000'
+      '  Height = 882.000000000000000000'
+'end')
+end
+
+end

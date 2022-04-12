@@ -1,0 +1,33 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BiDiMode = bdRightToLeft
+  Caption = 'Form2'
+  ClientHeight = 337
+  ClientWidth = 635
+  ParentBiDiMode = False
+  object Label1: TLabel
+Position.Point = '(170,200)'
+    Width = 271
+    Height = 13
+    Text = 'Label1'
+WordWrap = False
+AutoSize = True
+  end
+  object Button1: TButton
+Position.Point = '(170,152)'
+    Width = 271
+    Height = 25
+    BiDiMode = bdRightToLeft
+    Text = 'Button1'
+    ParentBiDiMode = False
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+Position.Point = '(170,112)'
+    Width = 271
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+end

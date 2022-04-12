@@ -1,0 +1,22 @@
+Mida - Convert VCL Application To FireMonkey for Delphi Embarcadero XE2 and C++Builder XE2
+Official Site http://www.midaconverter.com
+Mida version : 252
+----------------------------------------------------------------------------------------------------------------------------------------------
+This is a Basic version of Mida ( LiveBindinds - StyleBook - Image - Source Update, Custom components... are not supported )
+
+The Third Party Components ( TMS - JVCL - DevExpress... ) are not supported in this version of Mida.
+Opening from XE2 IDE a converted project, with components like TMS,JVCL,personal ... IDE will indicate an error of Class not known.
+
+This is not an error of Mida.
+
+Upgrade your licence to Mida Pro to obtain a greater number of components supported.
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Converting...
+
+Converting : C:\Users\embt\Desktop\Mida-XE2\GroupBox\Unit2.dfm
+     Component not supported on FireMonkey :   object RadioGroup1: TRadioGroup
+     
+
+Operation Complete
+Time convertion project : 0.16 seconds.

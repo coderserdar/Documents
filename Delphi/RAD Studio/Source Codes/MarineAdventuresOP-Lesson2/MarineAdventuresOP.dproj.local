@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/07/07 13:46:06.000.374,C:\Users\embt\Documents\Embarcadero\Studio\Projects\Tues1pmBusApp\TabbedApplication.dproj=C:\Users\embt\Documents\Embarcadero\Studio\Projects\Tues1pmBusApp\ScubaMobileApplication.dproj</Transaction>
+    <Transaction>2014/07/09 13:10:57.000.212,C:\Users\embt\Documents\Embarcadero\Studio\Projects\MarineAdventuresOP-Lesson1-1300\MarineAdventuresOP.dproj=C:\Users\embt\Documents\Embarcadero\Studio\Projects\MarineAdventuresOP-Lesson1-1300\ScubaMobileApplication.dproj</Transaction>
+  </Transactions>
+	<MobileDevice>%iosdevice%f17a460d559a5580cd3889e1df86e97b0a9fabc8</MobileDevice>
+	<BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>

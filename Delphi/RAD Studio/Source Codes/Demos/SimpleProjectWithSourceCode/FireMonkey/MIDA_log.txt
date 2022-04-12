@@ -1,0 +1,14 @@
+Mida - Convert VCL Application To FireMonkey for Delphi Embarcadero XE2 and C++Builder XE2
+Official Site http://www.midaconverter.com
+Mida version : 252
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Converting...
+
+Converting : C:\Users\embt\Desktop\Mida-XE2\SourceCode\Unit2.dfm
+     Not supported on FireMonkey : OnKeyDown
+     
+copy extra file : C:\Users\embt\Desktop\Mida-XE2\SourceCode\FireMonkey\Project1.res
+
+Operation Complete
+Time convertion project : 0.52 seconds.

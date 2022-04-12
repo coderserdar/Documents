@@ -1,0 +1,38 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 417
+  ClientWidth = 759
+  object GroupBox1: TGroupBox
+Position.Point = '(24,24)'
+    Width = 233
+    Height = 185
+    Text = 'GroupBox1'
+    TabOrder = 0
+    object RadioButton1: TRadioButton
+Position.Point = '(72,56)'
+      Width = 113
+      Height = 17
+      Text = 'RadioButton1'
+      TabOrder = 0
+    end
+    object RadioButton2: TRadioButton
+Position.Point = '(72,96)'
+      Width = 113
+      Height = 17
+      Text = 'RadioButton2'
+      TabOrder = 1
+    end
+  end
+  object RadioGroup1: TPanel
+Position.Point = '(440,40)'
+    Width = 185
+    Height = 145
+    Items.Strings = (
+      'A'
+      'B'
+      'C')
+    TabOrder = 1
+  end
+end

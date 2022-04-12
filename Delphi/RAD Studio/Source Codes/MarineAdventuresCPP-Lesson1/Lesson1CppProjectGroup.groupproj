@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4F45FFA5-1589-4D27-B781-49D850214CB1}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="MobileApp\MarineAdventuresMobileApp.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DesktopApp\MarineAdventuresDesktopApp.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MarineAdventuresMobileApp">
+        <MSBuild Projects="MobileApp\MarineAdventuresMobileApp.cbproj"/>
+    </Target>
+    <Target Name="MarineAdventuresMobileApp:Clean">
+        <MSBuild Projects="MobileApp\MarineAdventuresMobileApp.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MarineAdventuresMobileApp:Make">
+        <MSBuild Projects="MobileApp\MarineAdventuresMobileApp.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="MarineAdventuresDesktopApp">
+        <MSBuild Projects="DesktopApp\MarineAdventuresDesktopApp.cbproj"/>
+    </Target>
+    <Target Name="MarineAdventuresDesktopApp:Clean">
+        <MSBuild Projects="DesktopApp\MarineAdventuresDesktopApp.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MarineAdventuresDesktopApp:Make">
+        <MSBuild Projects="DesktopApp\MarineAdventuresDesktopApp.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MarineAdventuresMobileApp;MarineAdventuresDesktopApp"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MarineAdventuresMobileApp:Clean;MarineAdventuresDesktopApp:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MarineAdventuresMobileApp:Make;MarineAdventuresDesktopApp:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
