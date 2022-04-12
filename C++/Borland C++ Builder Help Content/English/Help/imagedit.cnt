@@ -1,0 +1,5 @@
+:Base IMAGEDIT.HLP>main
+:Title Borland Image Editor Help
+:Index Borland Image Editor Help=IMAGEDIT.HLP
+:INCLUDE BCB6XTRA.OHL
+:INCLUDE IMAGEDIT.TOC

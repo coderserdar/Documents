@@ -1,0 +1,52 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmpop3.hlp
+:TITLE FastNet POP3 Help
+:INCLUDE bcb6.OHL
+1 TMailMessage object
+2 TMailMessage object Reference=Scribble1010
+2 Properties
+3 Attachments=Scribble1020
+3 Body=Scribble1025
+3 From=Scribble1030
+3 Head=Scribble1035
+3 MessageId=Scribble1040
+3 Subject=Scribble1045
+1 TSummary object
+2 TSummary object Reference=Scribble1100
+2 Properties
+3 Bytes=Scribble1110
+3 From=Scribble1115
+3 Header=Scribble1120
+3 MessageId=Scribble1125
+3 Subject=Scribble1130
+1 TNMPOP3 component
+2 TNMPOP3 component Reference=Scribble1200
+2 Properties
+3 AttachFilePath=Scribble1210
+3 DeleteOnRead=Scribble1215
+3 MailCount=Scribble1220
+3 MailMessage=Scribble1225
+3 Password=Scribble1230
+3 Summary=Scribble1235
+3 UserID=Scribble1240
+2 Methods
+3 UniqueID=Scribble1245
+3 DeleteMailMessage=Scribble1250
+3 Extract=Scribble1255
+3 GetMailMessage=Scribble1260
+3 GetSummary=Scribble1265
+3 List=Scribble1270
+3 Reset=Scribble1275
+2 Events
+3 OnAuthenticationFailed=Scribble1280
+3 OnAuthenticationNeeded=Scribble1285
+3 OnFailure=Scribble1290
+3 OnList=Scribble1295
+3 OnReset=Scribble1300
+3 OnRetrieveEnd=Scribble1305
+3 OnRetrieveStart=Scribble1310
+3 OnRetriveEnd=Scribble1315
+3 OnRetriveStart=Scribble1320
+3 OnSuccess=Scribble1325

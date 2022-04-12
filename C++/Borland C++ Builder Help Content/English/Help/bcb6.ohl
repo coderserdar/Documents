@@ -1,0 +1,107 @@
+;WHAT'S NEW, IDE HELP
+:Link bcb6new.hlp
+:Link bcb6.hlp
+
+;DEVELOPER'S GUIDE
+:Link bcb6prog.hlp
+:Link bcb6dbd.hlp
+:Link bcb6dap.hlp
+:Link bcb6cw.hlp
+:Link bcb6com.hlp
+
+;OTHER BORLAND IDE HELP
+:Link etm.hlp
+:Link pce.hlp
+:Link rdw.hlp
+:Link xmlmap.hlp
+:Link dbxpress.hlp
+:Link cg.hlp
+
+;VCL/BORLAND COMPONENT REFERENCE
+:Link bcb6vcl.hlp
+:Link bcb6ilib.hlp
+:Link bcb6iota.hlp
+
+;CLX COMPONENT REFERENCE
+:Link blx2clx.hlp
+
+;C++/BCB LANGUAGE TOOLS AND ELEMENTS
+:Link bcb6tool.hlp
+:Link bcb6errs.hlp
+:Link bcb6lang.hlp
+:Link bcb6rtl.hlp
+:Link bcb6scl.hlp
+
+;INTERBASE EXPRESS COMPONENTS
+:Link ibx.hlp
+
+;OBJECT PASCAL REFERENCE
+:Link oplg.hlp
+
+;BORLAND TOOLS (bcb6XTRA)
+:Link bcb6xtra.hlp
+:Link sqlmon.hlp
+:Link sqlbuild.hlp
+:Link dbexplr3.hlp
+:Link winsight.hlp
+:Link imagedit.hlp
+:Link openhelp.hlp
+
+;TEAMSOURCE
+:Link TeamSrc.hlp
+
+;BDE/COMMON BORLAND FILES
+:Link bde32.hlp
+:Link bdeadmin.hlp
+:Link datapump.hlp
+:Link localsql.hlp
+:Link sqllnk32.hlp
+:Link ibctrls.hlp
+:Link dbddesk.hlp
+
+;THIRD-PARTY HELP
+;INDY COMPONENT REFERENCE
+:Link indy.hlp
+;Fastnet components
+:Link nmmsg.hlp
+:Link nmhttp.hlp
+:Link nmftp.hlp
+:Link nmfngr.hlp
+:Link nmdaytim.hlp
+:Link nmecho.hlp
+:Link nmnntp.hlp
+:Link nmsmtp.hlp
+:Link nmpop3.hlp
+:Link nmstrm.hlp
+:Link nmtime.hlp
+:Link nmudp.hlp
+:Link nmurl.hlp
+:Link nmuue.hlp
+:Link psock.hlp
+;
+;QuickReports
+:Link quickrpt.hlp
+;
+;Teechart
+:Link teechart.hlp
+;
+
+;MSSDK HELP
+:Link 95guide.hlp
+:Link kbase.hlp
+:Link mapi.hlp
+:Link midl.hlp
+:Link misapi.hlp
+:Link mmedia.hlp
+:Link ole.hlp
+:Link opengl.hlp
+:Link pdh.hlp
+:Link penapi.hlp
+:Link progtech.hlp
+:Link rpc.hlp
+:Link setupapi.hlp
+:Link sock2.hlp
+:Link tapi.hlp
+:Link win32.hlp
+
+

@@ -1,0 +1,70 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmftp.hlp
+:TITLE FastNet FTP Help
+:INCLUDE bcb6.OHL
+1 TFTPDirectoryList object
+2 TFTPDirectoryList object Reference=Scribble1010
+2 Properties
+3 Attribute=Scribble1020
+3 ModifDate=Scribble1025
+3 name=Scribble1030
+3 Size=Scribble1035
+2 Methods
+3 Clear=Scribble1040
+3 ParseLine=Scribble1045
+1 TFTPUnixList component
+2 TFTPUnixList component Reference=Scribble1100
+1 TFTPNETWAREList component
+2 TFTPNETWAREList component Reference=Scribble1200
+1 TFTPDOSList component
+2 TFTPDOSList component Reference=Scribble1300
+1 TFTPVMSList component
+2 TFTPVMSList component Reference=Scribble1400
+1 TFTPMVSList component
+2 TFTPMVSList component Reference=Scribble1500
+1 TFTPVMList component
+2 TFTPVMList component Reference=Scribble1600
+1 TFTPMACOSList component
+2 TFTPMACOSList component Reference=Scribble1700
+1 TFTPAS400List component
+2 TFTPAS400List component Reference=Scribble1800
+1 TFTPOTHERList component
+2 TFTPOTHERList component Reference=Scribble1900
+1 TNMFTP component
+2 TNMFTP component Reference=Scribble2000
+2 Properties
+3 CurrentDir=Scribble2010
+3 FTPDirectoryList=Scribble2015
+3 ParseList=Scribble2025
+3 Password=Scribble2030
+3 UserID=Scribble2035
+3 Vendor=Scribble2040
+2 Methods
+3 Allocate=Scribble2045
+3 ChangeDir=Scribble2050
+3 Delete=Scribble2055
+3 DoCommand=Scribble2060
+3 Download=Scribble2065
+3 DownloadRestore=Scribble2070
+3 List=Scribble2075
+3 MakeDirectory=Scribble2080
+3 Mode=Scribble2085
+3 Nlist=Scribble2090
+3 Reinitialize=Scribble2095
+3 RemoveDir=Scribble2100
+3 Rename=Scribble2105
+3 Upload=Scribble2110
+3 UploadAppend=Scribble2115
+3 UploadRestore=Scribble2120
+3 UploadUnique=Scribble2125
+2 Events
+3 OnAuthenticationFailed=Scribble2130
+3 OnAuthenticationNeeded=Scribble2135
+3 OnFailure=Scribble2145
+3 OnListItem=Scribble2020
+3 OnSuccess=Scribble2150
+3 OnTransactionStart=Scribble2155
+3 OnTransactionStop=Scribble2160
+3 OnUnSupportedFunction=Scribble2165

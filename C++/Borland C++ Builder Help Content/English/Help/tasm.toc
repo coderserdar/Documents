@@ -1,0 +1,11 @@
+:Base tasm.hlp>main
+:Title Turbo Assembler Help
+;
+1 Turbo Assembler Help
+2 Turbo Assember command line options=Command_Line
+2 Predefined symbols=Predefined
+2 Operator precedence=Precedence
+2 Special Macro Operators=Special_Macro
+2 Turbo Assembler Include Files=Macro_talk
+2 Error List=Sample_Errors
+2 Miscellaneous=Misc

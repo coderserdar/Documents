@@ -1,0 +1,8 @@
+:Base bcb6errs.hlp>main
+:Title C++Builder Error Messages and Warnings
+1 Error Messages and Warnings
+2 About error and warning messages = ErrorAndWarningMessagesOverview
+2 List of error messages and warnings = ErrorsAndWarnings
+2 MAKE Errors = MAKEErrors
+2 Resource Linker error messages and warnings = Messages_RLINK32
+2 Resource Workshop error messages and warnings = IXABCErrors

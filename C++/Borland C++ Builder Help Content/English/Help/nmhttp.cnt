@@ -1,0 +1,39 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmhttp.hlp
+:TITLE FastNet HTTP Help
+:INCLUDE bcb6.OHL
+1 THeaderInfo object
+2 THeaderInfo object Reference=Scribble1010
+2 Properties
+3 Cookie=Scribble1020
+3 LocalMailAddress=Scribble1025
+3 LocalProgram=Scribble1030
+3 Password=Scribble1035
+3 Referer=Scribble1040
+3 UserId=Scribble1045
+1 TNMHTTP component
+2 TNMHTTP component Reference=Scribble1100
+2 Properties
+3 Body=Scribble1110
+3 CookieIn=Scribble1115
+3 Header=Scribble1120
+3 HeaderInfo=Scribble1125
+3 InputFileMode=Scribble1130
+3 OutputFileMode=Scribble1135
+3 SendHeader=Scribble1140
+2 Methods
+3 Delete=Scribble1150
+3 Get=Scribble1155
+3 Head=Scribble1160
+3 Options=Scribble1175
+3 Post=Scribble1185
+3 Put=Scribble1190
+3 Trace=Scribble1195
+2 Events
+3 OnAboutToSend=Scribble1210
+3 OnAuthenticationNeeded=Scribble1215
+3 OnFailure=Scribble1220
+3 OnRedirect=Scribble1225
+3 OnSuccess=Scribble1230

@@ -1,0 +1,204 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+    <title>Borland C++Builder 6 - STLPort Documentation</title>
+</head>
+
+<body bgproperties="fixed" background="BOOK.GIF">
+
+<a name="top"></a><p>&nbsp;</p>
+<p><img border="0" src="bcb6title.gif" width="303" height="53"></p>
+<hr>
+<p style="margin-top: 0"><font size="4"><b>&nbsp;</b></font><b><font size="4">Standard
+Template Library</font><font size="5"> </font></b></p>
+<hr>
+
+<font SIZE="2"><b>
+<p>Using STLport</p>
+</b>
+<p>Borland C++Builder 6 includes the STLport 4.5 implementation of the C++
+Standard Template Library. STLport is a free, open source project that is
+supported by numerous compilers and platforms. The STLport project uses a BSD-style license; it does not use the GPL. More information on the STLport project
+can be found at the STLport web site (<a href="http://www.stlport.com/">http://www.stlport.com/</a>).
+More information on the STLport license can be found at
+<a href="http://www.stlport.com/doc/license.html">http://www.stlport.com/doc/license.html</a>.</p>
+<p><b>Rogue Wave implementation included for backward compatibility</b></p>
+<p>C++Builder also retains the Rogue Wave C++ Standard Template Library for backward
+compatibility. However, STLport is C++Builder's default STL implementation. If
+you need to build a project using the Rogue Wave library, you must define the
+macro </font><font FACE="Courier New" SIZE="2">_USE_OLD_RW_STL</font><font SIZE="2">,
+either at the command line (with the -D compiler option), or on the Directories
+and Conditionals page of the Project Options dialog box.</font></p>
+<p><font SIZE="2"><b>Using the debug version of STLport</b></p>
+<p>In addition, you can define the symbol </font>
+<font FACE="Courier New" SIZE="2">_STLP_DEBUG</font><font SIZE="2"> to force
+C++Builder to build your project with the debug version of the STLport library.
+Doing so will cause degradation in performance, however, as the debug version
+contains range checking code, &quot;safe iterators&quot;, and precondition checking on
+algorithms and container methods. More information on using STLport with
+debugging code can be found on the STLport website
+(www.stlport.com/doc/debug_mode.html).</font></p>
+<p><font SIZE="2"><b>List of included header files</b></p>
+<p>The following table describes the hierarchy of the include directory, as it
+relates to the use of the Rogue Wave and STLport header files. The variable BCB
+is your local C++Builder installation directory.</p>
+</font>
+<table CELLSPACING="0" CELLPADDING="7" WIDTH="100%" style="border-collapse: collapse" bordercolor="#111111">
+  <tr>
+    <td WIDTH="187"><font SIZE="2"><b>Directory</b></font></td>
+    <td WIDTH="100%"><font SIZE="2"><b>Purpose</b></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="187" valign="top"><font FACE="Courier New" SIZE="2">$(BCB)\include</font></td>
+    <td WIDTH="100%" valign="top"><font SIZE="2">Rogue Wave header files formerly located in
+    this directory, have been moved to </font><font FACE="Courier New" SIZE="2">
+    ($BCB)\include\oldstl</font><font SIZE="2">. The header files in the include
+    directory are now wrappers, which will include either the STLport headers,
+    or the Rogue Wave headers, depending on the macro </font>
+    <font FACE="Courier New" SIZE="2">_USE_OLD_RW_STL</font><font SIZE="2">. The
+    default action is to use the STLport headers (i.e. </font>
+    <font FACE="Courier New" SIZE="2">_USE_OLD_RW_STL</font><font SIZE="2"> is
+    not defined)</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="187" valign="top"><font FACE="Courier New" SIZE="2">$(BCB)\include\config</font></td>
+    <td WIDTH="100%" valign="top"><font SIZE="2">Contains headers used to configure STLport
+    for various build environments. C++Builder uses the file called </font>
+    <font FACE="Courier New" SIZE="2">stl_bc.h</font><font SIZE="2"> for this
+    purpose. You should never edit the contents of this file.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="187" valign="top"><font FACE="Courier New" SIZE="2">$(BCB)\oldstl</font></td>
+    <td WIDTH="100%" valign="top"><font SIZE="2">Contains the Rogue Wave header files.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="187" valign="top"><font FACE="Courier New" SIZE="2">$(BCB)\include\stlport</font></td>
+    <td WIDTH="100%" valign="top"><font SIZE="2">Contains top-level header files that wrap
+    internal STLport header files.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="187" valign="top"><font FACE="Courier New" SIZE="2">$(BCB)\include\stl</font></td>
+    <td WIDTH="100%" valign="top"><font SIZE="2">Contains the internal STLport header files,
+    which are wrapped by the top-level files in the stlport directory. This
+    directory contains the header files that actually define the classes and
+    functions in the STLport library.</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="187" valign="top"><font FACE="Courier New" SIZE="2">$(BCB)\include\using</font></td>
+    <td WIDTH="100%" valign="top"><font SIZE="2">Contains header files used internally by
+    STLport to bring names into the STLport namespace.</font></td>
+  </tr>
+</table>
+<font SIZE="2">
+<p>The information in this table is provided to help you understand how STLport
+is currently integrated into C++Builder. You should never put an absolute path
+to the subdirectories of </font><font FACE="Courier New" SIZE="2">$(BCB)\include</font><font SIZE="2">
+in your code, nor should you add these directories to the Include file path in
+the Directories and Conditionals page of the Project Options dialog box. These
+mechanisms were put into place so that switching between the Rogue Wave and
+STLport implementations would be a simple matter of defining a single macro.</p>
+<p>The STLport library can be used in a number of different build
+configurations. The table below shows the libraries associated with each
+configuration:</p>
+</font>
+<table CELLSPACING="0" CELLPADDING="7" WIDTH="100%" style="border-collapse: collapse" bordercolor="#111111">
+  <tr>
+    <td WIDTH="44%" valign="top"><font SIZE="2"><b>Configuration</b></font></td>
+    <td WIDTH="28%" valign="top"><font SIZE="2"><b>Link Library</b></font></td>
+    <td WIDTH="27%" valign="top"><font SIZE="2"><b>Dynamic Link Library</b></font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44%" valign="top"><font SIZE="2">Static, single-threaded</font></td>
+    <td WIDTH="28%" valign="top"><font FACE="Courier New" SIZE="2">stlp.lib</font></td>
+    <td WIDTH="27%" valign="top"><font SIZE="2">N/A</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44%" valign="top"><font SIZE="2">Static, single-threaded, debugging enabled</font></td>
+    <td WIDTH="28%" valign="top"><font FACE="Courier New" SIZE="2">stlp_stldebug.lib</font></td>
+    <td WIDTH="27%" valign="top"><font SIZE="2">N/A</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44%" valign="top"><font SIZE="2">Static, multi-threaded</font></td>
+    <td WIDTH="28%" valign="top"><font FACE="Courier New" SIZE="2">stlpmt.lib</font></td>
+    <td WIDTH="27%" valign="top"><font SIZE="2">N/A</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44%" valign="top"><font SIZE="2">Static, multi-threaded, debugging enabled</font></td>
+    <td WIDTH="28%" valign="top"><font FACE="Courier New" SIZE="2">stlpmt_stldebug.lib</font></td>
+    <td WIDTH="27%" valign="top"><font SIZE="2">N/A</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44%" valign="top"><font SIZE="2">Dynamic, single-threaded</font></td>
+    <td WIDTH="28%" valign="top"><font FACE="Courier New" SIZE="2">stlpi.lib</font></td>
+    <td WIDTH="27%" valign="top"><font FACE="Courier New" SIZE="2">stlp45.dll</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44%" valign="top"><font SIZE="2">Dynamic, single-threaded, debugging enabled</font></td>
+    <td WIDTH="28%" valign="top"><font FACE="Courier New" SIZE="2">stlp_stldebugi.lib</font></td>
+    <td WIDTH="27%" valign="top"><font FACE="Courier New" SIZE="2">stlp_stldebug45.dll</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44%" valign="top"><font SIZE="2">Dynamic, multi-threaded</font></td>
+    <td WIDTH="28%" valign="top"><font FACE="Courier New" SIZE="2">stlpmti.lib</font></td>
+    <td WIDTH="27%" valign="top"><font FACE="Courier New" SIZE="2">stlpmt45.dll</font></td>
+  </tr>
+  <tr>
+    <td WIDTH="44%" valign="top"><font SIZE="2">Dynamic, multi-threaded, debugging enabled</font></td>
+    <td WIDTH="28%" valign="top"><font FACE="Courier New" SIZE="2">stlpmt_stldebugi.lib</font></td>
+    <td WIDTH="27%" valign="top"><font FACE="Courier New" SIZE="2">stlpmt_stldebug.dll</font></td>
+  </tr>
+</table>
+<font SIZE="2">
+<p>C++Builder will automatically link your project with the appropriate library,
+based on your build settings. You do not need to add any of these libraries
+directly to your project. This is accomplished using the </font>
+<font FACE="Courier New" SIZE="2"><b>#pragma comment</b></font><font SIZE="2">
+directive in the STLport configuration header files. You must be sure to
+distribute the appropriate dynamic link library when you deploy your
+application.</font></p>
+<p><b><font size="2">Using the STL with CORBA</font></b></p>
+<p><font size="2">C++Builder's CORBA wizards do not support the use of STLport.
+When you create a new CORBA project using any of the wizards on the Multitier
+tab of the New Items dialog box, the generated project will automatically have
+the _USE_OLD_RW_STL macro defined. Mixing libraries (i.e. C++Builder's Rogue
+Wave STL implementation, and legacy code that uses a different STL
+implementation) should not be a problem, as namespace issues will be resolved by
+C++Builder. However, you should never pass STL objects between a CORBA client
+and a CORBA server. This is not a limitation of C++Builder, but a general
+programming guideline. The STL defines only interfaces, not implementation, and
+there is a possibility of introducing marshalling errors when STL objects are
+passed between different implementations of the library.</font></p>
+<hr>
+<p><font size="1"><a href="bcb6_stlport.html">HOME</a> | <a href="#top">TOP OF PAGE</a></font></p>
+<hr>
+<p style="margin-top: 0; margin-bottom: 0"><b><font size="1">Copyright (c) 2002 Borland Software Corporation. All rights
+reserved.</font></b></p>
+<p style="margin-top: 0; margin-bottom: 0"><font size="1">STLport copyright
+information:</font></p>
+<P style="margin-top: 0; margin-bottom: 0">
+<FONT SIZE="1">Copyright &#169; 1996-1999 <BR CLEAR="ALL">
+ Silicon Graphics Computer Systems, Inc. </FONT></P>
+<P style="margin-top: 0; margin-bottom: 0">
+<I><FONT SIZE="1">Permission to use, copy, modify, distribute and sell
+this software and its documentation for any purpose is hereby granted
+without fee, provided that the above copyright notice appears in all
+copies and that both that copyright notice and this permission notice
+appear in supporting documentation. Silicon Graphics makes no
+representations about the suitability of this software for any purpose.
+It is provided &quot;as is&quot; without express or implied warranty. </FONT></I></P>
+<P style="margin-top: 0; margin-bottom: 0">
+<FONT SIZE="1">Copyright &#169; 1994 <BR CLEAR="ALL">
+ Hewlett-Packard Company </FONT></P>
+<P style="margin-top: 0; margin-bottom: 0">
+<I><FONT SIZE="1">Permission to use, copy, modify, distribute and sell
+this software and its documentation for any purpose is hereby granted
+without fee, provided that the above copyright notice appears in all
+copies and that both that copyright notice and this permission notice
+appear in supporting documentation. Hewlett-Packard Company makes no
+representations about the suitability of this software for any purpose.
+It is provided &quot;as is&quot; without express or implied warranty. </FONT></I></P>
+<p>&nbsp;</p>
+
+</body>
+</html>

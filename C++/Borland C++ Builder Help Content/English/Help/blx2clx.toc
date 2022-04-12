@@ -1,0 +1,4659 @@
+:Base blx2clx.hlp>main
+;------------------------
+1 CLX Reference
+;
+2 About Object and Component Help
+3 About Object and Component Help = AboutObjectAndComponentHelp
+3 How to find Help using F1 = HowToFindHelpUsingF1
+3 How to find Help by selecting Index or Find = HowToFindHelpBySelectingIndexOrFind
+3 How to use Examples in Help = HowToUseExamplesInHelp
+3 How to program with a component = HowToProgramWithAComponent
+;
+
+2 Object and Component Listing, by Unit
+
+3 ApacheApp
+4 TApacheApplication=TApacheApplication
+
+3 ApacheHTTP
+4 TApacheRequest=TApacheRequest
+4 TApacheResponse=TApacheResponse
+
+3 AutoDisp
+4 TWebDispatch=TWebDispatch
+
+3 CGIApp
+4 TCGIApplication=TCGIApplication
+
+3 CGIHTTP
+4 TCGIRequest=TCGIRequest
+4 TCGIResponse=TCGIResponse
+
+3 Classes
+4 EBitsError=EBitsError
+4 EClassNotFound=EClassNotFound
+4 EComponentError=EComponentError
+4 EFCreateError=EFCreateError
+4 EFilerError=EFilerError
+4 EFOpenError=EFOpenError
+4 EInvalidImage=EInvalidImage
+4 EInvalidOperation=EInvalidOperation
+4 EListError=EListError
+4 EOutOfResources=EOutOfResources
+4 EParserError=EParserError
+4 EReadError=EReadError
+4 EResNotFound=EResNotFound
+4 EStreamError=EStreamError
+4 EStringListError=EStringListError
+4 EThread=EThread
+4 EWriteError=EWriteError
+4 IDesignerNotify=IDesignerNotify
+4 IInterfaceList=IInterfaceList
+4 IVarStreamable=IVarStreamable
+4 TBasicAction=TBasicAction
+4 TBasicActionLink=TBasicActionLink
+4 TBits=TBits
+4 TCollection=TCollection
+4 TCollectionItem=TCollectionItem
+4 TComponent=TComponent
+4 TCustomMemoryStream=TCustomMemoryStream
+4 TDataModule=TDataModule
+4 TFiler=TFiler
+4 TFileStream=TFileStream
+4 THandleStream=THandleStream
+4 TInterfacedPersistent=TInterfacedPersistent
+4 TInterfaceList=TInterfaceList
+4 TList=TList
+4 TMemoryStream=TMemoryStream
+4 TOwnedCollection=TOwnedCollection
+4 TPersistent=TPersistent
+4 TReader=TReader
+4 TRecall=TRecall
+4 TResourceStream=TResourceStream
+4 TStream=TStream
+4 TStreamAdapter=TStreamAdapter
+4 TStringList=TStringList
+4 TStrings=TStrings
+4 TStringStream=TStringStream
+4 TThread=TThread
+4 TThreadList=TThreadList
+4 TWriter=TWriter
+
+3 CompProd
+4 TComponentsPageProducer=TComponentsPageProducer
+
+3 Contnrs
+4 TBucketList=TBucketList
+4 TClassList=TClassList
+4 TComponentList=TComponentList
+4 TCustomBucketList=TCustomBucketList
+4 TObjectBucketList=TObjectBucketList
+4 TObjectList=TObjectList
+4 TObjectQueue=TObjectQueue
+4 TObjectStack=TObjectStack
+4 TOrderedList=TOrderedList
+4 TQueue=TQueue
+4 TStack=TStack
+
+3 ConvUtils
+4 TConvTypeFactor=TConvTypeFactor
+4 TConvTypeInfo=TConvTypeInfo
+4 TConvTypeProcs=TConvTypeProcs
+
+3 DBClient
+4 EDBClient=EDBClient
+4 EReconcileError=EReconcileError
+4 TAggregate=TAggregate
+4 TAggregates=TAggregates
+4 TClientBlobStream=TClientBlobStream
+4 TClientDataSet=TClientDataSet
+4 TConnectionBroker=TConnectionBroker
+4 TCustomClientDataSet=TCustomClientDataSet
+4 TCustomRemoteServer=TCustomRemoteServer
+
+3 DBLocalS
+4 TSQLClientDataSet=TSQLClientDataSet
+
+3 DBLocal
+4 TCustomCachedDataSet=TCustomCachedDataSet
+
+3 DBLogDlg
+4 TLoginDialog=TLoginDialog
+
+3 DBWeb
+4 TDataSetTableProducer=TDataSetTableProducer
+4 TDSTableProducer=TDSTableProducer
+4 TDSTableProducerEditor=TDSTableProducerEditor
+4 THTMLTableColumn=THTMLTableColumn
+4 THTMLTableColumns=THTMLTableColumns
+4 THTTPDataLink=THTTPDataLink
+
+3 DBXpressWeb
+4 TSQLQueryTableProducer=TSQLQueryTableProducer
+
+3 DB
+4 EDatabaseError=EDatabaseError
+4 EDOMParseError=EDOMParseError
+4 EUpdateError=EUpdateError
+4 IDBSession=IDBSession
+4 IProviderSupport=IProviderSupport
+4 TADTField=TADTField
+4 TAggregateField=TAggregateField
+4 TArrayField=TArrayField
+4 TAutoIncField=TAutoIncField
+4 TBCDField=TBCDField
+4 TBinaryField=TBinaryField
+4 TBlobField=TBlobField
+4 TBooleanField=TBooleanField
+4 TBytesField=TBytesField
+4 TCheckConstraint=TCheckConstraint
+4 TCheckConstraints=TCheckConstraints
+4 TCurrencyField=TCurrencyField
+4 TCustomConnection=TCustomConnection
+4 TDataLink=TDataLink
+4 TDataSet=TDataSet
+4 TDataSetDesigner=TDataSetDesigner
+4 TDataSetField=TDataSetField
+4 TDataSource=TDataSource
+4 TDateField=TDateField
+4 TDateTimeField=TDateTimeField
+4 TDefCollection=TDefCollection
+4 TDetailDataLink=TDetailDataLink
+4 TField=TField
+4 TFieldDef=TFieldDef
+4 TFieldDefList=TFieldDefList
+4 TFieldDefs=TFieldDefs
+4 TFieldList=TFieldList
+4 TFields=TFields
+4 TFlatList=TFlatList
+4 TFloatField=TFloatField
+4 TFMTBCDField=TFMTBCDField
+4 TGraphicField=TGraphicField
+4 TGuidField=TGuidField
+4 TIDispatchField=TIDispatchField
+4 TIndexDef=TIndexDef
+4 TIndexDefs=TIndexDefs
+4 TIntegerField=TIntegerField
+4 TInterfaceField=TInterfaceField
+4 TLargeintField=TLargeintField
+4 TLookupList=TLookupList
+4 TMasterDataLink=TMasterDataLink
+4 TMemoField=TMemoField
+4 TNamedItem=TNamedItem
+4 TNumericField=TNumericField
+4 TObjectField=TObjectField
+4 TParam=TParam
+4 TParams=TParams
+4 TReferenceField=TReferenceField
+4 TSmallintField=TSmallintField
+4 TSQLTimeStampField=TSQLTimeStampField
+4 TStringField=TStringField
+4 TTimeField=TTimeField
+4 TVarBytesField=TVarBytesField
+4 TVariantField=TVariantField
+4 TWideStringField=TWideStringField
+4 TWordField=TWordField
+
+3 DesignEditors
+4 TComponentEditor=TComponentEditor
+4 TDefaultEditor=TDefaultEditor
+4 TPropertyEditor=TPropertyEditor
+
+3 DesignIntf
+4 IComponentEditor=IComponentEditor
+4 IDesigner=IDesigner
+4 IDesignerSelections=IDesignerSelections
+4 IProperty=IProperty
+4 TBaseComponentEditor=TBaseComponentEditor
+4 TBasePropertyEditor=TBasePropertyEditor
+4 TDesignerSelections=TDesignerSelections
+
+3 DSProd
+4 TCustomDataSetPageProducer=TCustomDataSetPageProducer
+4 TDataSetPageProducer=TDataSetPageProducer
+
+3 FMTBcd
+4 EBcdException=EBcdException
+4 EBcdOverflowException=EBcdOverflowException
+
+3 HelpIntfs
+4 EHelpSystemException=EHelpSystemException
+4 ICustomHelpViewer=ICustomHelpViewer
+4 IExtendedHelpViewer=IExtendedHelpViewer
+4 IHelpManager=IHelpManager
+4 IHelpSelector=IHelpSelector
+4 IHelpSystem=IHelpSystem
+
+3 HTTPApp
+4 EWebBrokerException=EWebBrokerException
+4 IWebDispatcherAccess=IWebDispatcherAccess
+4 TAbstractContentParser=TAbstractContentParser
+4 TAbstractWebRequestFile=TAbstractWebRequestFile
+4 TAbstractWebRequestFiles=TAbstractWebRequestFiles
+4 TContentParser=TContentParser
+4 TCookie=TCookie
+4 TCookieCollection=TCookieCollection
+4 TCustomContentProducer=TCustomContentProducer
+4 TCustomWebDispatcher=TCustomWebDispatcher
+4 TWebActionItem=TWebActionItem
+4 TWebActionItems=TWebActionItems
+4 TWebDispatcher=TWebDispatcher
+4 TWebModule=TWebModule
+4 TWebRequest=TWebRequest
+4 TWebResponse=TWebResponse
+
+3 HTTPProd
+4 TBasePageProducer=TBasePageProducer
+4 TCustomPageProducer=TCustomPageProducer
+4 THTMLTableAttributes=THTMLTableAttributes
+4 THTMLTableCellAttributes=THTMLTableCellAttributes
+4 THTMLTableElementAttributes=THTMLTableElementAttributes
+4 THTMLTableHeaderAttributes=THTMLTableHeaderAttributes
+4 THTMLTableRowAttributes=THTMLTableRowAttributes
+4 THTMLTagAttributes=THTMLTagAttributes
+4 TPageProducer=TPageProducer
+
+3 HTTPUtil
+4 IStreamLoader=IStreamLoader
+
+3 IniFiles
+4 ERegisterActionsException=ERegisterActionsException
+4 TCustomIniFile=TCustomIniFile
+4 THashedStringList=THashedStringList
+4 TIniFile=TIniFile
+4 TMemIniFile=TMemIniFile
+
+3 IntfInfo
+4 EInterfaceRTTIException=EInterfaceRTTIException
+
+3 InvokeRegistry
+4 ERemotableException=ERemotableException
+4 ETypeRegistryException=ETypeRegistryException
+4 TDataContext=TDataContext
+4 TInvContext=TInvContext
+4 TInvokableClass=TInvokableClass
+4 TInvokableClassRegistry=TInvokableClassRegistry
+4 TRemotable=TRemotable
+4 TRemotableTypeRegistry=TRemotableTypeRegistry
+4 TRemotableTypeRegistry=TRemotableTypeRegistry
+4 TRemotableXS=TRemotableXS
+
+3 Masks
+4 EMaskException=EMaskException
+4 TMask=TMask
+
+3 Math
+4 EInvalidArgument=EInvalidArgument
+
+3 Midas
+4 IAppServer=IAppServer
+
+3 MidItems
+4 TCaptionAttributes=TCaptionAttributes
+4 TCustomLayoutGroup=TCustomLayoutGroup
+4 TGridAttributes=TGridAttributes
+4 TGridRowAttributes=TGridRowAttributes
+4 TLayoutGroup=TLayoutGroup
+4 TWebButton=TWebButton
+4 TWebControlGroup=TWebControlGroup
+4 TWebDataDisplay=TWebDataDisplay
+4 TWebDisplayReferenceGroup=TWebDisplayReferenceGroup
+
+3 objidl.h
+4 ISequentialStream=ISequentialStream
+4 IStream=IStream
+
+3 OPConvert
+4 IOPConvert=IOPConvert
+
+3 OpToSoapDOMConv
+4 ESOAPDomConvertError=ESOAPDomConvertError
+4 TOPToSoapDomConvert=TOPToSoapDomConvert
+4 TSOAPDomConv=TSOAPDomConv
+
+3 PagItems
+4 TBasePageItemsProducer=TBasePageItemsProducer
+4 TPageItemsProducer=TPageItemsProducer
+
+3 Provider
+4 EDSWriter=EDSWriter
+4 TBaseProvider=TBaseProvider
+4 TCustomProvider=TCustomProvider
+4 TCustomResolver=TCustomResolver
+4 TDataSetProvider=TDataSetProvider
+4 TDataSetResolver=TDataSetResolver
+4 TPacketDataSet=TPacketDataSet
+4 TSQLResolver=TSQLResolver
+4 TUpdateTree=TUpdateTree
+
+3 QActnList
+4 TAction=TAction
+4 TActionLink=TActionLink
+4 TActionList=TActionList
+4 TContainedAction=TContainedAction
+4 TCustomAction=TCustomAction
+4 TCustomActionList=TCustomActionList
+
+3 QButtons
+4 TBitBtn=TBitBtn
+4 TSpeedButton=TSpeedButton
+
+3 QCheckLst
+4 TCheckListBox=TCheckListBox
+
+3 QClipbrd
+4 TClipboard=TClipboard
+
+3 QComCtrls
+4 ETreeViewError=ETreeViewError
+4 TCustomHeaderControl=TCustomHeaderControl
+4 TCustomHeaderSection=TCustomHeaderSection
+4 TCustomHeaderSections=TCustomHeaderSections
+4 TCustomIconView=TCustomIconView
+4 TCustomListView=TCustomListView
+4 TCustomSpinEdit=TCustomSpinEdit
+4 TCustomTabControl=TCustomTabControl
+4 TCustomTextBrowser=TCustomTextBrowser
+4 TCustomTextViewer=TCustomTextViewer
+4 TCustomTreeView=TCustomTreeView
+4 TCustomViewControl=TCustomViewControl
+4 TCustomViewItem=TCustomViewItem
+4 TCustomViewItems=TCustomViewItems
+4 THeaderControl=THeaderControl
+4 THeaderSection=THeaderSection
+4 THeaderSections=THeaderSections
+4 TIconOptions=TIconOptions
+4 TIconView=TIconView
+4 TIconViewItem=TIconViewItem
+4 TIconViewItems=TIconViewItems
+4 TListColumn=TListColumn
+4 TListColumns=TListColumns
+4 TListItem=TListItem
+4 TListItems=TListItems
+4 TListView=TListView
+4 TMimeSourceFactory=TMimeSourceFactory
+4 TPageControl=TPageControl
+4 TProgressBar=TProgressBar
+4 TSpinEdit=TSpinEdit
+4 TStatusBar=TStatusBar
+4 TStatusPanel=TStatusPanel
+4 TStatusPanels=TStatusPanels
+4 TTab=TTab
+4 TTabControl=TTabControl
+4 TTabs=TTabs
+4 TTabSheet=TTabSheet
+4 TTextBrowser=TTextBrowser
+4 TTextViewer=TTextViewer
+4 TToolBar=TToolBar
+4 TToolButton=TToolButton
+4 TToolButtonActionLink=TToolButtonActionLink
+4 TTrackBar=TTrackBar
+4 TTreeNode=TTreeNode
+4 TTreeNodes=TTreeNodes
+4 TTreeView=TTreeView
+
+3 QControls
+4 ECanvasException=ECanvasException
+4 EHeaderException=EHeaderException
+4 EListColumnException=EListColumnException
+4 EListViewException=EListViewException
+4 ERangeException=ERangeException
+4 EStatusBarException=EStatusBarException
+4 TBaseDragControlObject=TBaseDragControlObject
+4 TControl=TControl
+4 TControlActionLink=TControlActionLink
+4 TControlCanvas=TControlCanvas
+4 TCustomControl=TCustomControl
+4 TDragControlObject=TDragControlObject
+4 TDragObject=TDragObject
+4 TFrameControl=TFrameControl
+4 TGraphicControl=TGraphicControl
+4 THintWindow=THintWindow
+4 TMouse=TMouse
+4 TSizeConstraints=TSizeConstraints
+4 TWidgetControl=TWidgetControl
+4 TWidgetControlActionLink=TWidgetControlActionLink
+
+3 QDBActns
+4 TDataSetAction=TDataSetAction
+4 TDataSetCancel=TDataSetCancel
+4 TDataSetDelete=TDataSetDelete
+4 TDataSetEdit=TDataSetEdit
+4 TDataSetFirst=TDataSetFirst
+4 TDataSetInsert=TDataSetInsert
+4 TDataSetLast=TDataSetLast
+4 TDataSetNext=TDataSetNext
+4 TDataSetPost=TDataSetPost
+4 TDataSetPrior=TDataSetPrior
+4 TDataSetRefresh=TDataSetRefresh
+
+3 QDBCtrls
+4 TDataSourceLink=TDataSourceLink
+4 TDBCheckBox=TDBCheckBox
+4 TDBComboBox=TDBComboBox
+4 TDBEdit=TDBEdit
+4 TDBImage=TDBImage
+4 TDBListBox=TDBListBox
+4 TDBLookupComboBox=TDBLookupComboBox
+4 TDBLookupControl=TDBLookupControl
+4 TDBLookupListBox=TDBLookupListBox
+4 TDBMemo=TDBMemo
+4 TDBNavigator=TDBNavigator
+4 TDBRadioGroup=TDBRadioGroup
+4 TDBText=TDBText
+4 TFieldDataLink=TFieldDataLink
+4 TListSourceLink=TListSourceLink
+4 TNavDataLink=TNavDataLink
+
+3 QDBGrids
+4 TBookmarkList=TBookmarkList
+4 TColumn=TColumn
+4 TColumnTitle=TColumnTitle
+4 TCustomDBGrid=TCustomDBGrid
+4 TDBGrid=TDBGrid
+4 TDBGridColumns=TDBGridColumns
+4 TGridDataLink=TGridDataLink
+
+3 QDialogs
+4 EQtDialogException=EQtDialogException
+4 EWidgetControlException=EWidgetControlException
+4 TColorDialog=TColorDialog
+4 TCustomDialog=TCustomDialog
+4 TDialog=TDialog
+4 TFindDialog=TFindDialog
+4 TFontDialog=TFontDialog
+4 TOpenDialog=TOpenDialog
+4 TQtDialog=TQtDialog
+4 TReplaceDialog=TReplaceDialog
+4 TSaveDialog=TSaveDialog
+
+3 QExtCtrls
+4 TBevel=TBevel
+4 TControlBar=TControlBar
+4 TCustomControlBar=TCustomControlBar
+4 TCustomPanel=TCustomPanel
+4 TCustomRadioGroup=TCustomRadioGroup
+4 TImage=TImage
+4 TPaintBox=TPaintBox
+4 TPanel=TPanel
+4 TRadioGroup=TRadioGroup
+4 TShape=TShape
+4 TSplitter=TSplitter
+4 TTimer=TTimer
+
+3 QForms
+4 IDesignerHook=IDesignerHook
+4 TApplication=TApplication
+4 TControlScrollBar=TControlScrollBar
+4 TCustomForm=TCustomForm
+4 TCustomFrame=TCustomFrame
+4 TForm=TForm
+4 TFrame=TFrame
+4 TScreen=TScreen
+4 TScrollBox=TScrollBox
+4 TScrollingWidget=TScrollingWidget
+
+3 QGraphics
+4 EInvalidGraphic=EInvalidGraphic
+4 EInvalidGraphicOperation=EInvalidGraphicOperation
+4 EInvalidHandleException=EInvalidHandleException
+4 TBitmap=TBitmap
+4 TBrush=TBrush
+4 TBrushRecall=TBrushRecall
+4 TCanvas=TCanvas
+4 TDrawing=TDrawing
+4 TFont=TFont
+4 TFontRecall=TFontRecall
+4 TGraphic=TGraphic
+4 TGraphicsObject=TGraphicsObject
+4 TIcon=TIcon
+4 TPalette=TPalette
+4 TPen=TPen
+4 TPenRecall=TPenRecall
+4 TPicture=TPicture
+4 TWidgetPalette=TWidgetPalette
+
+3 QGrids
+4 EInvalidGridOperation=EInvalidGridOperation
+4 TCustomGrid=TCustomGrid
+4 TDrawGrid=TDrawGrid
+4 TGridScrollBar=TGridScrollBar
+4 TInplaceEdit=TInplaceEdit
+4 TItemEditor=TItemEditor
+4 TStringGrid=TStringGrid
+4 TStringGridStrings=TStringGridStrings
+
+3 QImgList
+4 TChangeLink=TChangeLink
+4 TCustomImageList=TCustomImageList
+4 TImageList=TImageList
+
+3 QMask
+4 EDBEditError=EDBEditError
+4 TCustomMaskEdit=TCustomMaskEdit
+4 TMaskEdit=TMaskEdit
+
+3 QMenus
+4 EMenuError=EMenuError
+4 TMainMenu=TMainMenu
+4 TMenu=TMenu
+4 TMenuActionLink=TMenuActionLink
+4 TMenuItem=TMenuItem
+4 TPopupMenu=TPopupMenu
+
+3 QPrinters
+4 EPrinter=EPrinter
+4 TPrinter=TPrinter
+4 TQPrintAdapter=TQPrintAdapter
+
+3 QStdActns
+4 TEditAction=TEditAction
+4 TEditCopy=TEditCopy
+4 TEditCut=TEditCut
+4 TEditDelete=TEditDelete
+4 TEditPaste=TEditPaste
+4 TEditSelectAll=TEditSelectAll
+4 THelpAction=THelpAction
+4 THelpContents=THelpContents
+4 THelpTopicSearch=THelpTopicSearch
+4 THintAction=THintAction
+4 TWindowAction=TWindowAction
+4 TWindowCascade=TWindowCascade
+4 TWindowClose=TWindowClose
+4 TWindowMinimizeAll=TWindowMinimizeAll
+4 TWindowTile=TWindowTile
+
+3 QStdCtrls
+4 TButton=TButton
+4 TButtonActionLink=TButtonActionLink
+4 TButtonControl=TButtonControl
+4 TCheckBox=TCheckBox
+4 TComboBox=TComboBox
+4 TCustomCheckBox=TCustomCheckBox
+4 TCustomComboBox=TCustomComboBox
+4 TCustomEdit=TCustomEdit
+4 TCustomGroupBox=TCustomGroupBox
+4 TCustomLabel=TCustomLabel
+4 TCustomLCDNumber=TCustomLCDNumber
+4 TCustomListBox=TCustomListBox
+4 TCustomMemo=TCustomMemo
+4 TEdit=TEdit
+4 TGroupBox=TGroupBox
+4 TLabel=TLabel
+4 TLCDNumber=TLCDNumber
+4 TListBox=TListBox
+4 TMemo=TMemo
+4 TRadioButton=TRadioButton
+4 TScrollBar=TScrollBar
+
+3 QStyle
+4 TApplicationStyle=TApplicationStyle
+4 TStyle=TStyle
+4 TWidgetStyle=TWidgetStyle
+
+3 QTypes
+4 EHandleComponentException=EHandleComponentException
+4 EInvalidParam=EInvalidParam
+4 TClxMimeSource=TClxMimeSource
+4 THandleComponent=THandleComponent
+4 TMimeSource=TMimeSource
+
+3 Rio
+4 TRIO=TRIO
+
+3 SoapConn
+4 TSoapConnection=TSoapConnection
+
+3 SOAPDm
+4 TSoapDataModule=TSoapDataModule
+
+3 soapdomconv
+4 IDOMHeaderProcessor=IDOMHeaderProcessor
+4 TSOAPDOMProcessor=TSOAPDOMProcessor
+
+3 SoapHTTPClient
+4 THTTPRIO=THTTPRIO
+
+3 SoapHTTPDisp
+4 IHTTPSoapDispatch=IHTTPSoapDispatch
+4 THTTPSoapDispatchNode=THTTPSoapDispatchNode
+
+3 SoapHTTPPasInv
+4 THTTPSoapCppInvoker=THTTPSoapCppInvoker
+4 THTTPSoapPascalInvoker=THTTPSoapPascalInvoker
+
+3 SoapHTTPTrans
+4 THTTPReqResp=THTTPReqResp
+
+3 SOAPMidas
+4 IAppServerSOAP=IAppServerSOAP
+
+3 SOAPPasInv
+4 TSoapPascalInvoker=TSoapPascalInvoker
+
+3 Sockets
+4 TBaseSocket=TBaseSocket
+4 TClientSocketThread=TClientSocketThread
+4 TCustomIpClient=TCustomIpClient
+4 TCustomTcpServer=TCustomTcpServer
+4 TIpSocket=TIpSocket
+4 TRawSocket=TRawSocket
+4 TServerSocketThread=TServerSocketThread
+4 TTcpClient=TTcpClient
+4 TTcpServer=TTcpServer
+4 TUdpSocket=TUdpSocket
+
+3 SqlExpr
+4 TCustomSQLDataSet=TCustomSQLDataSet
+4 TSQLBlobStream=TSQLBlobStream
+4 TSQLConnection=TSQLConnection
+4 TSQLDataLink=TSQLDataLink
+4 TSQLDataSet=TSQLDataSet
+4 TSQLMonitor=TSQLMonitor
+4 TSQLQuery=TSQLQuery
+4 TSQLStoredProc=TSQLStoredProc
+4 TSQLTable=TSQLTable
+
+3 SyncObjs
+4 TCriticalSection=TCriticalSection
+4 TEvent=TEvent
+4 TSimpleEvent=TSimpleEvent
+4 TSynchroObject=TSynchroObject
+
+3 System
+4 IInterface=IInterface
+4 IInvokable=IInvokable
+4 IUnknown=IUnknown
+
+3 systobj
+4 TInterfacedObject=TInterfacedObject
+4 TObject=TObject
+
+3 SysUtils
+4 EAbort=EAbort
+4 EAbstractError=EAbstractError
+4 EAccessViolation=EAccessViolation
+4 EAssertionFailed=EAssertionFailed
+4 EControlC=EControlC
+4 EConversionError=EConversionError
+4 EConvertError=EConvertError
+4 EDivByZero=EDivByZero
+4 EExternal=EExternal
+4 EExternalException=EExternalException
+4 EHeapException=EHeapException
+4 EInOutError=EInOutError
+4 EIntError=EIntError
+4 EIntfCastError=EIntfCastError
+4 EIntOverflow=EIntOverflow
+4 EInvalidCast=EInvalidCast
+4 EInvalidOp=EInvalidOp
+4 EInvalidPointer=EInvalidPointer
+4 EMathError=EMathError
+4 EOSError=EOSError
+4 EOutOfMemory=EOutOfMemory
+4 EOverflow=EOverflow
+4 EPackageError=EPackageError
+4 EPrivilege=EPrivilege
+4 EQuit=EQuit
+4 ERangeError=ERangeError
+4 EStackOverflow=EStackOverflow
+4 EUnderflow=EUnderflow
+4 EVariantError=EVariantError
+4 Exception=Exception
+4 EZeroDivide=EZeroDivide
+4 TMultiReadExclusiveWriteSynchronizer=TMultiReadExclusiveWriteSynchronizer
+
+3 TypeTrans
+4 ETypeTransException=ETypeTransException
+
+3 TypInfo
+4 EPropertyConvertError=EPropertyConvertError
+4 EPropertyError=EPropertyError
+4 TPublishableVariantType=TPublishableVariantType
+
+3 Variants
+4 EVariantArrayCreateError=EVariantArrayCreateError
+4 EVariantArrayLockedError=EVariantArrayLockedError
+4 EVariantBadIndexError=EVariantBadIndexError
+4 EVariantBadVarTypeError=EVariantBadVarTypeError
+4 EVariantDispatchError=EVariantDispatchError
+4 EVariantInvalidArgError=EVariantInvalidArgError
+4 EVariantInvalidOpError=EVariantInvalidOpError
+4 EVariantNotImplError=EVariantNotImplError
+4 EVariantOutOfMemoryError=EVariantOutOfMemoryError
+4 EVariantOverflowError=EVariantOverflowError
+4 EVariantTypeCastError=EVariantTypeCastError
+4 EVariantTypeMismatchError=EVariantTypeMismatchError
+4 EVariantUnexpectedError=EVariantUnexpectedError
+4 TCustomVariantType=TCustomVariantType
+4 TInvokeableVariantType=TInvokeableVariantType
+
+3 WebBrokerSoap
+4 THTTPSoapDispatcher=THTTPSoapDispatcher
+
+3 WebBroker
+4 TWebApplication=TWebApplication
+
+3 WebComp
+4 ILayoutWebContent=ILayoutWebContent
+4 IWebComponent=IWebComponent
+4 IWebComponentEditor=IWebComponentEditor
+4 IWebContent=IWebContent
+4 TLayoutAttributes=TLayoutAttributes
+4 TLayoutWebContent=TLayoutWebContent
+4 TWebComponentList=TWebComponentList
+4 TWebContainedComponent=TWebContainedComponent
+4 TWebContainedComponentHelper=TWebContainedComponentHelper
+4 TWebContainedContainerComponent=TWebContainedContainerComponent
+4 TWebContainerComponentHelper=TWebContainerComponentHelper
+4 TWebContentOptions=TWebContentOptions
+
+3 WebNode
+4 IWebNode=IWebNode
+
+3 WebReq
+4 TWebRequestHandler=TWebRequestHandler
+
+3 WSDLBind
+4 IWSDLDocument=IWSDLDocument
+4 TWSDLDocument=TWSDLDocument
+
+3 WSDLIntf
+4 TWideStrings=TWideStrings
+
+3 WSDLItems
+4 IQualifiedName=IQualifiedName
+4 IWSDLItems=IWSDLItems
+4 TWSDLItems=TWSDLItems
+
+3 WSDLNode
+4 TWSDLView=TWSDLView
+
+3 WSDLPub
+4 TWSDLHTMLPublish=TWSDLHTMLPublish
+
+3 XMLDoc
+4 TDOMVendorList=TDOMVendorList
+4 TXMLDocument=TXMLDocument
+4 TXMLNode=TXMLNode
+4 TXMLNodeCollection=TXMLNodeCollection
+4 TXMLNodeList=TXMLNodeList
+
+3 xmldom
+4 IDOMNode=IDOMNode
+4 TDOMVendor=TDOMVendor
+
+3 XMLIntf
+4 EXMLDocError=EXMLDocError
+4 IXMLDocument=IXMLDocument
+4 IXMLNode=IXMLNode
+4 IXMLNodeCollection=IXMLNodeCollection
+4 IXMLNodeList=IXMLNodeList
+
+3 Xmlxform
+4 TranslateException=TranslateException
+4 TXMLTransform=TXMLTransform
+4 TXMLTransformClient=TXMLTransformClient
+4 TXMLTransformProvider=TXMLTransformProvider
+
+3 XSBuiltIns
+4 EXSDateTimeException=EXSDateTimeException
+4 EXSDecimalException=EXSDecimalException
+4 EXSHexBinaryException=EXSHexBinaryException
+4 TXSCustomDateTime=TXSCustomDateTime
+4 TXSDate=TXSDate
+4 TXSDateTime=TXSDateTime
+4 TXSDecimal=TXSDecimal
+4 TXSDuration=TXSDuration
+4 TXSHexBinary=TXSHexBinary
+4 TXSTime=TXSTime
+
+2 Alphabetical Object and Component Listing
+
+3 EA
+4 EAbort=EAbort
+4 EAbstractError=EAbstractError
+4 EAccessViolation=EAccessViolation
+4 EAssertionFailed=EAssertionFailed
+
+3 EB
+4 EBcdException=EBcdException
+4 EBcdOverflowException=EBcdOverflowException
+4 EBitsError=EBitsError
+
+3 EC
+4 ECanvasException=ECanvasException
+4 EClassNotFound=EClassNotFound
+4 EComponentError=EComponentError
+4 EControlC=EControlC
+4 EConversionError=EConversionError
+4 EConvertError=EConvertError
+
+3 ED
+4 EDatabaseError=EDatabaseError
+4 EDBClient=EDBClient
+4 EDBEditError=EDBEditError
+4 EDivByZero=EDivByZero
+4 EDOMParseError=EDOMParseError
+4 EDSWriter=EDSWriter
+
+3 EE
+4 EExternal=EExternal
+4 EExternalException=EExternalException
+
+3 EF
+4 EFCreateError=EFCreateError
+4 EFilerError=EFilerError
+4 EFOpenError=EFOpenError
+
+3 EH
+4 EHandleComponentException=EHandleComponentException
+4 EHeaderException=EHeaderException
+4 EHeapException=EHeapException
+4 EHelpSystemException=EHelpSystemException
+
+3 EI
+4 EInOutError=EInOutError
+4 EInterfaceRTTIException=EInterfaceRTTIException
+4 EIntError=EIntError
+4 EIntfCastError=EIntfCastError
+4 EIntOverflow=EIntOverflow
+4 EInvalidArgument=EInvalidArgument
+4 EInvalidCast=EInvalidCast
+4 EInvalidGraphic=EInvalidGraphic
+4 EInvalidGraphicOperation=EInvalidGraphicOperation
+4 EInvalidGridOperation=EInvalidGridOperation
+4 EInvalidHandleException=EInvalidHandleException
+4 EInvalidImage=EInvalidImage
+4 EInvalidOp=EInvalidOp
+4 EInvalidOperation=EInvalidOperation
+4 EInvalidParam=EInvalidParam
+4 EInvalidPointer=EInvalidPointer
+
+3 EL
+4 EListColumnException=EListColumnException
+4 EListError=EListError
+4 EListViewException=EListViewException
+
+3 EM
+4 EMaskException=EMaskException
+4 EMathError=EMathError
+4 EMenuError=EMenuError
+
+3 EO
+4 EOSError=EOSError
+4 EOutOfMemory=EOutOfMemory
+4 EOutOfResources=EOutOfResources
+4 EOverflow=EOverflow
+
+3 EP
+4 EPackageError=EPackageError
+4 EParserError=EParserError
+4 EPrinter=EPrinter
+4 EPrivilege=EPrivilege
+4 EPropertyConvertError=EPropertyConvertError
+4 EPropertyError=EPropertyError
+
+3 EQ
+4 EQtDialogException=EQtDialogException
+4 EQuit=EQuit
+
+3 ER
+4 ERangeError=ERangeError
+4 ERangeException=ERangeException
+4 EReadError=EReadError
+4 EReconcileError=EReconcileError
+4 ERegisterActionsException=ERegisterActionsException
+4 ERemotableException=ERemotableException
+4 EResNotFound=EResNotFound
+
+3 ES
+4 ESOAPDomConvertError=ESOAPDomConvertError
+4 EStackOverflow=EStackOverflow
+4 EStatusBarException=EStatusBarException
+4 EStreamError=EStreamError
+4 EStringListError=EStringListError
+
+3 ET
+4 EThread=EThread
+4 ETreeViewError=ETreeViewError
+4 ETypeRegistryException=ETypeRegistryException
+4 ETypeTransException=ETypeTransException
+
+3 EU
+4 EUnderflow=EUnderflow
+4 EUpdateError=EUpdateError
+
+3 EV
+4 EVariantArrayCreateError=EVariantArrayCreateError
+4 EVariantArrayLockedError=EVariantArrayLockedError
+4 EVariantBadIndexError=EVariantBadIndexError
+4 EVariantBadVarTypeError=EVariantBadVarTypeError
+4 EVariantDispatchError=EVariantDispatchError
+4 EVariantError=EVariantError
+4 EVariantInvalidArgError=EVariantInvalidArgError
+4 EVariantInvalidOpError=EVariantInvalidOpError
+4 EVariantNotImplError=EVariantNotImplError
+4 EVariantOutOfMemoryError=EVariantOutOfMemoryError
+4 EVariantOverflowError=EVariantOverflowError
+4 EVariantTypeCastError=EVariantTypeCastError
+4 EVariantTypeMismatchError=EVariantTypeMismatchError
+4 EVariantUnexpectedError=EVariantUnexpectedError
+
+3 EW
+4 EWebBrokerException=EWebBrokerException
+4 EWidgetControlException=EWidgetControlException
+4 EWriteError=EWriteError
+
+3 EX
+4 Exception=Exception
+4 EXMLDocError=EXMLDocError
+4 EXSDateTimeException=EXSDateTimeException
+4 EXSDecimalException=EXSDecimalException
+4 EXSHexBinaryException=EXSHexBinaryException
+
+3 EZ
+4 EZeroDivide=EZeroDivide
+
+3 I
+4 IAppServer=IAppServer
+4 IAppServerSOAP=IAppServerSOAP
+4 IComponentEditor=IComponentEditor
+4 ICustomHelpViewer=ICustomHelpViewer
+4 IDBSession=IDBSession
+4 IDesigner=IDesigner
+4 IDesignerHook=IDesignerHook
+4 IDesignerNotify=IDesignerNotify
+4 IDesignerSelections=IDesignerSelections
+4 IDOMHeaderProcessor=IDOMHeaderProcessor
+4 IDOMNode=IDOMNode
+4 IExtendedHelpViewer=IExtendedHelpViewer
+4 IHelpManager=IHelpManager
+4 IHelpSelector=IHelpSelector
+4 IHelpSystem=IHelpSystem
+4 IHTTPSoapDispatch=IHTTPSoapDispatch
+4 IInterface=IInterface
+4 IInterfaceList=IInterfaceList
+4 IInvokable=IInvokable
+4 ILayoutWebContent=ILayoutWebContent
+4 IOPConvert=IOPConvert
+4 IProperty=IProperty
+4 IProviderSupport=IProviderSupport
+4 IQualifiedName=IQualifiedName
+4 ISequentialStream=ISequentialStream
+4 IStream=IStream
+4 IStreamLoader=IStreamLoader
+4 IUnknown=IUnknown
+4 IVarStreamable=IVarStreamable
+4 IWebComponent=IWebComponent
+4 IWebComponentEditor=IWebComponentEditor
+4 IWebContent=IWebContent
+4 IWebDispatcherAccess=IWebDispatcherAccess
+4 IWebNode=IWebNode
+4 IWSDLDocument=IWSDLDocument
+4 IWSDLItems=IWSDLItems
+4 IXMLDocument=IXMLDocument
+4 IXMLNode=IXMLNode
+4 IXMLNodeCollection=IXMLNodeCollection
+4 IXMLNodeList=IXMLNodeList
+
+3 TA
+4 TAbstractContentParser=TAbstractContentParser
+4 TAbstractWebRequestFile=TAbstractWebRequestFile
+4 TAbstractWebRequestFiles=TAbstractWebRequestFiles
+4 TAction=TAction
+4 TActionLink=TActionLink
+4 TActionList=TActionList
+4 TADTField=TADTField
+4 TAggregate=TAggregate
+4 TAggregateField=TAggregateField
+4 TAggregates=TAggregates
+4 TApacheApplication=TApacheApplication
+4 TApacheRequest=TApacheRequest
+4 TApacheResponse=TApacheResponse
+4 TApplication=TApplication
+4 TApplicationStyle=TApplicationStyle
+4 TArrayField=TArrayField
+4 TAutoIncField=TAutoIncField
+
+3 TB
+4 TBaseComponentEditor=TBaseComponentEditor
+4 TBaseDragControlObject=TBaseDragControlObject
+4 TBasePageItemsProducer=TBasePageItemsProducer
+4 TBasePageProducer=TBasePageProducer
+4 TBasePropertyEditor=TBasePropertyEditor
+4 TBaseProvider=TBaseProvider
+4 TBaseSocket=TBaseSocket
+4 TBasicAction=TBasicAction
+4 TBasicActionLink=TBasicActionLink
+4 TBCDField=TBCDField
+4 TBevel=TBevel
+4 TBinaryField=TBinaryField
+4 TBitBtn=TBitBtn
+4 TBitmap=TBitmap
+4 TBits=TBits
+4 TBlobField=TBlobField
+4 TBookmarkList=TBookmarkList
+4 TBooleanField=TBooleanField
+4 TBrush=TBrush
+4 TBrushRecall=TBrushRecall
+4 TBucketList=TBucketList
+4 TButton=TButton
+4 TButtonActionLink=TButtonActionLink
+4 TButtonControl=TButtonControl
+4 TBytesField=TBytesField
+
+3 TC
+4 TCanvas=TCanvas
+4 TCaptionAttributes=TCaptionAttributes
+4 TCGIApplication=TCGIApplication
+4 TCGIRequest=TCGIRequest
+4 TCGIResponse=TCGIResponse
+4 TChangeLink=TChangeLink
+4 TCheckBox=TCheckBox
+4 TCheckConstraint=TCheckConstraint
+4 TCheckConstraints=TCheckConstraints
+4 TCheckListBox=TCheckListBox
+4 TClassList=TClassList
+4 TClientBlobStream=TClientBlobStream
+4 TClientDataSet=TClientDataSet
+4 TClientSocketThread=TClientSocketThread
+4 TClipboard=TClipboard
+4 TClxMimeSource=TClxMimeSource
+4 TCollection=TCollection
+4 TCollectionItem=TCollectionItem
+4 TColorDialog=TColorDialog
+4 TColumn=TColumn
+4 TColumnTitle=TColumnTitle
+4 TComboBox=TComboBox
+4 TComponent=TComponent
+4 TComponentEditor=TComponentEditor
+4 TComponentList=TComponentList
+4 TComponentsPageProducer=TComponentsPageProducer
+4 TConnectionBroker=TConnectionBroker
+4 TContainedAction=TContainedAction
+4 TContentParser=TContentParser
+4 TControl=TControl
+4 TControlActionLink=TControlActionLink
+4 TControlBar=TControlBar
+4 TControlCanvas=TControlCanvas
+4 TControlScrollBar=TControlScrollBar
+4 TConvTypeFactor=TConvTypeFactor
+4 TConvTypeInfo=TConvTypeInfo
+4 TConvTypeProcs=TConvTypeProcs
+4 TCookie=TCookie
+4 TCookieCollection=TCookieCollection
+4 TCriticalSection=TCriticalSection
+4 TCurrencyField=TCurrencyField
+4 TCustomAction=TCustomAction
+4 TCustomActionList=TCustomActionList
+4 TCustomBucketList=TCustomBucketList
+4 TCustomCachedDataSet=TCustomCachedDataSet
+4 TCustomCheckBox=TCustomCheckBox
+4 TCustomClientDataSet=TCustomClientDataSet
+4 TCustomComboBox=TCustomComboBox
+4 TCustomConnection=TCustomConnection
+4 TCustomContentProducer=TCustomContentProducer
+4 TCustomControl=TCustomControl
+4 TCustomControlBar=TCustomControlBar
+4 TCustomDataSetPageProducer=TCustomDataSetPageProducer
+4 TCustomDBGrid=TCustomDBGrid
+4 TCustomDialog=TCustomDialog
+4 TCustomEdit=TCustomEdit
+4 TCustomForm=TCustomForm
+4 TCustomFrame=TCustomFrame
+4 TCustomGrid=TCustomGrid
+4 TCustomGroupBox=TCustomGroupBox
+4 TCustomHeaderControl=TCustomHeaderControl
+4 TCustomHeaderSection=TCustomHeaderSection
+4 TCustomHeaderSections=TCustomHeaderSections
+4 TCustomIconView=TCustomIconView
+4 TCustomImageList=TCustomImageList
+4 TCustomIniFile=TCustomIniFile
+4 TCustomIpClient=TCustomIpClient
+4 TCustomLabel=TCustomLabel
+4 TCustomLayoutGroup=TCustomLayoutGroup
+4 TCustomLCDNumber=TCustomLCDNumber
+4 TCustomListBox=TCustomListBox
+4 TCustomListView=TCustomListView
+4 TCustomMaskEdit=TCustomMaskEdit
+4 TCustomMemo=TCustomMemo
+4 TCustomMemoryStream=TCustomMemoryStream
+4 TCustomPageProducer=TCustomPageProducer
+4 TCustomPanel=TCustomPanel
+4 TCustomProvider=TCustomProvider
+4 TCustomRadioGroup=TCustomRadioGroup
+4 TCustomRemoteServer=TCustomRemoteServer
+4 TCustomResolver=TCustomResolver
+4 TCustomSpinEdit=TCustomSpinEdit
+4 TCustomSQLDataSet=TCustomSQLDataSet
+4 TCustomTabControl=TCustomTabControl
+4 TCustomTcpServer=TCustomTcpServer
+4 TCustomTextBrowser=TCustomTextBrowser
+4 TCustomTextViewer=TCustomTextViewer
+4 TCustomTreeView=TCustomTreeView
+4 TCustomVariantType=TCustomVariantType
+4 TCustomViewControl=TCustomViewControl
+4 TCustomViewItem=TCustomViewItem
+4 TCustomViewItems=TCustomViewItems
+4 TCustomWebDispatcher=TCustomWebDispatcher
+
+3 TD
+4 TDataContext=TDataContext
+4 TDataLink=TDataLink
+4 TDataModule=TDataModule
+4 TDataSet=TDataSet
+4 TDataSetAction=TDataSetAction
+4 TDataSetCancel=TDataSetCancel
+4 TDataSetDelete=TDataSetDelete
+4 TDataSetDesigner=TDataSetDesigner
+4 TDataSetEdit=TDataSetEdit
+4 TDataSetField=TDataSetField
+4 TDataSetFirst=TDataSetFirst
+4 TDataSetInsert=TDataSetInsert
+4 TDataSetLast=TDataSetLast
+4 TDataSetNext=TDataSetNext
+4 TDataSetPageProducer=TDataSetPageProducer
+4 TDataSetPost=TDataSetPost
+4 TDataSetPrior=TDataSetPrior
+4 TDataSetProvider=TDataSetProvider
+4 TDataSetRefresh=TDataSetRefresh
+4 TDataSetResolver=TDataSetResolver
+4 TDataSetTableProducer=TDataSetTableProducer
+4 TDataSource=TDataSource
+4 TDataSourceLink=TDataSourceLink
+4 TDateField=TDateField
+4 TDateTimeField=TDateTimeField
+4 TDBCheckBox=TDBCheckBox
+4 TDBComboBox=TDBComboBox
+4 TDBEdit=TDBEdit
+4 TDBGrid=TDBGrid
+4 TDBGridColumns=TDBGridColumns
+4 TDBImage=TDBImage
+4 TDBListBox=TDBListBox
+4 TDBLookupComboBox=TDBLookupComboBox
+4 TDBLookupControl=TDBLookupControl
+4 TDBLookupListBox=TDBLookupListBox
+4 TDBMemo=TDBMemo
+4 TDBNavigator=TDBNavigator
+4 TDBRadioGroup=TDBRadioGroup
+4 TDBText=TDBText
+4 TDefaultEditor=TDefaultEditor
+4 TDefCollection=TDefCollection
+4 TDesignerSelections=TDesignerSelections
+4 TDetailDataLink=TDetailDataLink
+4 TDialog=TDialog
+4 TDOMVendor=TDOMVendor
+4 TDOMVendorList=TDOMVendorList
+4 TDragControlObject=TDragControlObject
+4 TDragObject=TDragObject
+4 TDrawGrid=TDrawGrid
+4 TDrawing=TDrawing
+4 TDSTableProducer=TDSTableProducer
+4 TDSTableProducerEditor=TDSTableProducerEditor
+
+3 TE
+4 TEdit=TEdit
+4 TEditAction=TEditAction
+4 TEditCopy=TEditCopy
+4 TEditCut=TEditCut
+4 TEditDelete=TEditDelete
+4 TEditPaste=TEditPaste
+4 TEditSelectAll=TEditSelectAll
+4 TEvent=TEvent
+
+3 TF
+4 TField=TField
+4 TFieldDataLink=TFieldDataLink
+4 TFieldDef=TFieldDef
+4 TFieldDefList=TFieldDefList
+4 TFieldDefs=TFieldDefs
+4 TFieldList=TFieldList
+4 TFields=TFields
+4 TFiler=TFiler
+4 TFileStream=TFileStream
+4 TFindDialog=TFindDialog
+4 TFlatList=TFlatList
+4 TFloatField=TFloatField
+4 TFMTBCDField=TFMTBCDField
+4 TFont=TFont
+4 TFontDialog=TFontDialog
+4 TFontRecall=TFontRecall
+4 TForm=TForm
+4 TFrame=TFrame
+4 TFrameControl=TFrameControl
+
+3 TG
+4 TGraphic=TGraphic
+4 TGraphicControl=TGraphicControl
+4 TGraphicField=TGraphicField
+4 TGraphicsObject=TGraphicsObject
+4 TGridAttributes=TGridAttributes
+4 TGridDataLink=TGridDataLink
+4 TGridRowAttributes=TGridRowAttributes
+4 TGridScrollBar=TGridScrollBar
+4 TGroupBox=TGroupBox
+4 TGuidField=TGuidField
+
+3 TH
+4 THandleComponent=THandleComponent
+4 THandleStream=THandleStream
+4 THashedStringList=THashedStringList
+4 THeaderControl=THeaderControl
+4 THeaderSection=THeaderSection
+4 THeaderSections=THeaderSections
+4 THelpAction=THelpAction
+4 THelpContents=THelpContents
+4 THelpTopicSearch=THelpTopicSearch
+4 THintAction=THintAction
+4 THintWindow=THintWindow
+4 THTMLTableAttributes=THTMLTableAttributes
+4 THTMLTableCellAttributes=THTMLTableCellAttributes
+4 THTMLTableColumn=THTMLTableColumn
+4 THTMLTableColumns=THTMLTableColumns
+4 THTMLTableElementAttributes=THTMLTableElementAttributes
+4 THTMLTableHeaderAttributes=THTMLTableHeaderAttributes
+4 THTMLTableRowAttributes=THTMLTableRowAttributes
+4 THTMLTagAttributes=THTMLTagAttributes
+4 THTTPDataLink=THTTPDataLink
+4 THTTPReqResp=THTTPReqResp
+4 THTTPRIO=THTTPRIO
+4 THTTPSoapCppInvoker=THTTPSoapCppInvoker
+4 THTTPSoapDispatcher=THTTPSoapDispatcher
+4 THTTPSoapDispatchNode=THTTPSoapDispatchNode
+4 THTTPSoapPascalInvoker=THTTPSoapPascalInvoker
+
+3 TI
+4 TIcon=TIcon
+4 TIconOptions=TIconOptions
+4 TIconView=TIconView
+4 TIconViewItem=TIconViewItem
+4 TIconViewItems=TIconViewItems
+4 TIDispatchField=TIDispatchField
+4 TImage=TImage
+4 TImageList=TImageList
+4 TIndexDef=TIndexDef
+4 TIndexDefs=TIndexDefs
+4 TIniFile=TIniFile
+4 TInplaceEdit=TInplaceEdit
+4 TIntegerField=TIntegerField
+4 TInterfacedObject=TInterfacedObject
+4 TInterfacedPersistent=TInterfacedPersistent
+4 TInterfaceField=TInterfaceField
+4 TInterfaceList=TInterfaceList
+4 TInvContext=TInvContext
+4 TInvokableClass=TInvokableClass
+4 TInvokableClassRegistry=TInvokableClassRegistry
+4 TInvokeableVariantType=TInvokeableVariantType
+4 TIpSocket=TIpSocket
+4 TItemEditor=TItemEditor
+
+3 TL
+4 TLabel=TLabel
+4 TLargeintField=TLargeintField
+4 TLayoutAttributes=TLayoutAttributes
+4 TLayoutGroup=TLayoutGroup
+4 TLayoutWebContent=TLayoutWebContent
+4 TLCDNumber=TLCDNumber
+4 TList=TList
+4 TListBox=TListBox
+4 TListColumn=TListColumn
+4 TListColumns=TListColumns
+4 TListItem=TListItem
+4 TListItems=TListItems
+4 TListSourceLink=TListSourceLink
+4 TListView=TListView
+4 TLoginDialog=TLoginDialog
+4 TLookupList=TLookupList
+
+3 TM
+4 TMainMenu=TMainMenu
+4 TMask=TMask
+4 TMaskEdit=TMaskEdit
+4 TMasterDataLink=TMasterDataLink
+4 TMemIniFile=TMemIniFile
+4 TMemo=TMemo
+4 TMemoField=TMemoField
+4 TMemoryStream=TMemoryStream
+4 TMenu=TMenu
+4 TMenuActionLink=TMenuActionLink
+4 TMenuItem=TMenuItem
+4 TMimeSource=TMimeSource
+4 TMimeSourceFactory=TMimeSourceFactory
+4 TMouse=TMouse
+4 TMultiReadExclusiveWriteSynchronizer=TMultiReadExclusiveWriteSynchronizer
+
+3 TN
+4 TNamedItem=TNamedItem
+4 TNavDataLink=TNavDataLink
+4 TNumericField=TNumericField
+
+3 TO
+4 TObject=TObject
+4 TObjectBucketList=TObjectBucketList
+4 TObjectField=TObjectField
+4 TObjectList=TObjectList
+4 TObjectQueue=TObjectQueue
+4 TObjectStack=TObjectStack
+4 TOpenDialog=TOpenDialog
+4 TOPToSoapDomConvert=TOPToSoapDomConvert
+4 TOrderedList=TOrderedList
+4 TOwnedCollection=TOwnedCollection
+
+3 TP
+4 TPacketDataSet=TPacketDataSet
+4 TPageControl=TPageControl
+4 TPageItemsProducer=TPageItemsProducer
+4 TPageProducer=TPageProducer
+4 TPaintBox=TPaintBox
+4 TPalette=TPalette
+4 TPanel=TPanel
+4 TParam=TParam
+4 TParams=TParams
+4 TPen=TPen
+4 TPenRecall=TPenRecall
+4 TPersistent=TPersistent
+4 TPicture=TPicture
+4 TPopupMenu=TPopupMenu
+4 TPrinter=TPrinter
+4 TProgressBar=TProgressBar
+4 TPropertyEditor=TPropertyEditor
+4 TPublishableVariantType=TPublishableVariantType
+
+3 TQ
+4 TQPrintAdapter=TQPrintAdapter
+4 TQtDialog=TQtDialog
+4 TQueue=TQueue
+
+3 TR
+4 TRadioButton=TRadioButton
+4 TRadioGroup=TRadioGroup
+4 TranslateException=TranslateException
+4 TRawSocket=TRawSocket
+4 TReader=TReader
+4 TRecall=TRecall
+4 TReferenceField=TReferenceField
+4 TRemotable=TRemotable
+4 TRemotableTypeRegistry=TRemotableTypeRegistry
+4 TRemotableTypeRegistry=TRemotableTypeRegistry
+4 TRemotableXS=TRemotableXS
+4 TReplaceDialog=TReplaceDialog
+4 TResourceStream=TResourceStream
+4 TRIO=TRIO
+
+3 TS
+4 TSaveDialog=TSaveDialog
+4 TScreen=TScreen
+4 TScrollBar=TScrollBar
+4 TScrollBox=TScrollBox
+4 TScrollingWidget=TScrollingWidget
+4 TServerSocketThread=TServerSocketThread
+4 TShape=TShape
+4 TSimpleEvent=TSimpleEvent
+4 TSizeConstraints=TSizeConstraints
+4 TSmallintField=TSmallintField
+4 TSoapConnection=TSoapConnection
+4 TSoapDataModule=TSoapDataModule
+4 TSOAPDomConv=TSOAPDomConv
+4 TSOAPDOMProcessor=TSOAPDOMProcessor
+4 TSoapPascalInvoker=TSoapPascalInvoker
+4 TSpeedButton=TSpeedButton
+4 TSpinEdit=TSpinEdit
+4 TSplitter=TSplitter
+4 TSQLBlobStream=TSQLBlobStream
+4 TSQLClientDataSet=TSQLClientDataSet
+4 TSQLConnection=TSQLConnection
+4 TSQLDataLink=TSQLDataLink
+4 TSQLDataSet=TSQLDataSet
+4 TSQLMonitor=TSQLMonitor
+4 TSQLQuery=TSQLQuery
+4 TSQLQueryTableProducer=TSQLQueryTableProducer
+4 TSQLResolver=TSQLResolver
+4 TSQLStoredProc=TSQLStoredProc
+4 TSQLTable=TSQLTable
+4 TSQLTimeStampField=TSQLTimeStampField
+4 TStack=TStack
+4 TStatusBar=TStatusBar
+4 TStatusPanel=TStatusPanel
+4 TStatusPanels=TStatusPanels
+4 TStream=TStream
+4 TStreamAdapter=TStreamAdapter
+4 TStringField=TStringField
+4 TStringGrid=TStringGrid
+4 TStringGridStrings=TStringGridStrings
+4 TStringList=TStringList
+4 TStrings=TStrings
+4 TStringStream=TStringStream
+4 TStyle=TStyle
+4 TSynchroObject=TSynchroObject
+
+3 TT
+4 TTab=TTab
+4 TTabControl=TTabControl
+4 TTabs=TTabs
+4 TTabSheet=TTabSheet
+4 TTcpClient=TTcpClient
+4 TTcpServer=TTcpServer
+4 TTextBrowser=TTextBrowser
+4 TTextViewer=TTextViewer
+4 TThread=TThread
+4 TThreadList=TThreadList
+4 TTimeField=TTimeField
+4 TTimer=TTimer
+4 TToolBar=TToolBar
+4 TToolButton=TToolButton
+4 TToolButtonActionLink=TToolButtonActionLink
+4 TTrackBar=TTrackBar
+4 TTreeNode=TTreeNode
+4 TTreeNodes=TTreeNodes
+4 TTreeView=TTreeView
+
+3 TU
+4 TUdpSocket=TUdpSocket
+4 TUpdateTree=TUpdateTree
+
+3 TV
+4 TVarBytesField=TVarBytesField
+4 TVariantField=TVariantField
+
+3 TW
+4 TWebActionItem=TWebActionItem
+4 TWebActionItems=TWebActionItems
+4 TWebApplication=TWebApplication
+4 TWebButton=TWebButton
+4 TWebComponentList=TWebComponentList
+4 TWebContainedComponent=TWebContainedComponent
+4 TWebContainedComponentHelper=TWebContainedComponentHelper
+4 TWebContainedContainerComponent=TWebContainedContainerComponent
+4 TWebContainerComponentHelper=TWebContainerComponentHelper
+4 TWebContentOptions=TWebContentOptions
+4 TWebControlGroup=TWebControlGroup
+4 TWebDataDisplay=TWebDataDisplay
+4 TWebDispatch=TWebDispatch
+4 TWebDispatcher=TWebDispatcher
+4 TWebDisplayReferenceGroup=TWebDisplayReferenceGroup
+4 TWebModule=TWebModule
+4 TWebRequest=TWebRequest
+4 TWebRequestHandler=TWebRequestHandler
+4 TWebResponse=TWebResponse
+4 TWideStringField=TWideStringField
+4 TWideStrings=TWideStrings
+4 TWidgetControl=TWidgetControl
+4 TWidgetControlActionLink=TWidgetControlActionLink
+4 TWidgetPalette=TWidgetPalette
+4 TWidgetStyle=TWidgetStyle
+4 TWindowAction=TWindowAction
+4 TWindowCascade=TWindowCascade
+4 TWindowClose=TWindowClose
+4 TWindowMinimizeAll=TWindowMinimizeAll
+4 TWindowTile=TWindowTile
+4 TWordField=TWordField
+4 TWriter=TWriter
+4 TWSDLDocument=TWSDLDocument
+4 TWSDLHTMLPublish=TWSDLHTMLPublish
+4 TWSDLItems=TWSDLItems
+4 TWSDLView=TWSDLView
+
+3 TX
+4 TXMLDocument=TXMLDocument
+4 TXMLNode=TXMLNode
+4 TXMLNodeCollection=TXMLNodeCollection
+4 TXMLNodeList=TXMLNodeList
+4 TXMLTransform=TXMLTransform
+4 TXMLTransformClient=TXMLTransformClient
+4 TXMLTransformProvider=TXMLTransformProvider
+4 TXSCustomDateTime=TXSCustomDateTime
+4 TXSDate=TXSDate
+4 TXSDateTime=TXSDateTime
+4 TXSDecimal=TXSDecimal
+4 TXSDuration=TXSDuration
+4 TXSHexBinary=TXSHexBinary
+4 TXSTime=TXSTime
+
+2 Categorical Routines Listing
+
+3 action support
+4 CreateAction=CreateAction_function
+4 EnumRegisteredActions=EnumRegisteredActions_procedure
+4 RegisterActions=RegisterActions_procedure
+4 UnRegisterActions=UnRegisterActions_procedure
+
+3 application-level information
+4 Application variable=ApplicationForStandardApplications_variable
+4 CmdShow variable=CmdShow_variable
+4 ExitProcessProc variable=ExitProcessProc_variable
+4 GetModuleName=GetModuleName_function
+4 HInstance variable=HInstance_variable
+4 HintWindowClass variable=HintWindowClass_variable
+4 InitProc variable=InitProc_variable
+4 IsLibrary variable=IsLibrary_variable
+4 JITEnable variable=JITEnable_variable
+4 MainInstance variable=MainInstance_variable
+4 MainThreadID variable=MainThreadID_variable
+4 NoErrMsg variable=NoErrMsg_variable
+4 RTLVersion constant=RTLVersion_constant
+4 Screen variable=Screen_variable
+
+3 appplication-level information
+4 GetModuleFileName=GetModuleFileName_function
+
+3 Arithmetic routines
+4 Ceil=Ceil_function
+4 DivMod=DivMod_procedure
+4 Floor=Floor_function
+4 Frexp=Frexp_procedure
+4 Infinity constant=Infinity_constant
+4 IntPower=IntPower_function
+4 IsInfinite=IsInfinite_function
+4 IsNan=IsNan_function
+4 IsZero=IsZero_function
+4 Ldexp=Ldexp_function
+4 LnXP1=LnXP1_function
+4 Log10=Log10_function
+4 Log2=Log2_function
+4 LogN=LogN_function
+4 MulDiv=MulDiv_function
+4 NaN constant=NaN_constant
+4 NegInfinity constant=NegInfinity_constant
+4 Poly=Poly_function
+4 Power=Power_function
+4 RoundTo=RoundTo_function
+4 SameValue=SameValue_function
+4 Sign=Sign_function
+4 SimpleRoundTo=SimpleRoundTo_function
+
+3 backward compatibility routines
+4 DisposeStr=DisposeStr_procedure
+4 NewStr=NewStr_function
+4 StrPas=StrPas_function
+
+3 BCD support
+4 BcdAdd=BcdAdd_procedure
+4 BcdCompare=BcdCompare_function
+4 BcdDivide=BcdDivide_procedure
+4 BcdMultiply=BcdMultiply_procedure
+4 BcdPrecision=BcdPrecision_function
+4 BcdScale=BcdScale_function
+4 BcdSubtract=BcdSubtract_procedure
+4 BCDToCurr=BCDToCurr_function
+4 BcdToDouble=BcdToDouble_function
+4 BcdToInteger=BcdToInteger_function
+4 BcdToStr=BcdToStr_function
+4 BcdToStrF=BcdToStrF_function
+4 CurrToBCD=CurrToBCD_function
+4 DoubleToBcd=DoubleToBcd_function
+4 FormatBcd=FormatBcd_function
+4 IntegerToBcd=IntegerToBcd_function
+4 IsBcdNegative=IsBcdNegative_function
+4 NormalizeBcd=NormalizeBcd_function
+4 NullBcd constant=NullBcd_constant
+4 StrToBcd=StrToBcd_function
+4 TryStrToBcd=TryStrToBcd_function
+
+3 Business and finance routines
+4 DoubleDecliningBalance=DoubleDecliningBalance_function
+4 FutureValue=FutureValue_function
+4 InterestPayment=InterestPayment_function
+4 InterestRate=InterestRate_function
+4 InternalRateOfReturn=InternalRateOfReturn_function
+4 NetPresentValue=NetPresentValue_function
+4 NumberOfPeriods=NumberOfPeriods_function
+4 Payment=Payment_function
+4 PeriodPayment=PeriodPayment_function
+4 PresentValue=PresentValue_function
+4 SLNDepreciation=SLNDepreciation_function
+4 SYDDepreciation=SYDDepreciation_function
+
+3 character set conversions
+4 AnsiToUtf8=AnsiToUtf8_function
+4 PUCS4Chars=PUCS4Chars_function
+4 StringToWideChar=StringToWideChar_function
+4 UCS4StringToWideString=UCS4StringToWideString_function
+4 UnicodeToUtf8=UnicodeToUtf8_function
+4 UTF8Decode=Utf8Decode_function
+4 UTF8Encode=Utf8Encode_function
+4 Utf8ToAnsi=Utf8ToAnsi_function
+4 Utf8ToUnicode=Utf8ToUnicode_function
+4 WideCharLenToString=WideCharLenToString_function
+4 WideCharLenToStrVar=WideCharLenToStrVar_procedure
+4 WideCharToString=WideCharToString_function
+4 WideCharToStrVar=WideCharToStrVar_procedure
+4 WideStringToUCS4String=WideStringToUCS4String_function
+
+3 clipboard routines
+4 Clipboard=Clipboard_function
+4 SetClipboard=SetClipboard_function
+
+3 command line utilities
+4 CmdLine variable=CmdLine_variable
+4 FindCmdLineSwitch=FindCmdLineSwitch_function
+4 ParamCount=ParamCount_function
+4 ParamStr=ParamStr_function
+
+3 comparison routines
+4 CollectionsEqual=CollectionsEqual_function
+4 CompareMem=CompareMem_function
+4 CompareValue=CompareValue_function
+4 EqualRect=EqualRect_function
+
+3 complex numbers
+4 ComplexNumberSymbol variable=ComplexNumberSymbol_variable
+4 ComplexNumberSymbolBeforeImaginary variable=ComplexNumberSymbolBeforeImaginary_variable
+4 VarComplexAbs=VarComplexAbs_function
+4 VarComplexAbsSqr=VarComplexAbsSqr_function
+4 VarComplexAngle=VarComplexAngle_function
+4 VarComplexArcCos=VarComplexArcCos_function
+4 VarComplexArcCosH=VarComplexArcCosH_function
+4 VarComplexArcCot=VarComplexArcCot_function
+4 VarComplexArcCsc=VarComplexArcCotH_function
+4 VarComplexArcCscH=VarComplexArcCscH_function
+4 VarComplexArcSec=VarComplexArcSec_function
+4 VarComplexArcSecH=VarComplexArcSecH_function
+4 VarComplexArcSin=VarComplexArcSin_function
+4 VarComplexArcSinH=VarComplexArcSinH_function
+4 VarComplexArcTan=VarComplexArcTan_function
+4 VarComplexArcTanH=VarComplexArcTanH_function
+4 VarComplexConjugate=VarComplexConjugate_function
+4 VarComplexCos=VarComplexCos_function
+4 VarComplexCosH=VarComplexCosH_function
+4 VarComplexCot=VarComplexCot_function
+4 VarComplexCreate=VarComplexCotH_function
+4 VarComplexCsc=VarComplexCsc_function
+4 VarComplexCscH=VarComplexCscH_function
+4 VarComplexExp=VarComplexExp_function
+4 VarComplexFromPolar=VarComplexFromPolar_function
+4 VarComplexInverse=VarComplexInverse_function
+4 VarComplexLn=VarComplexLn_function
+4 VarComplexPower=VarComplexPower_function
+4 VarComplexSec=VarComplexSec_function
+4 VarComplexSecH=VarComplexSecH_function
+4 VarComplexSin=VarComplexSin_function
+4 VarComplexSinH=VarComplexSinH_function
+4 VarComplexSqr=VarComplexSqr_function
+4 VarComplexSqrt=VarComplexSqrt_function
+4 VarComplexTan=VarComplexTan_function
+4 VarComplexTanH=VarComplexTanH_function
+4 VarComplexTimesNegI=VarComplexTimesNegI_function
+4 VarComplexTimesPosI=VarComplexTimesPosI_function
+4 VarComplexToPolar=VarComplexToPolar_procedure
+
+3 component registration routines
+4 RegisterComponents=RegisterComponents_procedure
+4 RegisterFields procedure=RegisterFields_procedure
+4 RegisterNoIcon=RegisterNoIcon_procedure
+
+3 control and form location
+4 FindControl=FindControl_function
+4 FindObject=FindObject_function
+4 GetParentForm=GetParentForm_function
+4 ValidParentForm=ValidParentForm_function
+
+3 cursor management routines
+4 CursorToIdent=CursorToIdent_function
+4 CursorToString=CursorToString_function
+4 GetCursorValues=GetCursorValues_procedure
+4 IdentToCursor=IdentToCursor_function
+4 InDragDropOperation=InDragDropOperation_function
+4 StringToCursor=StringToCursor_function
+
+3 Database routines
+4 ExtractFieldName=ExtractFieldName_function
+4 GetDriverNames=GetDriverNames_procedure
+4 GetFieldProperty=GetFieldProperty_function
+4 PasswordDialog=PasswordDialog_function
+4 VarTypeToDataType function=VarTypeToDataType_functions
+
+3 Date/time routines
+4 CheckSqlTimeStamp=CheckSqlTimeStamp_procedure
+4 CompareDate=CompareDate_function
+4 CompareDateTime=CompareDateTime_function
+4 CompareTime=CompareTime_function
+4 CurrentYear=CurrentYear_function
+4 Date=Date_function
+4 DateDelta constant=DateDelta_constant
+4 DateOf=DateOf_function
+4 DateTimeToFileDate=DateTimeToFileDate_function
+4 DateTimeToSQLTimeStamp=DateTimeToSQLTimeStamp_function
+4 DateTimeToStr=DateTimeToStr_function
+4 DateTimeToString=DateTimeToString_procedure
+4 DateTimeToTimeStamp=DateTimeToTimeStamp_function
+4 DateToStr=DateToStr_function
+4 Day of week constants=DayOfWeekConstants
+4 DayOf=DayOf_function
+4 DayOfTheMonth=DayOfTheMonth_function
+4 DayOfTheWeek=DayOfTheWeek_function
+4 DayOfTheYear=DayOfTheYear_function
+4 DayOfWeek=DayOfWeek_function
+4 DaysBetween=DaysBetween_function
+4 DaysInAMonth=DaysInAMonth_function
+4 DaysInAYear=DaysInAYear_function
+4 DaysInMonth=DaysInMonth_function
+4 DaysInYear=DaysInYear_function
+4 DaySpan=DaySpan_function
+4 DecodeDate=DecodeDate_procedure
+4 DecodeDateDay=DecodeDateDay_procedure
+4 DecodeDateFully=DecodeDateFully_function
+4 DecodeDateMonthWeek=DecodeDateMonthWeek_procedure
+4 DecodeDateTime=DecodeDateTime_procedure
+4 DecodeDateWeek=DecodeDateWeek_procedure
+4 DecodeDayOfWeekInMonth=DecodeDayOfWeekInMonth_procedure
+4 DecodeTime=DecodeTime_procedure
+4 EncodeDate; TryEncodeDate=EncodeDate_function
+4 EncodeDateDay=EncodeDateDay_function
+4 EncodeDateMonthWeek=EncodeDateMonthWeek_function
+4 EncodeDateTime=EncodeDateTime_function
+4 EncodeDateWeek=EncodeDateWeek_function
+4 EncodeDayOfWeekInMonth=EncodeDayOfWeekInMonth_function
+4 EncodeTime;TryEncodeTime=EncodeTime_function
+4 EndOfADay=EndOfADay_function
+4 EndOfAMonth=EndOfAMonth_function
+4 EndOfAWeek=EndOfAWeek_function
+4 EndOfAYear=EndOfAYear_function
+4 EndOfTheDay=EndOfTheDay_function
+4 EndOfTheMonth=EndOfTheMonth_function
+4 EndOfTheWeek=EndOfTheWeek_function
+4 EndOfTheYear=EndOfTheYear_function
+4 FormatDateTime=FormatDateTime_function
+4 HourOf=HourOf_function
+4 HourOfTheDay=HourOfTheDay_function
+4 HourOfTheMonth=HourOfTheMonth_function
+4 HourOfTheWeek=HourOfTheWeek_function
+4 HourOfTheYear=HourOfTheYear_function
+4 HoursBetween=HoursBetween_function
+4 HourSpan=HourSpan_function
+4 IncAMonth=IncAMonth_procedure
+4 IncDay=IncDay_function
+4 IncHour=IncHour_function
+4 IncMilliSecond=IncMilliSecond_function
+4 IncMinute=IncMinute_function
+4 IncMonth=IncMonth_function
+4 IncSecond=IncSecond_function
+4 IncWeek=IncWeek_function
+4 IncYear=IncYear_function
+4 IsInLeapYear=IsInLeapYear_function
+4 IsLeapYear=IsLeapYear_function
+4 IsPM=IsPM_function
+4 IsSameDay=IsSameDay_function
+4 IsToday=IsToday_function
+4 IsValidDate=IsValidDate_function
+4 IsValidDateDay=IsValidDateDay_function
+4 IsValidDateMonthWeek=IsValidDateMonthWeek_function
+4 IsValidDateTime=IsValidDateTime_function
+4 IsValidDateWeek=IsValidDateWeek_function
+4 IsValidTime=IsValidTime_function
+4 MilliSecondOf=MilliSecondOf_function
+4 MilliSecondOfTheDay=MilliSecondOfTheDay_function
+4 MilliSecondOfTheHour=MilliSecondOfTheHour_function
+4 MilliSecondOfTheMinute=MilliSecondOfTheMinute_function
+4 MilliSecondOfTheMonth=MilliSecondOfTheMonth_function
+4 MilliSecondOfTheSecond=MilliSecondOfTheSecond_function
+4 MilliSecondOfTheWeek=MilliSecondOfTheWeek_function
+4 MilliSecondOfTheYear=MilliSecondOfTheYear_function
+4 MilliSecondsBetween=MilliSecondsBetween_function
+4 MilliSecondSpan=MilliSecondSpan_function
+4 MinuteOf=MinuteOf_function
+4 MinuteOfTheDay=MinuteOfTheDay_function
+4 MinuteOfTheHour=MinuteOfTheHour_function
+4 MinuteOfTheMonth=MinuteOfTheMonth_function
+4 MinuteOfTheWeek=MinuteOfTheWeek_function
+4 MinuteOfTheYear=MinuteOfTheYear_function
+4 MinutesBetween=MinutesBetween_function
+4 MinuteSpan=MinuteSpan_function
+4 MonthOf=MonthOf_function
+4 MonthOfTheYear=MonthOfTheYear_function
+4 MonthsBetween=MonthsBetween_function
+4 MonthSpan=MonthSpan_function
+4 MSecsToTimeStamp=MSecsToTimeStamp_function
+4 Now=Now_function
+4 NthDayOfWeek=NthDayOfWeek_function
+4 NullSQLTimeStamp constant=NullSQLTimeStamp_constant
+4 RecodeDate=RecodeDate_function
+4 RecodeDateTime=RecodeLeaveFieldAsIs_constant
+4 RecodeDay=RecodeDay_function
+4 RecodeHour=RecodeHour_function
+4 RecodeMilliSecond=RecodeMilliSecond_function
+4 RecodeMinute=RecodeMinute_function
+4 RecodeMonth=RecodeMonth_function
+4 RecodeSecond=RecodeSecond_function
+4 RecodeTime=RecodeTime_function
+4 RecodeYear=RecodeYear_function
+4 ReplaceDate=ReplaceDate_procedure
+4 ReplaceTime=ReplaceTime_procedure
+4 SameDate=SameDate_function
+4 SameDateTime=SameDateTime_function
+4 SameTime=SameTime_function
+4 SecondOf=SecondOf_function
+4 SecondOfTheDay=SecondOfTheDay_function
+4 SecondOfTheHour=SecondOfTheHour_function
+4 SecondOfTheMinute=SecondOfTheMinute_function
+4 SecondOfTheMonth=SecondOfTheMonth_function
+4 SecondOfTheWeek=SecondOfTheWeek_function
+4 SecondOfTheYear=SecondOfTheYear_function
+4 SecondsBetween=SecondsBetween_function
+4 SecondSpan=SecondSpan_function
+4 SQLDayOfWeek=SQLDayOfWeek_function
+4 SQLTimeStampToDateTime=SQLTimeStampToDateTime_function
+4 SQLTimeStampToStr=SQLTimeStampToStr_function
+4 StartOfADay=StartOfADay_function
+4 StartOfAMonth=StartOfAMonth_function
+4 StartOfAWeek=StartOfAWeek_function
+4 StartOfAYear=StartOfAYear_function
+4 StartOfTheDay=StartOfTheDay_function
+4 StartOfTheMonth=StartOfTheMonth_function
+4 StartOfTheWeek=StartOfTheWeek_function
+4 StartOfTheYear=StartOfTheYear_function
+4 StrToDate=StrToDate_function
+4 StrToDateDef=StrToDateDef_function
+4 StrToDateTime=StrToDateTime_function
+4 StrToDateTimeDef=StrToDateTimeDef_function
+4 StrToSQLTimeStamp=StrToSQLTimeStamp_function
+4 StrToTime=StrToTime_function
+4 StrToTimeDef=StrToTimeDef_function
+4 Time=Time_function
+4 TimeOf=TimeOf_function
+4 TimeStampToDateTime=TimeStampToDateTime_function
+4 TimeStampToMSecs=TimeStampToMSecs_function
+4 TimeToStr=TimeToStr_function
+4 Today=Today_function
+4 Tomorrow=Tomorrow_function
+4 TryEncodeDateDay=TryEncodeDateDay_function
+4 TryEncodeDateMonthWeek=TryEncodeDateMonthWeek_function
+4 TryEncodeDateTime=TryEncodeDateTime_function
+4 TryEncodeDateWeek=TryEncodeDateWeek_function
+4 TryEncodeDayOfWeekInMonth=TryEncodeDayOfWeekInMonth_function
+4 TryRecodeDateTime=TryRecodeDateTime_function
+4 TryStrToDate=TryStrToDate_function
+4 TryStrToDateTime=TryStrToDateTime_function
+4 TryStrToSQLTimeStamp=TryStrToSQLTimeStamp_function
+4 TryStrToTime=TryStrToTime_function
+4 UnixDateDelta constant=UnixDateDelta_constant
+4 WeekOf=WeekOf_function
+4 WeekOfTheMonth=WeekOfTheMonth_function
+4 WeekOfTheYear=WeekOfTheYear_function
+4 WeeksBetween=WeeksBetween_function
+4 WeeksInAYear=WeeksInAYear_function
+4 WeeksInYear=WeeksInYear_function
+4 WeekSpan=WeekSpan_function
+4 WithinPastDays=WithinPastDays_function
+4 WithinPastHours=WithinPastHours_function
+4 WithinPastMilliSeconds=WithinPastMilliSeconds_function
+4 WithinPastMinutes=WithinPastMinutes_function
+4 WithinPastMonths=WithinPastMonths_function
+4 WithinPastSeconds=WithinPastSeconds_function
+4 WithinPastWeeks=WithinPastWeeks_function
+4 WithinPastYears=WithinPastYears_function
+4 YearOf=YearOf_function
+4 YearsBetween=YearsBetween_function
+4 YearSpan=YearSpan_function
+4 Yesterday=Yesterday_function
+
+3 design tool registration routines
+4 GReferenceExpandable=GReferenceExpandable_variable
+4 GShowReadOnlyProps=GShowReadOnlyProps_variable
+4 RegisterComponentEditor=RegisterComponentEditor_procedure
+4 RegisterPropertyEditor=RegisterPropertyEditor_procedure
+
+3 dialog and message routines
+4 InputBox=InputBox_function
+4 InputQuery=InputQuery_function
+4 LoginDialog=LoginDialog_function
+4 LoginDialogEx=LoginDialogEx_function
+4 MessageDlg=MessageDlg_function
+4 MessageDlgPos=MessageDlgPos_function
+4 RemoteLoginDialog=RemoteLoginDialog_function
+4 SelectDirectory=SelectDirectory_function
+4 ShowMessage=ShowMessage_procedure
+4 ShowMessageFmt=ShowMessageFmt_procedure
+4 ShowMessagePos=ShowMessagePos_procedure
+
+3 drag operation support
+4 AddDragFormat=AddDragFormat_function
+4 AdjustForClient=AdjustForClient_procedure
+4 AdjustForFrame=AdjustForFrame_procedure
+4 DragImageList=DragImageList_function
+4 FindDragTarget=FindDragTarget_function
+4 SaveDragDataToStream=SaveDragDataToStream_function
+4 SupportedDragFormats=SupportedDragFormats_procedure
+
+3 exception handling routines
+4 DatabaseError=DatabaseError_procedure
+4 DatabaseErrorFmt=DatabaseErrorFmt_procedure
+4 ErrorAddr variable=ErrorAddr_variable
+4 ExceptAddr=ExceptAddr_function
+4 ExceptionErrorMessage=ExceptionErrorMessage_function
+4 ExceptObject=ExceptObject_function
+4 GetLastError=GetLastError_function
+4 OutOfMemoryError=OutOfMemoryError_procedure
+4 RaiseLastOSError procedure=RaiseLastOSError_procedure
+4 ShowException=ShowException_procedure
+4 SysErrorMessage=SysErrorMessage_function
+
+3 file management routines
+4 ChDir procedure=ChDir_procedure
+4 CreateDir=CreateDir_function
+4 DeleteFile=DeleteFile_function
+4 DirectoryExists=DirectoryExists_function
+4 File name constants=FileName_constants
+4 File open mode constants=FileOpenMode_constants
+4 FileAccessRights variable=FileAccessRights_variable
+4 FileAge=FileAge_function
+4 FileClose=FileClose_procedure
+4 FileCreate=FileCreate_function
+4 FileDateToDateTime=FileDateToDateTime_function
+4 FileExists=FileExists_function
+4 FileGetDate=FileGetDate_function
+4 FileIsReadOnly=FileIsReadOnly_function
+4 FileOpen=FileOpen_function
+4 FileRead=FileRead_function
+4 FileSearch=FileSearch_function
+4 FileSeek=FileSeek_function
+4 FileSetDate=FileSetDate_function
+4 FileSetReadOnly=FileSetReadOnly_function
+4 FileWrite=FileWrite_function
+4 FindClose=FindClose_procedure
+4 FindFirst=FindFirst_function
+4 FindNext=FindNext_function
+4 ForceDirectories=ForceDirectories_function
+4 GetCurrentDir=GetCurrentDir_function
+4 RemoveDir=RemoveDir_function
+4 RenameFile=RenameFile_function
+4 SetCurrentDir=SetCurrentDir_function
+
+3 file name utilities
+4 ChangeFileExt=ChangeFileExt_function
+4 DosPathToUnixPath=DosPathToUnixPath_function
+4 ExcludeTrailingBackslash=ExcludeTrailingBackslash_function
+4 ExcludeTrailingPathDelimiter=ExcludeTrailingPathDelimiter_function
+4 ExpandFileName=ExpandFileName_function
+4 ExpandFileNameCase=ExpandFileNameCase_function
+4 ExpandUNCFileName=ExpandUNCFileName_function
+4 ExtractFileDir=ExtractFileDir_function
+4 ExtractFileDrive=ExtractFileDrive_function
+4 ExtractFileExt=ExtractFileExt_function
+4 ExtractFileName=ExtractFileName_function
+4 ExtractFilePath=ExtractFilePath_function
+4 ExtractRelativePath=ExtractRelativePath_function
+4 IncludeTrailingBackslash=IncludeTrailingBackslash_function
+4 IncludeTrailingPathDelimiter=IncludeTrailingPathDelimiter_function
+4 IsPathDelimiter=IsPathDelimiter_function
+4 MatchesMask=MatchesMask_function
+4 UnixPathToDosPath=UnixPathToDosPath_function
+
+3 floating point conversion routines
+4 FloatToCurr ;TryFloatToCurr=FloatToCurr_function
+4 FloatToDateTime ;TryFloatToDateTime=FloatToDateTime_function;TryFloatToDateTime_function
+4 FloatToDecimal=FloatToDecimal_procedure
+4 FloatToStr=FloatToStr_function
+4 FloatToStrF=FloatToStrF_function
+4 FloatToText=FloatToText_function
+4 FloatToTextFmt=FloatToTextFmt_function
+4 FormatFloat=FormatFloat_function
+4 StrToCurr=StrToCurr_function
+4 StrToCurrDef=StrToCurrDef_function
+4 StrToFloat=StrToFloat_function
+4 StrToFloatDef=StrToFloatDef_function
+4 TryStrToCurr=TryStrToCurr_function
+4 TryStrToFloat=TryStrToFloat_function
+
+3 flow control routines
+4 Abort procedure=Abort_procedure
+4 Sleep=Sleep_procedure
+
+3 FPU control
+4 Default8087CW variable=Default8087CW_variable
+4 Get8087CW=Get8087CW_function
+4 GetExceptionMask=GetExceptionMask_function
+4 GetPrecisionMode=GetPrecisionMode_function
+4 GetRoundMode=GetRoundMode_function
+4 Set8087CW=Set8087CW_procedure
+4 SetExceptionMask=SetExceptionMask_function
+4 SetPrecisionMode=SetPrecisionMode_function
+4 SetRoundMode=SetRoundMode_function
+
+3 geometric routines
+4 CenterPoint=CenterPoint_function
+4 IntersectRect=IntersectRect_function
+4 InvalidPoint=InvalidPoint_function
+4 IsRectEmpty=IsRectEmpty_function
+4 PointsEqual=PointsEqual_function
+4 PtInRect=PtInRect_function
+4 UnionRect=UnionRect_function
+
+3 graphics utilities
+4 ColorToIdent=ColorToIdent_function
+4 ColorToRGB=ColorToRGB_function
+4 ColorToString=ColorToString_function
+4 DrawButtonFace=DrawButtonFace_function
+4 Frame3D=Frame3D_procedure
+4 GetColorValues=GetColorValues_procedure
+4 GraphicExtension=GraphicExtension_function
+4 GraphicFileMask=GraphicFileMask_function
+4 GraphicFilter=GraphicFilter_function
+4 IdentToColor=IdentToColor_function
+4 StringToColor=StringToColor_function
+
+3 GUID routines
+4 StringToGUID=StringToGUID_function
+
+3 Help Hint routines
+4 GetLongHint=GetLongHint_function
+4 GetShortHint=GetShortHint_function
+
+3 help system
+4 GetHelpSystem=GetHelpSystem_function
+4 RegisterViewer=RegisterViewer_function
+
+3 HTTP utilities
+4 Application variable (for Web server applications)=ApplicationForWebserverApplications_variable
+4 DayOfWeekStr=DayOfWeekStr_function
+4 ExtractHeaderFields=ExtractHeaderFields_procedure
+4 ExtractHTTPFields=ExtractHTTPFields_procedure
+4 HtmlTable=HtmlTable_function
+4 HTTPDecode=HTTPDecode_function
+4 HTTPEncode=HTTPEncode_function
+4 MonthStr=MonthStr_function
+4 ParseDate=ParseDate_function
+4 StatusString=StatusString_function
+
+3 I/O routines
+4 MkDir procedure=MkDir_procedure
+4 RmDir procedure=RmDir_procedure
+
+3 interface and GUID utilities
+4 CreateGUID=CreateGUID_function
+4 GUIDToString=GUIDToString_function
+4 IsEqualGUID=IsEqualGUID_function
+4 Supports=Supports_function
+4 VarSupports=VarSupports_function
+
+3 maximum and minimum values
+4 MaxComp constant=MaxComp_constant
+4 MaxDouble constant=MaxDouble_constant
+4 MaxExtended constant=MaxExtended_constant
+4 MaxInt constant=MaxInt_constant
+4 MaxLongint constant=MaxLongint_constant
+4 MaxSingle constant=MaxSingle_constant
+4 MinComp constant=MinComp_constant
+4 MinDouble constant=MinDouble_constant
+4 MinExtended constant=MinExtended_constant
+4 MinSingle constant=MinSingle_constant
+
+3 MBCS utilities
+4 AnsiCompareFileName=AnsiCompareFileName_function
+4 AnsiLastChar=AnsiLastChar_function
+4 AnsiLowerCaseFileName=AnsiLowerCaseFileName_function
+4 AnsiStrLastChar=AnsiStrLastChar_function
+4 AnsiUpperCaseFileName=AnsiUpperCaseFileName_function
+4 ByteToCharIndex=ByteToCharIndex_function
+4 ByteToCharLen=ByteToCharLen_function
+4 ByteType=ByteType_function
+4 CharLength=CharLength_function
+4 CharToByteIndex=CharToByteIndex_function
+4 CharToByteLen=CharToByteLen_function
+4 LeadBytes variable=LeadBytes_variable
+4 NextCharIndex=NextCharIndex_function
+4 SameFileName=SameFileName_function
+4 StrByteType=StrByteType_function
+4 StrCharLength=StrCharLength_function
+4 StrNextChar=StrNextChar_function
+
+3 measurement conversion routines
+4 area unit variables=AreaUnitVariables
+4 CelsiusToFahrenheit=CelsiusToFahrenheit_function
+4 CompatibleConversionType=CompatibleConversionType_function
+4 CompatibleConversionTypes=CompatibleConversionTypes_function
+4 Conversion family variables=ConversionFamilyVariables
+4 Convert=Convert_function
+4 ConvertFrom=ConvertFrom_function
+4 ConvertTo=ConvertTo_function
+4 ConvFamilyToDescription=ConvFamilyToDescription_function
+4 ConvTypeToDescription=ConvTypeToDescription_function
+4 ConvTypeToFamily=ConvTypeToFamily_function
+4 ConvUnitAdd=ConvUnitAdd_function
+4 ConvUnitCompareValue=ConvUnitCompareValue_function
+4 ConvUnitDec=ConvUnitDec_function
+4 ConvUnitDiff=ConvUnitDiff_function
+4 ConvUnitInc=ConvUnitInc_function
+4 ConvUnitSameValue=ConvUnitSameValue_function
+4 ConvUnitToStr=ConvUnitToStr_function
+4 ConvUnitWithinNext=ConvUnitWithinNext_function
+4 ConvUnitWithinPrevious=ConvUnitWithinPrevious_function
+4 CycleToDeg=CycleToDeg_function
+4 CycleToGrad=CycleToGrad_function
+4 CycleToRad=CycleToRad_function
+4 DateTimeToJulianDate=DateTimeToJulianDate_function
+4 DateTimeToModifiedJulianDate=DateTimeToModifiedJulianDate_function
+4 DateTimeToUnix=DateTimeToUnix_function
+4 DegToCycle=DegToCycle_function
+4 DegToGrad=DegToGrad_function
+4 DegToRad=DegToRad_function
+4 DescriptionToConvFamily=DescriptionToConvFamily_function
+4 DescriptionToConvType=DescriptionToConvType_function
+4 distance unit variables=DistanceUnitVariables
+4 FahrenheitToCelsius=FahrenheitToCelsius_function
+4 GetConvFamilies=GetConvFamilies_procedure
+4 GetConvTypes=GetConvTypes_procedure
+4 GradToCycle=GradToCycle_function
+4 GradToDeg=GradToDeg_function
+4 GradToRad=GradToRad_function
+4 JulianDateToDateTime=JulianDateToDateTime_function
+4 mass unit variables=MassUnitVariables
+4 ModifiedJulianDateToDateTime=ModifiedJulianDateToDateTime_function
+4 RadToCycle=RadToCycle_function
+4 RadToDeg=RadToDeg_function
+4 RadToGrad=RadToGrad_function
+4 RaiseConversionError=RaiseConversionError_procedure
+4 RegisterConversionFamily=RegisterConversionFamily_function
+4 RegisterConversionType=RegisterConversionType_function
+4 StrToConvUnit=StrToConvUnit_function
+4 temperature unit variables=TemperatureUnitVariables
+4 time unit variables=TimeUnitVariables
+4 TryConvTypeToFamily=TryConvTypeToFamily_function
+4 TryJulianDateToDateTime=TryJulianDateToDateTime_function
+4 TryModifiedJulianDateToDateTime=TryModifiedJulianDateToDateTime_function
+4 TryStrToConvUnit=TryStrToConvUnit_function
+4 UnixToDateTime=UnixToDateTime_function
+4 UnregisterConversionFamily=UnregisterConversionFamily_procedure
+4 UnregisterConversionType=UnregisterConversionType_procedure
+4 volume unit variables=VolumeUnitVariables
+
+3 memory management routines
+4 GetMemoryManager procedure=GetMemoryManager_procedure
+4 IsMemoryManagerSet function=IsMemoryManagerSet_function
+4 SetMemoryManager=SetMemoryManager_procedure
+4 SysFreeMem=SysFreeMem_function
+4 SysGetMem=SysGetMem_function
+4 SysReallocMem=SysReallocMem_function
+
+3 menu support routines
+4 AnsiSameCaption=AnsiSameCaption_function
+4 GetHotkey=GetHotKey_function
+4 NewItem=NewItem_function
+4 NewLine=NewLine_function
+4 NewMenu=NewMenu_function
+4 NewPopupMenu=NewPopupMenu_function
+4 NewSubMenu=NewSubMenu_function
+4 ShortCut=ShortCut_function
+4 ShortCutToKey=ShortCutToKey_procedure
+4 ShortCutToText=ShortCutToText_function
+4 StripHotKey=StripHotKey_function
+4 TextToShortCut=TextToShortCut_function
+4 ValidMenuHotkeys=ValidMenuHotkeys_variable
+4 WideSameCaption=WideSameCaption_function
+
+3 miscellaneous routines
+4 Beep=Beep_function
+4 Beep=Beep_procedure
+4 CountGenerations=CountGenerations_function
+4 GetEnvironmentVariable=GetEnvironmentVariable_function
+4 IfThen=IfThen_function
+4 IsAccel=IsAccel_function
+4 IsValidIdent=IsValidIdent_function
+4 LoadStr=LoadStr_function
+4 Move=Move_procedure
+4 UniqueString=UniqueString_procedure
+4 UpCase=UpCase_function
+
+3 mouse handling utilities
+4 ButtonStateToShiftState=ButtonStateToShiftState_function
+4 GetCaptureControl=GetCaptureControl_function
+4 GetCursorPos=GetCursorPos_procedure
+4 GetMouseGrabControl=GetMouseGrabControl_function
+4 Mouse variable=Mouse_variable
+4 SetCaptureControl=SetCaptureControl_procedure
+4 SetMouseGrabControl=SetMouseGrabControl_procedure
+
+3 Multi-tier supoprt
+4 LoadParamListItems=LoadParamListItems_procedure
+
+3 Multi-tier support
+4 FreeProcParams=FreeProcParams_procedure
+4 PackageParams=PackageParams_function
+4 UnpackParams=UnpackParams_procedure
+
+3 numeric formatting routines
+4 CurrToStr=CurrToStr_function
+4 CurrToStrF=CurrToStrF_function
+4 DoubleToComp=DoubleToComp_function
+4 FormatCurr=FormatCurr_function
+4 IntToHex=IntToHex_function
+4 IntToStr=IntToStr_function
+
+3 package support routines
+4 CurrentGroup variable=CurrentGroup_variable
+4 EnumModules=EnumModules_procedure
+4 EnumResourceModules=EnumResourceModules_procedure
+4 FinalizePackage=FinalizePackage_procedure
+4 GetPackageDescription=GetPackageDescription_function
+4 GetPackageInfo=GetPackageInfo_procedure
+4 InitializePackage=InitializePackage
+4 LibModuleList variable=LibModuleList_variable
+4 LoadPackage=LoadPackage_function
+4 UnloadPackage=UnloadPackage_procedure
+
+3 Pointer and address routines
+4 FreeAndNil=FreeAndNil_procedure
+4 FreeAndNilProperties=FreeAndNilProperties_function
+
+3 printer support
+4 Printer function=Printer_function
+4 SetPrinter function=SetPrinter_function
+
+3 Property category routines
+4 IsPropertyInCategory=IsPropertyInCategory_function
+4 RegisterPropertiesInCategory=RegisterPropertiesInCategory_function
+4 RegisterPropertyInCategory=RegisterPropertyInCategory_function
+
+3 Qt / CLX conversion routines
+4 CopyQStringListToTStrings=CopyQStringListToTStrings_procedure
+4 IODeviceFromStream=IODeviceFromStream_function
+4 QStringListToTStringList=QStringListToTStringList_function
+4 TStringsToQStringList=TStringsToQStringList_function
+
+3 random number routines
+4 RandG=RandG_function
+4 RandomFrom=RandomFrom_function
+4 Randomize=Randomize_procedure
+4 RandomRange=RandomRange_function
+4 RandSeed variable=RandSeed_variable
+
+3 range handling
+4 EnsureRange=EnsureRange_function
+4 InRange=InRange_function
+4 MaxIntValue=MaxIntValue_function
+4 MaxValue=MaxValue_function
+4 MinIntValue=MinIntValue_function
+4 MinValue=MinValue_function
+
+3 Statistical routines
+4 Mean=Mean_function
+4 MeanAndStdDev=MeanAndStdDev_procedure
+4 MomentSkewKurtosis=MomentSkewKurtosis_procedure
+4 Norm=Norm_function
+4 PopnStdDev=PopnStdDev_function
+4 PopnVariance=PopnVariance_function
+4 StdDev=StdDev_function
+4 Sum=Sum_function
+4 SumInt=SumInt_function
+4 SumOfSquares=SumOfSquares_function
+4 SumsAndSquares=SumsAndSquares_procedure
+4 TotalVariance=TotalVariance_function
+4 Variance=Variance_function
+
+3 streaming utilities
+4 ActivateClassGroup=ActivateClassGroup_procedure
+4 FindClass=FindClass_function
+4 FindClassHInstance=FindClassHInstance_function
+4 FindGlobalComponent=FindGlobalComponent_function
+4 FindHInstance=FindHInstance_function
+4 FindResourceHInstance=FindResourceHInstance_function
+4 GetClass=GetClass_function
+4 GroupDescendentsWith=GroupDescendentsWith_procedure
+4 IdentToInt=IdentToInt_function
+4 InitInheritedComponent=InitInheritedComponent_function
+4 IntToIdent=IntToIdent_function
+4 IsUniqueGlobalComponentName=IsUniqueGlobalComponentName_function
+4 ObjectBinaryToText=ObjectBinaryToText_procedure
+4 ObjectResourceToText=ObjectResourceToText_procedure
+4 ObjectTextToBinary=ObjectTextToBinary_procedure
+4 ObjectTextToResource=ObjectTextToResource_procedure
+4 ReadComponentRes=ReadComponentRes_function
+4 ReadComponentResEx=ReadComponentResEx_function
+4 ReadComponentResFile=ReadComponentResFile_function
+4 RegisterClass=RegisterClass_procedure
+4 RegisterClassAlias=RegisterClassAlias_procedure
+4 RegisterClasses=RegisterClasses_procedure
+4 StartClassGroup=StartClassGroup_procedure
+4 TestStreamFormat=TestStreamFormat_function
+4 UnregisterClass=UnregisterClass_procedure
+4 UnregisterClasses=UnregisterClasses_procedure
+4 UnregisterModuleClasses=UnregisterModuleClasses_procedure
+4 WriteComponentResFile=WriteComponentResFile_procedure
+
+3 string formatting routines
+4 DefaultTextLineBreakStyle variable=DefaultTextLineBreakStyle_variable
+4 FmtLoadStr=FmtLoadStr_function
+4 FmtStr=FmtStr_procedure
+4 Format=Format_function
+4 FormatBuf=FormatBuf_function
+4 FormatMaskText=FormatMaskText_function
+4 GetFormatSettings=GetFormatSettings_procedure
+4 StrFmt=StrFmt_function
+4 StrLFmt=StrLFmt_function
+4 WideFormat=WideFormat_function
+4 WideFormatBuf=WideFormatBuf_function
+
+3 string handling routines (null-terminated)
+4 AnsiStrComp=AnsiStrComp_function
+4 AnsiStrIComp=AnsiStrIComp_function
+4 AnsiStrLComp=AnsiStrLComp_function
+4 AnsiStrLIComp=AnsiStrLIComp_function
+4 AnsiStrLower=AnsiStrLower_function
+4 AnsiStrPos=AnsiStrPos_function
+4 AnsiStrRScan=AnsiStrRScan_function
+4 AnsiStrScan=AnsiStrScan_function
+4 AnsiStrUpper=AnsiStrUpper_function
+4 ExtractStrings=ExtractStrings_function
+4 LineStart=LineStart_function
+4 SearchBuf=SearchBuf_Function
+4 StrAlloc=StrAlloc_function
+4 StrBufSize=StrBufSize_function
+4 StrCat=StrCat_function
+4 StrComp=StrComp_function
+4 StrCopy=StrCopy_function
+4 StrDispose=StrDispose_procedure
+4 StrECopy=StrECopy_function
+4 StrEnd=StrEnd_function
+4 StrIComp=StrIComp_function
+4 StrLCat=StrLCat_function
+4 StrLComp=StrLComp_function
+4 StrLCopy=StrLCopy_function
+4 StrLen=StrLen_function
+4 StrLIComp=StrLIComp_function
+4 StrLower=StrLower_function
+4 StrMove=StrMove_function
+4 StrNew=StrNew_function
+4 StrPCopy=StrPCopy_function
+4 StrPLCopy=StrPLCopy_function
+4 StrPos=StrPos_function
+4 StrRScan=StrRScan_function
+4 StrScan=StrScan_function
+4 StrUpper=StrUpper_function
+
+3 string handling routines
+4 AdjustLineBreaks=AdjustLineBreaks_function
+4 AnsiCompareStr=AnsiCompareStr_function
+4 AnsiCompareText=AnsiCompareText_function
+4 AnsiContainsStr=AnsiContainsStr_function
+4 AnsiContainsText=AnsiContainsText_function
+4 AnsiDequotedStr=AnsiDequotedStr_function
+4 AnsiEndsStr=AnsiEndsStr_function
+4 AnsiEndsText=AnsiEndsText_function
+4 AnsiExtractQuotedStr=AnsiExtractQuotedStr_function
+4 AnsiIndexStr=AnsiIndexStr_function
+4 AnsiIndexText=AnsiIndexText_function
+4 AnsiLowerCase=AnsiLowerCase_function
+4 AnsiMatchStr=AnsiMatchStr_function
+4 AnsiMatchText=AnsiMatchText_function
+4 AnsiPos=AnsiPos_function
+4 AnsiQuotedStr=AnsiQuotedStr_function
+4 AnsiReplaceStr=AnsiReplaceStr_function
+4 AnsiReplaceText=AnsiReplaceText_function
+4 AnsiResemblesProc variable=AnsiResemblesProc_variable
+4 AnsiResemblesText=AnsiResemblesText_function
+4 AnsiSameStr=AnsiSameStr_function
+4 AnsiSameText=AnsiSameText_function
+4 AnsiStartsStr=AnsiStartsStr_function
+4 AnsiStartsText=AnsiStartsText_function
+4 AnsiUpperCase=AnsiUpperCase_function
+4 AppendStr=AppendStr_procedure
+4 CompareStr=CompareStr_function
+4 CompareText=CompareText_function
+4 DecodeSoundExInt=DecodeSoundExInt_function
+4 DecodeSoundExWord=DecodeSoundExWord_function
+4 DupeString=DupeString_function
+4 IsDelimiter=IsDelimiter_function
+4 LastDelimiter=LastDelimiter_function
+4 LeftStr=LeftStr_function
+4 LowerCase=LowerCase_function
+4 MidStr=MidStr_function
+4 NullStr constant=NullStr_constant
+4 QuotedStr=QuotedStr_function
+4 ReverseString=ReverseString_function
+4 RightStr=RightStr_function
+4 SameText=SameText_function
+4 SoundEx=SoundEx_function
+4 SoundExCompare=SoundExCompare_function
+4 SoundExInt=SoundExInt_function
+4 SoundExProc=SoundExProc_function
+4 SoundExSimilar=SoundExSimilar_function
+4 SoundExWord=SoundExWord_function
+4 StringReplace=StringReplace_function
+4 StuffString=StuffString_function
+4 Trim=Trim_function
+4 TrimLeft=TrimLeft_function
+4 TrimRight=TrimRight_function
+4 UpperCase=UpperCase_function
+4 WideLowerCase=WideLowerCase_function
+4 WideSameStr=WideSameStr_function
+4 WideSameText=WideSameText_function
+4 WideUpperCase=WideUpperCase_function
+4 WrapText=WrapText_function
+
+3 text file routines
+4 AssignPrn procedure=AssignPrn_procedure
+
+3 thread management routines
+4 BeginThread=BeginThread_function
+4 CheckSynchronize=CheckSynchronize_function
+4 EndThread=EndThread_function
+4 InterlockedDecrement=InterlockedDecrement_function
+4 InterlockedExchange=InterlockedExchange_function
+4 InterlockedExchangeAdd=InterlockedExchangeAdd_function
+4 InterlockedIncrement=InterlockedIncrement_function
+4 WakeMainThread variable=WakeMainThread_variable
+
+3 Trigonometry routines
+4 ArcCos=ArcCos_function
+4 ArcCosh=ArcCosh_function
+4 ArcCot=ArcCot_function
+4 ArcCotH=ArcCotH_function
+4 ArcCsc=ArcCsc_function
+4 ArcCscH=ArcCscH_function
+4 ArcSec=ArcSec_function
+4 ArcSecH=ArcSecH_function
+4 ArcSin=ArcSin_function
+4 ArcSinh=ArcSinh_function
+4 ArcTan2=ArcTan2_function
+4 ArcTanh=ArcTanh_function
+4 Cosecant=Cosecant_function
+4 Cosh=Cosh_function
+4 Cot=Cot_function
+4 Cotan=Cotan_function
+4 CotH=CotH_function
+4 Csc=Csc_function
+4 CscH=CscH_function
+4 Hypot=Hypot_function
+4 Sec=Sec_function
+4 Secant=Secant_function
+4 SecH=SecH_function
+4 SinCos=SinCos_procedure
+4 Sinh=Sinh_function
+4 Tan=Tan_function
+4 Tanh=Tanh_function
+
+3 type conversion routines
+4 BinToHex=BinToHex_procedure
+4 BoolToStr=BoolToStr_function
+4 Bounds=Bounds_function
+4 CompToCurrency=CompToCurrency_function
+4 CompToDouble=CompToDouble_function
+4 CurrencyToComp=CurrencyToComp_procedure
+4 FalseBoolStrs=FalseBoolStrs_variable
+4 HexToBin=HexToBin_function
+4 OffsetRect=OffsetRect_function
+4 Point=Point_function
+4 Rect=Rect_function2
+4 Rect=Rect_function
+4 SmallPoint=SmallPoint_function
+4 StrToBool=StrToBool_function
+4 StrToBoolDef=StrToBoolDef_function
+4 StrToInt64=StrToInt64_function
+4 StrToInt64Def=StrToInt64Def_function
+4 StrToInt=StrToInt_function
+4 StrToIntDef=StrToIntDef_function
+4 TrueBoolStrs=TrueBoolStrs_variable
+4 TryStrToBool=TryStrToBool_function
+4 TryStrToInt64=TryStrToInt64_function
+4 TryStrToInt=TryStrToInt_function
+
+3 Unicode routines
+4 WideCompareStr=WideCompareStr_function
+4 WideCompareText=WideCompareText_function
+4 WideFmtStr=WideFmtStr_procedure
+
+3 Variant support routines
+4 DynArrayFromVariant=DynArrayFromVariant_procedure
+4 DynArrayToVariant=DynArrayToVariant_procedure
+4 EmptyParam variable=EmptyParam_variable
+4 FindCustomVariantType=FindCustomVariantType_function
+4 Null=Null_function
+4 Unassigned constant=Unassigned_constant
+4 VarArrayCreate=VarArrayCreate_function
+4 VarArrayCreateError=VarArrayCreateError_procedure
+4 VarArrayDimCount=VarArrayDimCount_function
+4 VarArrayFromStrings=VarArrayFromStrings_function
+4 VarArrayGet=VarArrayGet_function
+4 VarArrayHighBound=VarArrayHighBound_function
+4 VarArrayLock=VarArrayLock_function
+4 VarArrayLowBound=VarArrayLowBound_function
+4 VarArrayOf=VarArrayOf_function
+4 VarArrayPut=VarArrayPut_procedure
+4 VarArrayRedim=VarArrayRedim_procedure
+4 VarArrayRef=VarArrayRef_function
+4 VarArrayUnlock=VarArrayUnlock_procedure
+4 VarAsComplex=VarAsComplex_function
+4 VarAsConvert=VarAsConvert_function
+4 VarAsType=VarAsType_function
+4 VarCastError=VarCastError_procedure
+4 VarCheckEmpty=VarCheckEmpty_procedure
+4 VarClear=VarClear_procedure
+4 VarCompareValue=VarCompareValue_function
+4 VarComplex=VarComplex_function
+4 VarComplexSimplify=VarComplexSimplify_function
+4 VarConvert=VarConvert_function
+4 VarConvertCreate=VarConvertCreate_function
+4 VarConvertError=VarConvertError_procedure
+4 VarCopyNoInd=VarCopyNoInd_procedure
+4 VarEnsureRange=VarEnsureRange_function
+4 VarFMTBcd=VarFMTBcd_function
+4 VarFMTBcdCreate=VarFMTBcdCreate_function
+4 VarFromDateTime=VarFromDateTime_function
+4 VarInRange=VarInRange_function
+4 VarInvalidOp=VarInvalidOp_procedure
+4 VarIsArray=VarIsArray_function
+4 VarIsByRef=VarIsByRef_function
+4 VarIsClear=VarIsClear_function
+4 VarIsComplex=VarIsComplex_function
+4 VarIsConvert=VarIsConvert_function
+4 VarIsCustom=VarIsCustom_function
+4 VarIsEmpty=VarIsEmpty_function
+4 VarIsEmptyParam=VarIsEmptyParam_function
+4 VarIsFloat=VarIsFloat_function
+4 VarIsFMTBcd=VarIsFMTBcd_function
+4 VarIsNull=VarIsNull_function
+4 VarIsNumeric=VarIsNumeric_function
+4 VarIsOrdinal=VarIsOrdinal_function
+4 VarIsSQLTimeStamp=VarIsSQLTimeStamp_function
+4 VarIsStr=VarIsStr_function
+4 VarIsType=VarIsType_function
+4 VarOverflowError=VarOverflowError_procedure
+4 VarSameValue=VarSameValue_function
+4 VarSQLTimeStamp=VarSQLTimeStamp_function
+4 VarSQLTimeStampCreate=VarSQLTimeStampCreate_function
+4 VarToBcd=VarToBcd_function
+4 VarToDateTime=VarToDateTime_function
+4 VarToSQLTimeStamp=VarToSQLTimeStamp_function
+4 VarToStr=VarToStr_function
+4 VarToStrDef=VarToStrDef_function
+4 VarToWideStr=VarToWideStr_function
+4 VarToWideStrDef=VarToWideStrDef_function
+4 VarType=VarType_function
+4 VarTypeIsValidArrayType=VarTypeIsValidArrayType_function
+4 VarTypeIsValidElementType=VarTypeIsValidElementType_function
+
+3 Web Services
+4 AppNameSpacePrefix variable=AppNameSpacePrefix_variable
+4 AS_ATTRIBUTE constant=AS_ATTRIBUTE_constant
+4 DateTimeToXSDateTime=DateTimeToXSDateTime_function
+4 GetClsMemberTypeInfo=GetClsMemberTypeInfo_function
+4 GetRemotableDataContext=GetRemotableDataContext_function
+4 GetSOAPWebModule=GetSOAPWebModule_function
+4 InvRegistry=InvRegistry_function
+4 RegDefIAppServerInvClass=RegDefIAppServerInvClass_procedure
+4 RemClassRegistry=RemClassRegistry_function
+4 RemTypeRegistry=RemTypeRegistry_function
+4 SetRemotableDataContext=SetRemotableDataContext_procedure
+
+3 XML support
+4 CreateDOMNode=CreateDOMNode_function
+4 DefaultDOMVendor variable=DefaultDOMVendor_variable
+4 DOMVendors variable=DOMVendors_variable
+4 DOMWrapperVersion constant=DOMWrapperVersion_constant
+4 ExtractLocalName=ExtractLocalName_function
+4 ExtractPrefix=ExtractPrefix_function
+4 FormatXMLData=FormatXMLData_function
+4 GetDOM function=GetDOM_function
+4 GetDOMVendor=GetDOMVendor_function
+4 IsPrefixed=IsPrefixed_function
+4 LoadXMLData=LoadXMLData_function
+4 LoadXMLDocument=LoadXMLDocument_function
+4 MakeNodeName=MakeNodeName_function
+4 NewXMLDocument=NewXMLDocument_function
+4 NodeMatches=NodeMatches_function
+4 RegisterDOMVendor procedure=RegisterDOMVendor_procedure
+4 SameNamespace=SameNamespace_function
+4 UnRegisterDOMVendor procedure=UnRegisterDOMVendor_procedure
+4 XMLDocError=XMLDocError_procedure
+
+2 Routines Listing, by Unit
+
+3 Classes
+4 ActivateClassGroup=ActivateClassGroup_procedure
+4 BinToHex=BinToHex_procedure
+4 CheckSynchronize=CheckSynchronize_function
+4 CollectionsEqual=CollectionsEqual_function
+4 CountGenerations=CountGenerations_function
+4 CurrentGroup variable=CurrentGroup_variable
+4 EqualRect=EqualRect_function
+4 ExtractStrings=ExtractStrings_function
+4 FindClass=FindClass_function
+4 FindGlobalComponent=FindGlobalComponent_function
+4 GetClass=GetClass_function
+4 GroupDescendentsWith=GroupDescendentsWith_procedure
+4 HexToBin=HexToBin_function
+4 IdentToInt=IdentToInt_function
+4 InitInheritedComponent=InitInheritedComponent_function
+4 IntToIdent=IntToIdent_function
+4 InvalidPoint=InvalidPoint_function
+4 IsUniqueGlobalComponentName=IsUniqueGlobalComponentName_function
+4 LineStart=LineStart_function
+4 ObjectBinaryToText=ObjectBinaryToText_procedure
+4 ObjectResourceToText=ObjectResourceToText_procedure
+4 ObjectTextToBinary=ObjectTextToBinary_procedure
+4 ObjectTextToResource=ObjectTextToResource_procedure
+4 PointsEqual=PointsEqual_function
+4 ReadComponentRes=ReadComponentRes_function
+4 ReadComponentResEx=ReadComponentResEx_function
+4 ReadComponentResFile=ReadComponentResFile_function
+4 Rect=Rect_function2
+4 RegisterClass=RegisterClass_procedure
+4 RegisterClassAlias=RegisterClassAlias_procedure
+4 RegisterClasses=RegisterClasses_procedure
+4 RegisterComponents=RegisterComponents_procedure
+4 RegisterNoIcon=RegisterNoIcon_procedure
+4 SmallPoint=SmallPoint_function
+4 StartClassGroup=StartClassGroup_procedure
+4 TestStreamFormat=TestStreamFormat_function
+4 UnregisterClass=UnregisterClass_procedure
+4 UnregisterClasses=UnregisterClasses_procedure
+4 UnregisterModuleClasses=UnregisterModuleClasses_procedure
+4 WakeMainThread variable=WakeMainThread_variable
+4 WriteComponentResFile=WriteComponentResFile_procedure
+
+3 ConvUtils
+4 CompatibleConversionType=CompatibleConversionType_function
+4 CompatibleConversionTypes=CompatibleConversionTypes_function
+4 Convert=Convert_function
+4 ConvertFrom=ConvertFrom_function
+4 ConvertTo=ConvertTo_function
+4 ConvFamilyToDescription=ConvFamilyToDescription_function
+4 ConvTypeToDescription=ConvTypeToDescription_function
+4 ConvTypeToFamily=ConvTypeToFamily_function
+4 ConvUnitAdd=ConvUnitAdd_function
+4 ConvUnitCompareValue=ConvUnitCompareValue_function
+4 ConvUnitDec=ConvUnitDec_function
+4 ConvUnitDiff=ConvUnitDiff_function
+4 ConvUnitInc=ConvUnitInc_function
+4 ConvUnitSameValue=ConvUnitSameValue_function
+4 ConvUnitToStr=ConvUnitToStr_function
+4 ConvUnitWithinNext=ConvUnitWithinNext_function
+4 ConvUnitWithinPrevious=ConvUnitWithinPrevious_function
+4 DescriptionToConvFamily=DescriptionToConvFamily_function
+4 DescriptionToConvType=DescriptionToConvType_function
+4 GetConvFamilies=GetConvFamilies_procedure
+4 GetConvTypes=GetConvTypes_procedure
+4 RaiseConversionError=RaiseConversionError_procedure
+4 RegisterConversionFamily=RegisterConversionFamily_function
+4 RegisterConversionType=RegisterConversionType_function
+4 StrToConvUnit=StrToConvUnit_function
+4 TryConvTypeToFamily=TryConvTypeToFamily_function
+4 TryStrToConvUnit=TryStrToConvUnit_function
+4 UnregisterConversionFamily=UnregisterConversionFamily_procedure
+4 UnregisterConversionType=UnregisterConversionType_procedure
+
+3 DateUtils
+4 CompareDate=CompareDate_function
+4 CompareDateTime=CompareDateTime_function
+4 CompareTime=CompareTime_function
+4 DateOf=DateOf_function
+4 DateTimeToJulianDate=DateTimeToJulianDate_function
+4 DateTimeToModifiedJulianDate=DateTimeToModifiedJulianDate_function
+4 DateTimeToUnix=DateTimeToUnix_function
+4 Day of week constants=DayOfWeekConstants
+4 DayOf=DayOf_function
+4 DayOfTheMonth=DayOfTheMonth_function
+4 DayOfTheWeek=DayOfTheWeek_function
+4 DayOfTheYear=DayOfTheYear_function
+4 DaysBetween=DaysBetween_function
+4 DaysInAMonth=DaysInAMonth_function
+4 DaysInAYear=DaysInAYear_function
+4 DaysInMonth=DaysInMonth_function
+4 DaysInYear=DaysInYear_function
+4 DaySpan=DaySpan_function
+4 DecodeDateDay=DecodeDateDay_procedure
+4 DecodeDateMonthWeek=DecodeDateMonthWeek_procedure
+4 DecodeDateTime=DecodeDateTime_procedure
+4 DecodeDateWeek=DecodeDateWeek_procedure
+4 DecodeDayOfWeekInMonth=DecodeDayOfWeekInMonth_procedure
+4 EncodeDateDay=EncodeDateDay_function
+4 EncodeDateMonthWeek=EncodeDateMonthWeek_function
+4 EncodeDateTime=EncodeDateTime_function
+4 EncodeDateWeek=EncodeDateWeek_function
+4 EncodeDayOfWeekInMonth=EncodeDayOfWeekInMonth_function
+4 EndOfADay=EndOfADay_function
+4 EndOfAMonth=EndOfAMonth_function
+4 EndOfAWeek=EndOfAWeek_function
+4 EndOfAYear=EndOfAYear_function
+4 EndOfTheDay=EndOfTheDay_function
+4 EndOfTheMonth=EndOfTheMonth_function
+4 EndOfTheWeek=EndOfTheWeek_function
+4 EndOfTheYear=EndOfTheYear_function
+4 HourOf=HourOf_function
+4 HourOfTheDay=HourOfTheDay_function
+4 HourOfTheMonth=HourOfTheMonth_function
+4 HourOfTheWeek=HourOfTheWeek_function
+4 HourOfTheYear=HourOfTheYear_function
+4 HoursBetween=HoursBetween_function
+4 HourSpan=HourSpan_function
+4 IncDay=IncDay_function
+4 IncHour=IncHour_function
+4 IncMilliSecond=IncMilliSecond_function
+4 IncMinute=IncMinute_function
+4 IncSecond=IncSecond_function
+4 IncWeek=IncWeek_function
+4 IncYear=IncYear_function
+4 IsInLeapYear=IsInLeapYear_function
+4 IsPM=IsPM_function
+4 IsSameDay=IsSameDay_function
+4 IsToday=IsToday_function
+4 IsValidDate=IsValidDate_function
+4 IsValidDateDay=IsValidDateDay_function
+4 IsValidDateMonthWeek=IsValidDateMonthWeek_function
+4 IsValidDateTime=IsValidDateTime_function
+4 IsValidDateWeek=IsValidDateWeek_function
+4 IsValidTime=IsValidTime_function
+4 JulianDateToDateTime=JulianDateToDateTime_function
+4 MilliSecondOf=MilliSecondOf_function
+4 MilliSecondOfTheDay=MilliSecondOfTheDay_function
+4 MilliSecondOfTheHour=MilliSecondOfTheHour_function
+4 MilliSecondOfTheMinute=MilliSecondOfTheMinute_function
+4 MilliSecondOfTheMonth=MilliSecondOfTheMonth_function
+4 MilliSecondOfTheSecond=MilliSecondOfTheSecond_function
+4 MilliSecondOfTheWeek=MilliSecondOfTheWeek_function
+4 MilliSecondOfTheYear=MilliSecondOfTheYear_function
+4 MilliSecondsBetween=MilliSecondsBetween_function
+4 MilliSecondSpan=MilliSecondSpan_function
+4 MinuteOf=MinuteOf_function
+4 MinuteOfTheDay=MinuteOfTheDay_function
+4 MinuteOfTheHour=MinuteOfTheHour_function
+4 MinuteOfTheMonth=MinuteOfTheMonth_function
+4 MinuteOfTheWeek=MinuteOfTheWeek_function
+4 MinuteOfTheYear=MinuteOfTheYear_function
+4 MinutesBetween=MinutesBetween_function
+4 MinuteSpan=MinuteSpan_function
+4 ModifiedJulianDateToDateTime=ModifiedJulianDateToDateTime_function
+4 MonthOf=MonthOf_function
+4 MonthOfTheYear=MonthOfTheYear_function
+4 MonthsBetween=MonthsBetween_function
+4 MonthSpan=MonthSpan_function
+4 NthDayOfWeek=NthDayOfWeek_function
+4 RecodeDate=RecodeDate_function
+4 RecodeDateTime=RecodeLeaveFieldAsIs_constant
+4 RecodeDay=RecodeDay_function
+4 RecodeHour=RecodeHour_function
+4 RecodeMilliSecond=RecodeMilliSecond_function
+4 RecodeMinute=RecodeMinute_function
+4 RecodeMonth=RecodeMonth_function
+4 RecodeSecond=RecodeSecond_function
+4 RecodeTime=RecodeTime_function
+4 RecodeYear=RecodeYear_function
+4 SameDate=SameDate_function
+4 SameDateTime=SameDateTime_function
+4 SameTime=SameTime_function
+4 SecondOf=SecondOf_function
+4 SecondOfTheDay=SecondOfTheDay_function
+4 SecondOfTheHour=SecondOfTheHour_function
+4 SecondOfTheMinute=SecondOfTheMinute_function
+4 SecondOfTheMonth=SecondOfTheMonth_function
+4 SecondOfTheWeek=SecondOfTheWeek_function
+4 SecondOfTheYear=SecondOfTheYear_function
+4 SecondsBetween=SecondsBetween_function
+4 SecondSpan=SecondSpan_function
+4 StartOfADay=StartOfADay_function
+4 StartOfAMonth=StartOfAMonth_function
+4 StartOfAWeek=StartOfAWeek_function
+4 StartOfAYear=StartOfAYear_function
+4 StartOfTheDay=StartOfTheDay_function
+4 StartOfTheMonth=StartOfTheMonth_function
+4 StartOfTheWeek=StartOfTheWeek_function
+4 StartOfTheYear=StartOfTheYear_function
+4 TimeOf=TimeOf_function
+4 Today=Today_function
+4 Tomorrow=Tomorrow_function
+4 TryEncodeDateDay=TryEncodeDateDay_function
+4 TryEncodeDateMonthWeek=TryEncodeDateMonthWeek_function
+4 TryEncodeDateTime=TryEncodeDateTime_function
+4 TryEncodeDateWeek=TryEncodeDateWeek_function
+4 TryEncodeDayOfWeekInMonth=TryEncodeDayOfWeekInMonth_function
+4 TryJulianDateToDateTime=TryJulianDateToDateTime_function
+4 TryModifiedJulianDateToDateTime=TryModifiedJulianDateToDateTime_function
+4 TryRecodeDateTime=TryRecodeDateTime_function
+4 UnixToDateTime=UnixToDateTime_function
+4 WeekOf=WeekOf_function
+4 WeekOfTheMonth=WeekOfTheMonth_function
+4 WeekOfTheYear=WeekOfTheYear_function
+4 WeeksBetween=WeeksBetween_function
+4 WeeksInAYear=WeeksInAYear_function
+4 WeeksInYear=WeeksInYear_function
+4 WeekSpan=WeekSpan_function
+4 WithinPastDays=WithinPastDays_function
+4 WithinPastHours=WithinPastHours_function
+4 WithinPastMilliSeconds=WithinPastMilliSeconds_function
+4 WithinPastMinutes=WithinPastMinutes_function
+4 WithinPastMonths=WithinPastMonths_function
+4 WithinPastSeconds=WithinPastSeconds_function
+4 WithinPastWeeks=WithinPastWeeks_function
+4 WithinPastYears=WithinPastYears_function
+4 YearOf=YearOf_function
+4 YearsBetween=YearsBetween_function
+4 YearSpan=YearSpan_function
+4 Yesterday=Yesterday_function
+
+3 DBClient
+4 PackageParams=PackageParams_function
+4 UnpackParams=UnpackParams_procedure
+
+3 DBLogDlg
+4 LoginDialog=LoginDialog_function
+4 LoginDialogEx=LoginDialogEx_function
+4 RemoteLoginDialog=RemoteLoginDialog_function
+
+3 DBWeb
+4 HtmlTable=HtmlTable_function
+
+3 DB
+4 DatabaseError=DatabaseError_procedure
+4 DatabaseErrorFmt=DatabaseErrorFmt_procedure
+4 ExtractFieldName=ExtractFieldName_function
+4 GetFieldProperty=GetFieldProperty_function
+4 RegisterFields procedure=RegisterFields_procedure
+4 VarTypeToDataType function=VarTypeToDataType_functions
+
+3 DesignEditors
+4 GReferenceExpandable=GReferenceExpandable_variable
+4 GShowReadOnlyProps=GShowReadOnlyProps_variable
+
+3 DesignIntf
+4 RegisterComponentEditor=RegisterComponentEditor_procedure
+4 RegisterPropertiesInCategory=RegisterPropertiesInCategory_function
+4 RegisterPropertyEditor=RegisterPropertyEditor_procedure
+4 RegisterPropertyInCategory=RegisterPropertyInCategory_function
+
+3 FMTBcd
+4 BcdAdd=BcdAdd_procedure
+4 BcdCompare=BcdCompare_function
+4 BcdDivide=BcdDivide_procedure
+4 BcdMultiply=BcdMultiply_procedure
+4 BcdPrecision=BcdPrecision_function
+4 BcdScale=BcdScale_function
+4 BcdSubtract=BcdSubtract_procedure
+4 BCDToCurr=BCDToCurr_function
+4 BcdToDouble=BcdToDouble_function
+4 BcdToInteger=BcdToInteger_function
+4 BcdToStr=BcdToStr_function
+4 BcdToStrF=BcdToStrF_function
+4 CurrToBCD=CurrToBCD_function
+4 DoubleToBcd=DoubleToBcd_function
+4 FormatBcd=FormatBcd_function
+4 IntegerToBcd=IntegerToBcd_function
+4 IsBcdNegative=IsBcdNegative_function
+4 NormalizeBcd=NormalizeBcd_function
+4 NullBcd constant=NullBcd_constant
+4 StrToBcd=StrToBcd_function
+4 TryStrToBcd=TryStrToBcd_function
+4 VarFMTBcd=VarFMTBcd_function
+4 VarFMTBcdCreate=VarFMTBcdCreate_function
+4 VarIsFMTBcd=VarIsFMTBcd_function
+4 VarToBcd=VarToBcd_function
+
+3 HelpIntfs
+4 GetHelpSystem=GetHelpSystem_function
+4 RegisterViewer=RegisterViewer_function
+
+3 HTTPApp
+4 DayOfWeekStr=DayOfWeekStr_function
+4 DosPathToUnixPath=DosPathToUnixPath_function
+4 ExtractHeaderFields=ExtractHeaderFields_procedure
+4 ExtractHTTPFields=ExtractHTTPFields_procedure
+4 HTTPDecode=HTTPDecode_function
+4 HTTPEncode=HTTPEncode_function
+4 MonthStr=MonthStr_function
+4 ParseDate=ParseDate_function
+4 StatusString=StatusString_function
+4 UnixPathToDosPath=UnixPathToDosPath_function
+
+3 InvokeRegistry
+4 AppNameSpacePrefix variable=AppNameSpacePrefix_variable
+4 AS_ATTRIBUTE constant=AS_ATTRIBUTE_constant
+4 GetClsMemberTypeInfo=GetClsMemberTypeInfo_function
+4 GetRemotableDataContext=GetRemotableDataContext_function
+4 InvRegistry=InvRegistry_function
+4 RemClassRegistry=RemClassRegistry_function
+4 RemTypeRegistry=RemTypeRegistry_function
+4 SetRemotableDataContext=SetRemotableDataContext_procedure
+
+3 Masks
+4 MatchesMask=MatchesMask_function
+
+3 MaskUtils
+4 FormatMaskText=FormatMaskText_function
+
+3 Math
+4 ArcCos=ArcCos_function
+4 ArcCosh=ArcCosh_function
+4 ArcCot=ArcCot_function
+4 ArcCotH=ArcCotH_function
+4 ArcCsc=ArcCsc_function
+4 ArcCscH=ArcCscH_function
+4 ArcSec=ArcSec_function
+4 ArcSecH=ArcSecH_function
+4 ArcSin=ArcSin_function
+4 ArcSinh=ArcSinh_function
+4 ArcTan2=ArcTan2_function
+4 ArcTanh=ArcTanh_function
+4 Ceil=Ceil_function
+4 CompareValue=CompareValue_function
+4 Cosecant=Cosecant_function
+4 Cosh=Cosh_function
+4 Cot=Cot_function
+4 Cotan=Cotan_function
+4 CotH=CotH_function
+4 Csc=Csc_function
+4 CscH=CscH_function
+4 CycleToDeg=CycleToDeg_function
+4 CycleToGrad=CycleToGrad_function
+4 CycleToRad=CycleToRad_function
+4 DegToCycle=DegToCycle_function
+4 DegToGrad=DegToGrad_function
+4 DegToRad=DegToRad_function
+4 DivMod=DivMod_procedure
+4 DoubleDecliningBalance=DoubleDecliningBalance_function
+4 EnsureRange=EnsureRange_function
+4 Floor=Floor_function
+4 Frexp=Frexp_procedure
+4 FutureValue=FutureValue_function
+4 GetExceptionMask=GetExceptionMask_function
+4 GetPrecisionMode=GetPrecisionMode_function
+4 GetRoundMode=GetRoundMode_function
+4 GradToCycle=GradToCycle_function
+4 GradToDeg=GradToDeg_function
+4 GradToRad=GradToRad_function
+4 Hypot=Hypot_function
+4 Infinity constant=Infinity_constant
+4 InRange=InRange_function
+4 InterestPayment=InterestPayment_function
+4 InterestRate=InterestRate_function
+4 InternalRateOfReturn=InternalRateOfReturn_function
+4 IntPower=IntPower_function
+4 IsInfinite=IsInfinite_function
+4 IsNan=IsNan_function
+4 IsZero=IsZero_function
+4 Ldexp=Ldexp_function
+4 LnXP1=LnXP1_function
+4 Log10=Log10_function
+4 Log2=Log2_function
+4 LogN=LogN_function
+4 MaxComp constant=MaxComp_constant
+4 MaxDouble constant=MaxDouble_constant
+4 MaxExtended constant=MaxExtended_constant
+4 MaxIntValue=MaxIntValue_function
+4 MaxSingle constant=MaxSingle_constant
+4 MaxValue=MaxValue_function
+4 Mean=Mean_function
+4 MeanAndStdDev=MeanAndStdDev_procedure
+4 MinComp constant=MinComp_constant
+4 MinDouble constant=MinDouble_constant
+4 MinExtended constant=MinExtended_constant
+4 MinIntValue=MinIntValue_function
+4 MinSingle constant=MinSingle_constant
+4 MinValue=MinValue_function
+4 MomentSkewKurtosis=MomentSkewKurtosis_procedure
+4 NaN constant=NaN_constant
+4 NegInfinity constant=NegInfinity_constant
+4 NetPresentValue=NetPresentValue_function
+4 Norm=Norm_function
+4 NumberOfPeriods=NumberOfPeriods_function
+4 Payment=Payment_function
+4 PeriodPayment=PeriodPayment_function
+4 Poly=Poly_function
+4 PopnStdDev=PopnStdDev_function
+4 PopnVariance=PopnVariance_function
+4 Power=Power_function
+4 PresentValue=PresentValue_function
+4 RadToCycle=RadToCycle_function
+4 RadToDeg=RadToDeg_function
+4 RadToGrad=RadToGrad_function
+4 RandG=RandG_function
+4 RandomRange=RandomRange_function
+4 RoundTo=RoundTo_function
+4 SameValue=SameValue_function
+4 Sec=Sec_function
+4 Secant=Secant_function
+4 SecH=SecH_function
+4 SetExceptionMask=SetExceptionMask_function
+4 SetPrecisionMode=SetPrecisionMode_function
+4 SetRoundMode=SetRoundMode_function
+4 Sign=Sign_function
+4 SimpleRoundTo=SimpleRoundTo_function
+4 SinCos=SinCos_procedure
+4 Sinh=Sinh_function
+4 SLNDepreciation=SLNDepreciation_function
+4 StdDev=StdDev_function
+4 Sum=Sum_function
+4 SumInt=SumInt_function
+4 SumOfSquares=SumOfSquares_function
+4 SumsAndSquares=SumsAndSquares_procedure
+4 SYDDepreciation=SYDDepreciation_function
+4 Tan=Tan_function
+4 Tanh=Tanh_function
+4 TotalVariance=TotalVariance_function
+4 Variance=Variance_function
+
+3 PropertyCategories
+4 IsPropertyInCategory=IsPropertyInCategory_function
+
+3 Provider
+4 VarArrayFromStrings=VarArrayFromStrings_function
+
+3 QActnList
+4 CreateAction=CreateAction_function
+4 EnumRegisteredActions=EnumRegisteredActions_procedure
+4 RegisterActions=RegisterActions_procedure
+4 UnRegisterActions=UnRegisterActions_procedure
+
+3 QButton
+4 DrawButtonFace=DrawButtonFace_function
+
+3 QClipbrd
+4 Clipboard=Clipboard_function
+4 SetClipboard=SetClipboard_function
+
+3 QControls
+4 AddDragFormat=AddDragFormat_function
+4 AdjustForClient=AdjustForClient_procedure
+4 AdjustForFrame=AdjustForFrame_procedure
+4 Beep=Beep_function
+4 ButtonStateToShiftState=ButtonStateToShiftState_function
+4 CursorToIdent=CursorToIdent_function
+4 CursorToString=CursorToString_function
+4 DragImageList=DragImageList_function
+4 FindControl=FindControl_function
+4 FindDragTarget=FindDragTarget_function
+4 FindObject=FindObject_function
+4 GetCaptureControl=GetCaptureControl_function
+4 GetCursorPos=GetCursorPos_procedure
+4 GetCursorValues=GetCursorValues_procedure
+4 GetLongHint=GetLongHint_function
+4 GetMouseGrabControl=GetMouseGrabControl_function
+4 GetShortHint=GetShortHint_function
+4 IdentToCursor=IdentToCursor_function
+4 InDragDropOperation=InDragDropOperation_function
+4 SaveDragDataToStream=SaveDragDataToStream_function
+4 SetCaptureControl=SetCaptureControl_procedure
+4 SetMouseGrabControl=SetMouseGrabControl_procedure
+4 StringToCursor=StringToCursor_function
+4 SupportedDragFormats=SupportedDragFormats_procedure
+
+3 QDBPWDlg
+4 PasswordDialog=PasswordDialog_function
+
+3 QDialogs
+4 InputBox=InputBox_function
+4 InputQuery=InputQuery_function
+4 MessageDlg=MessageDlg_function
+4 MessageDlgPos=MessageDlgPos_function
+4 SelectDirectory=SelectDirectory_function
+4 ShowMessage=ShowMessage_procedure
+4 ShowMessageFmt=ShowMessageFmt_procedure
+4 ShowMessagePos=ShowMessagePos_procedure
+
+3 QExtCtrls
+4 Frame3D=Frame3D_procedure
+
+3 QForms
+4 Application variable=ApplicationForStandardApplications_variable
+4 GetParentForm=GetParentForm_function
+4 HintWindowClass variable=HintWindowClass_variable
+4 IsAccel=IsAccel_function
+4 Mouse variable=Mouse_variable
+4 Screen variable=Screen_variable
+4 ValidParentForm=ValidParentForm_function
+
+3 QGraphics
+4 ColorToIdent=ColorToIdent_function
+4 ColorToRGB=ColorToRGB_function
+4 ColorToString=ColorToString_function
+4 GetColorValues=GetColorValues_procedure
+4 GraphicExtension=GraphicExtension_function
+4 GraphicFileMask=GraphicFileMask_function
+4 GraphicFilter=GraphicFilter_function
+4 IdentToColor=IdentToColor_function
+4 MulDiv=MulDiv_function
+4 StringToColor=StringToColor_function
+
+3 QMenus
+4 AnsiSameCaption=AnsiSameCaption_function
+4 GetHotkey=GetHotKey_function
+4 NewItem=NewItem_function
+4 NewLine=NewLine_function
+4 NewMenu=NewMenu_function
+4 NewPopupMenu=NewPopupMenu_function
+4 NewSubMenu=NewSubMenu_function
+4 ShortCut=ShortCut_function
+4 ShortCutToKey=ShortCutToKey_procedure
+4 ShortCutToText=ShortCutToText_function
+4 StripHotKey=StripHotKey_function
+4 TextToShortCut=TextToShortCut_function
+4 ValidMenuHotkeys=ValidMenuHotkeys_variable
+4 WideSameCaption=WideSameCaption_function
+
+3 QPrinters
+4 AssignPrn procedure=AssignPrn_procedure
+4 Printer function=Printer_function
+4 SetPrinter function=SetPrinter_function
+
+3 QTypes
+4 CopyQStringListToTStrings=CopyQStringListToTStrings_procedure
+4 IODeviceFromStream=IODeviceFromStream_function
+4 QStringListToTStringList=QStringListToTStringList_function
+4 TStringsToQStringList=TStringsToQStringList_function
+
+3 SOAPMidas
+4 RegDefIAppServerInvClass=RegDefIAppServerInvClass_procedure
+
+3 SqlExpr
+4 FreeProcParams=FreeProcParams_procedure
+4 GetDriverNames=GetDriverNames_procedure
+4 LoadParamListItems=LoadParamListItems_procedure
+
+3 SqlTimSt
+4 CheckSqlTimeStamp=CheckSqlTimeStamp_procedure
+4 DateTimeToSQLTimeStamp=DateTimeToSQLTimeStamp_function
+4 NullSQLTimeStamp constant=NullSQLTimeStamp_constant
+4 SQLDayOfWeek=SQLDayOfWeek_function
+4 SQLTimeStampToDateTime=SQLTimeStampToDateTime_function
+4 SQLTimeStampToStr=SQLTimeStampToStr_function
+4 StrToSQLTimeStamp=StrToSQLTimeStamp_function
+4 TryStrToSQLTimeStamp=TryStrToSQLTimeStamp_function
+4 VarIsSQLTimeStamp=VarIsSQLTimeStamp_function
+4 VarSQLTimeStamp=VarSQLTimeStamp_function
+4 VarSQLTimeStampCreate=VarSQLTimeStampCreate_function
+4 VarToSQLTimeStamp=VarToSQLTimeStamp_function
+
+3 StdConvs
+4 area unit variables=AreaUnitVariables
+4 CelsiusToFahrenheit=CelsiusToFahrenheit_function
+4 Conversion family variables=ConversionFamilyVariables
+4 distance unit variables=DistanceUnitVariables
+4 FahrenheitToCelsius=FahrenheitToCelsius_function
+4 mass unit variables=MassUnitVariables
+4 temperature unit variables=TemperatureUnitVariables
+4 time unit variables=TimeUnitVariables
+4 volume unit variables=VolumeUnitVariables
+
+3 StrUtils
+4 AnsiContainsStr=AnsiContainsStr_function
+4 AnsiContainsText=AnsiContainsText_function
+4 AnsiEndsStr=AnsiEndsStr_function
+4 AnsiEndsText=AnsiEndsText_function
+4 AnsiIndexStr=AnsiIndexStr_function
+4 AnsiIndexText=AnsiIndexText_function
+4 AnsiMatchStr=AnsiMatchStr_function
+4 AnsiMatchText=AnsiMatchText_function
+4 AnsiReplaceStr=AnsiReplaceStr_function
+4 AnsiReplaceText=AnsiReplaceText_function
+4 AnsiResemblesProc variable=AnsiResemblesProc_variable
+4 AnsiResemblesText=AnsiResemblesText_function
+4 AnsiStartsStr=AnsiStartsStr_function
+4 AnsiStartsText=AnsiStartsText_function
+4 DecodeSoundExInt=DecodeSoundExInt_function
+4 DecodeSoundExWord=DecodeSoundExWord_function
+4 DupeString=DupeString_function
+4 IfThen=IfThen_function
+4 LeftStr=LeftStr_function
+4 MidStr=MidStr_function
+4 RandomFrom=RandomFrom_function
+4 ReverseString=ReverseString_function
+4 RightStr=RightStr_function
+4 SearchBuf=SearchBuf_Function
+4 SoundEx=SoundEx_function
+4 SoundExCompare=SoundExCompare_function
+4 SoundExInt=SoundExInt_function
+4 SoundExProc=SoundExProc_function
+4 SoundExSimilar=SoundExSimilar_function
+4 SoundExWord=SoundExWord_function
+4 StuffString=StuffString_function
+
+3 SysInit
+4 HInstance variable=HInstance_variable
+
+3 System
+4 AnsiToUtf8=AnsiToUtf8_function
+4 BeginThread=BeginThread_function
+4 ChDir procedure=ChDir_procedure
+4 CmdLine variable=CmdLine_variable
+4 CmdShow variable=CmdShow_variable
+4 CompToCurrency=CompToCurrency_function
+4 CompToDouble=CompToDouble_function
+4 CurrencyToComp=CurrencyToComp_procedure
+4 Default8087CW variable=Default8087CW_variable
+4 DefaultTextLineBreakStyle variable=DefaultTextLineBreakStyle_variable
+4 DoubleToComp=DoubleToComp_function
+4 EndThread=EndThread_function
+4 EnumModules=EnumModules_procedure
+4 EnumResourceModules=EnumResourceModules_procedure
+4 ErrorAddr variable=ErrorAddr_variable
+4 ExceptAddr=ExceptAddr_function
+4 ExceptObject=ExceptObject_function
+4 ExitProcessProc variable=ExitProcessProc_variable
+4 FileAccessRights variable=FileAccessRights_variable
+4 FindClassHInstance=FindClassHInstance_function
+4 FindHInstance=FindHInstance_function
+4 FindResourceHInstance=FindResourceHInstance_function
+4 Get8087CW=Get8087CW_function
+4 GetLastError=GetLastError_function
+4 GetMemoryManager procedure=GetMemoryManager_procedure
+4 GetModuleFileName=GetModuleFileName_function
+4 InitProc variable=InitProc_variable
+4 IsLibrary variable=IsLibrary_variable
+4 IsMemoryManagerSet function=IsMemoryManagerSet_function
+4 JITEnable variable=JITEnable_variable
+4 LibModuleList variable=LibModuleList_variable
+4 MainInstance variable=MainInstance_variable
+4 MainThreadID variable=MainThreadID_variable
+4 MaxInt constant=MaxInt_constant
+4 MaxLongint constant=MaxLongint_constant
+4 MkDir procedure=MkDir_procedure
+4 Move=Move_procedure
+4 NoErrMsg variable=NoErrMsg_variable
+4 ParamCount=ParamCount_function
+4 ParamStr=ParamStr_function
+4 PUCS4Chars=PUCS4Chars_function
+4 Randomize=Randomize_procedure
+4 RandSeed variable=RandSeed_variable
+4 RmDir procedure=RmDir_procedure
+4 RTLVersion constant=RTLVersion_constant
+4 Set8087CW=Set8087CW_procedure
+4 SetMemoryManager=SetMemoryManager_procedure
+4 StringToWideChar=StringToWideChar_function
+4 SysFreeMem=SysFreeMem_function
+4 SysGetMem=SysGetMem_function
+4 SysReallocMem=SysReallocMem_function
+4 UCS4StringToWideString=UCS4StringToWideString_function
+4 UnicodeToUtf8=UnicodeToUtf8_function
+4 UniqueString=UniqueString_procedure
+4 UpCase=UpCase_function
+4 UTF8Decode=Utf8Decode_function
+4 UTF8Encode=Utf8Encode_function
+4 Utf8ToAnsi=Utf8ToAnsi_function
+4 Utf8ToUnicode=Utf8ToUnicode_function
+4 VarArrayRedim=VarArrayRedim_procedure
+4 VarClear=VarClear_procedure
+4 WideCharLenToString=WideCharLenToString_function
+4 WideCharLenToStrVar=WideCharLenToStrVar_procedure
+4 WideCharToString=WideCharToString_function
+4 WideCharToStrVar=WideCharToStrVar_procedure
+4 WideStringToUCS4String=WideStringToUCS4String_function
+
+3 SysUtils
+4 Abort procedure=Abort_procedure
+4 AdjustLineBreaks=AdjustLineBreaks_function
+4 AnsiCompareFileName=AnsiCompareFileName_function
+4 AnsiCompareStr=AnsiCompareStr_function
+4 AnsiCompareText=AnsiCompareText_function
+4 AnsiDequotedStr=AnsiDequotedStr_function
+4 AnsiExtractQuotedStr=AnsiExtractQuotedStr_function
+4 AnsiLastChar=AnsiLastChar_function
+4 AnsiLowerCase=AnsiLowerCase_function
+4 AnsiLowerCaseFileName=AnsiLowerCaseFileName_function
+4 AnsiPos=AnsiPos_function
+4 AnsiQuotedStr=AnsiQuotedStr_function
+4 AnsiSameStr=AnsiSameStr_function
+4 AnsiSameText=AnsiSameText_function
+4 AnsiStrComp=AnsiStrComp_function
+4 AnsiStrIComp=AnsiStrIComp_function
+4 AnsiStrLastChar=AnsiStrLastChar_function
+4 AnsiStrLComp=AnsiStrLComp_function
+4 AnsiStrLIComp=AnsiStrLIComp_function
+4 AnsiStrLower=AnsiStrLower_function
+4 AnsiStrPos=AnsiStrPos_function
+4 AnsiStrRScan=AnsiStrRScan_function
+4 AnsiStrScan=AnsiStrScan_function
+4 AnsiStrUpper=AnsiStrUpper_function
+4 AnsiUpperCase=AnsiUpperCase_function
+4 AnsiUpperCaseFileName=AnsiUpperCaseFileName_function
+4 AppendStr=AppendStr_procedure
+4 Beep=Beep_procedure
+4 BoolToStr=BoolToStr_function
+4 ByteToCharIndex=ByteToCharIndex_function
+4 ByteToCharLen=ByteToCharLen_function
+4 ByteType=ByteType_function
+4 ChangeFileExt=ChangeFileExt_function
+4 CharLength=CharLength_function
+4 CharToByteIndex=CharToByteIndex_function
+4 CharToByteLen=CharToByteLen_function
+4 CompareMem=CompareMem_function
+4 CompareStr=CompareStr_function
+4 CompareText=CompareText_function
+4 CreateDir=CreateDir_function
+4 CreateGUID=CreateGUID_function
+4 Currency and date/time formatting variables=CurrencyAndDatetimeFormatting_variables
+4 CurrentYear=CurrentYear_function
+4 CurrToStr=CurrToStr_function
+4 CurrToStrF=CurrToStrF_function
+4 Date=Date_function
+4 DateDelta constant=DateDelta_constant
+4 DateTimeToFileDate=DateTimeToFileDate_function
+4 DateTimeToStr=DateTimeToStr_function
+4 DateTimeToString=DateTimeToString_procedure
+4 DateTimeToTimeStamp=DateTimeToTimeStamp_function
+4 DateToStr=DateToStr_function
+4 DayOfWeek=DayOfWeek_function
+4 DecodeDate=DecodeDate_procedure
+4 DecodeDateFully=DecodeDateFully_function
+4 DecodeTime=DecodeTime_procedure
+4 DeleteFile=DeleteFile_function
+4 DirectoryExists=DirectoryExists_function
+4 DisposeStr=DisposeStr_procedure
+4 EncodeDate; TryEncodeDate=EncodeDate_function
+4 EncodeTime;TryEncodeTime=EncodeTime_function
+4 ExceptionErrorMessage=ExceptionErrorMessage_function
+4 ExcludeTrailingBackslash=ExcludeTrailingBackslash_function
+4 ExcludeTrailingPathDelimiter=ExcludeTrailingPathDelimiter_function
+4 ExpandFileName=ExpandFileName_function
+4 ExpandFileNameCase=ExpandFileNameCase_function
+4 ExpandUNCFileName=ExpandUNCFileName_function
+4 ExtractFileDir=ExtractFileDir_function
+4 ExtractFileDrive=ExtractFileDrive_function
+4 ExtractFileExt=ExtractFileExt_function
+4 ExtractFileName=ExtractFileName_function
+4 ExtractFilePath=ExtractFilePath_function
+4 ExtractRelativePath=ExtractRelativePath_function
+4 FalseBoolStrs=FalseBoolStrs_variable
+4 File name constants=FileName_constants
+4 File open mode constants=FileOpenMode_constants
+4 FileAge=FileAge_function
+4 FileClose=FileClose_procedure
+4 FileCreate=FileCreate_function
+4 FileDateToDateTime=FileDateToDateTime_function
+4 FileExists=FileExists_function
+4 FileGetDate=FileGetDate_function
+4 FileIsReadOnly=FileIsReadOnly_function
+4 FileOpen=FileOpen_function
+4 FileRead=FileRead_function
+4 FileSearch=FileSearch_function
+4 FileSeek=FileSeek_function
+4 FileSetDate=FileSetDate_function
+4 FileSetReadOnly=FileSetReadOnly_function
+4 FileWrite=FileWrite_function
+4 FinalizePackage=FinalizePackage_procedure
+4 FindClose=FindClose_procedure
+4 FindCmdLineSwitch=FindCmdLineSwitch_function
+4 FindFirst=FindFirst_function
+4 FindNext=FindNext_function
+4 FloatToCurr ;TryFloatToCurr=FloatToCurr_function
+4 FloatToDateTime ;TryFloatToDateTime=FloatToDateTime_function;TryFloatToDateTime_function
+4 FloatToDecimal=FloatToDecimal_procedure
+4 FloatToStr=FloatToStr_function
+4 FloatToStrF=FloatToStrF_function
+4 FloatToText=FloatToText_function
+4 FloatToTextFmt=FloatToTextFmt_function
+4 FmtLoadStr=FmtLoadStr_function
+4 FmtStr=FmtStr_procedure
+4 ForceDirectories=ForceDirectories_function
+4 Format=Format_function
+4 FormatBuf=FormatBuf_function
+4 FormatCurr=FormatCurr_function
+4 FormatDateTime=FormatDateTime_function
+4 FormatFloat=FormatFloat_function
+4 FreeAndNil=FreeAndNil_procedure
+4 GetCurrentDir=GetCurrentDir_function
+4 GetEnvironmentVariable=GetEnvironmentVariable_function
+4 GetFormatSettings=GetFormatSettings_procedure
+4 GetModuleName=GetModuleName_function
+4 GetPackageDescription=GetPackageDescription_function
+4 GetPackageInfo=GetPackageInfo_procedure
+4 GUIDToString=GUIDToString_function
+4 IncAMonth=IncAMonth_procedure
+4 IncludeTrailingBackslash=IncludeTrailingBackslash_function
+4 IncludeTrailingPathDelimiter=IncludeTrailingPathDelimiter_function
+4 IncMonth=IncMonth_function
+4 InitializePackage=InitializePackage
+4 InterlockedDecrement=InterlockedDecrement_function
+4 InterlockedExchange=InterlockedExchange_function
+4 InterlockedExchangeAdd=InterlockedExchangeAdd_function
+4 InterlockedIncrement=InterlockedIncrement_function
+4 IntToHex=IntToHex_function
+4 IntToStr=IntToStr_function
+4 IsDelimiter=IsDelimiter_function
+4 IsEqualGUID=IsEqualGUID_function
+4 IsLeapYear=IsLeapYear_function
+4 IsPathDelimiter=IsPathDelimiter_function
+4 IsValidIdent=IsValidIdent_function
+4 LastDelimiter=LastDelimiter_function
+4 LeadBytes variable=LeadBytes_variable
+4 LoadPackage=LoadPackage_function
+4 LoadStr=LoadStr_function
+4 LowerCase=LowerCase_function
+4 MSecsToTimeStamp=MSecsToTimeStamp_function
+4 NewStr=NewStr_function
+4 NextCharIndex=NextCharIndex_function
+4 Now=Now_function
+4 NullStr constant=NullStr_constant
+4 OutOfMemoryError=OutOfMemoryError_procedure
+4 QuotedStr=QuotedStr_function
+4 RaiseLastOSError procedure=RaiseLastOSError_procedure
+4 RemoveDir=RemoveDir_function
+4 RenameFile=RenameFile_function
+4 ReplaceDate=ReplaceDate_procedure
+4 ReplaceTime=ReplaceTime_procedure
+4 SameFileName=SameFileName_function
+4 SameText=SameText_function
+4 SetCurrentDir=SetCurrentDir_function
+4 ShowException=ShowException_procedure
+4 Sleep=Sleep_procedure
+4 StrAlloc=StrAlloc_function
+4 StrBufSize=StrBufSize_function
+4 StrByteType=StrByteType_function
+4 StrCat=StrCat_function
+4 StrCharLength=StrCharLength_function
+4 StrComp=StrComp_function
+4 StrCopy=StrCopy_function
+4 StrDispose=StrDispose_procedure
+4 StrECopy=StrECopy_function
+4 StrEnd=StrEnd_function
+4 StrFmt=StrFmt_function
+4 StrIComp=StrIComp_function
+4 StringReplace=StringReplace_function
+4 StringToGUID=StringToGUID_function
+4 StrLCat=StrLCat_function
+4 StrLComp=StrLComp_function
+4 StrLCopy=StrLCopy_function
+4 StrLen=StrLen_function
+4 StrLFmt=StrLFmt_function
+4 StrLIComp=StrLIComp_function
+4 StrLower=StrLower_function
+4 StrMove=StrMove_function
+4 StrNew=StrNew_function
+4 StrNextChar=StrNextChar_function
+4 StrPas=StrPas_function
+4 StrPCopy=StrPCopy_function
+4 StrPLCopy=StrPLCopy_function
+4 StrPos=StrPos_function
+4 StrRScan=StrRScan_function
+4 StrScan=StrScan_function
+4 StrToBool=StrToBool_function
+4 StrToBoolDef=StrToBoolDef_function
+4 StrToCurr=StrToCurr_function
+4 StrToCurrDef=StrToCurrDef_function
+4 StrToDate=StrToDate_function
+4 StrToDateDef=StrToDateDef_function
+4 StrToDateTime=StrToDateTime_function
+4 StrToDateTimeDef=StrToDateTimeDef_function
+4 StrToFloat=StrToFloat_function
+4 StrToFloatDef=StrToFloatDef_function
+4 StrToInt64=StrToInt64_function
+4 StrToInt64Def=StrToInt64Def_function
+4 StrToInt=StrToInt_function
+4 StrToIntDef=StrToIntDef_function
+4 StrToTime=StrToTime_function
+4 StrToTimeDef=StrToTimeDef_function
+4 StrUpper=StrUpper_function
+4 Supports=Supports_function
+4 SysErrorMessage=SysErrorMessage_function
+4 Time=Time_function
+4 TimeStampToDateTime=TimeStampToDateTime_function
+4 TimeStampToMSecs=TimeStampToMSecs_function
+4 TimeToStr=TimeToStr_function
+4 Trim=Trim_function
+4 TrimLeft=TrimLeft_function
+4 TrimRight=TrimRight_function
+4 TrueBoolStrs=TrueBoolStrs_variable
+4 TryStrToBool=TryStrToBool_function
+4 TryStrToCurr=TryStrToCurr_function
+4 TryStrToDate=TryStrToDate_function
+4 TryStrToDateTime=TryStrToDateTime_function
+4 TryStrToFloat=TryStrToFloat_function
+4 TryStrToInt64=TryStrToInt64_function
+4 TryStrToInt=TryStrToInt_function
+4 TryStrToTime=TryStrToTime_function
+4 UnixDateDelta constant=UnixDateDelta_constant
+4 UnloadPackage=UnloadPackage_procedure
+4 UpperCase=UpperCase_function
+4 WideCompareStr=WideCompareStr_function
+4 WideCompareText=WideCompareText_function
+4 WideFmtStr=WideFmtStr_procedure
+4 WideFormat=WideFormat_function
+4 WideFormatBuf=WideFormatBuf_function
+4 WideLowerCase=WideLowerCase_function
+4 WideSameStr=WideSameStr_function
+4 WideSameText=WideSameText_function
+4 WideUpperCase=WideUpperCase_function
+4 WrapText=WrapText_function
+
+3 Types
+4 Bounds=Bounds_function
+4 CenterPoint=CenterPoint_function
+4 IntersectRect=IntersectRect_function
+4 IsRectEmpty=IsRectEmpty_function
+4 OffsetRect=OffsetRect_function
+4 Point=Point_function
+4 PtInRect=PtInRect_function
+4 Rect=Rect_function
+4 UnionRect=UnionRect_function
+
+3 TypInfo
+4 FreeAndNilProperties=FreeAndNilProperties_function
+
+3 VarCmplx
+4 ComplexNumberSymbol variable=ComplexNumberSymbol_variable
+4 ComplexNumberSymbolBeforeImaginary variable=ComplexNumberSymbolBeforeImaginary_variable
+4 VarAsComplex=VarAsComplex_function
+4 VarComplex=VarComplex_function
+4 VarComplexAbs=VarComplexAbs_function
+4 VarComplexAbsSqr=VarComplexAbsSqr_function
+4 VarComplexAngle=VarComplexAngle_function
+4 VarComplexArcCos=VarComplexArcCos_function
+4 VarComplexArcCosH=VarComplexArcCosH_function
+4 VarComplexArcCot=VarComplexArcCot_function
+4 VarComplexArcCsc=VarComplexArcCotH_function
+4 VarComplexArcCscH=VarComplexArcCscH_function
+4 VarComplexArcSec=VarComplexArcSec_function
+4 VarComplexArcSecH=VarComplexArcSecH_function
+4 VarComplexArcSin=VarComplexArcSin_function
+4 VarComplexArcSinH=VarComplexArcSinH_function
+4 VarComplexArcTan=VarComplexArcTan_function
+4 VarComplexArcTanH=VarComplexArcTanH_function
+4 VarComplexConjugate=VarComplexConjugate_function
+4 VarComplexCos=VarComplexCos_function
+4 VarComplexCosH=VarComplexCosH_function
+4 VarComplexCot=VarComplexCot_function
+4 VarComplexCreate=VarComplexCotH_function
+4 VarComplexCsc=VarComplexCsc_function
+4 VarComplexCscH=VarComplexCscH_function
+4 VarComplexExp=VarComplexExp_function
+4 VarComplexFromPolar=VarComplexFromPolar_function
+4 VarComplexInverse=VarComplexInverse_function
+4 VarComplexLn=VarComplexLn_function
+4 VarComplexPower=VarComplexPower_function
+4 VarComplexSec=VarComplexSec_function
+4 VarComplexSecH=VarComplexSecH_function
+4 VarComplexSimplify=VarComplexSimplify_function
+4 VarComplexSin=VarComplexSin_function
+4 VarComplexSinH=VarComplexSinH_function
+4 VarComplexSqr=VarComplexSqr_function
+4 VarComplexSqrt=VarComplexSqrt_function
+4 VarComplexTan=VarComplexTan_function
+4 VarComplexTanH=VarComplexTanH_function
+4 VarComplexTimesNegI=VarComplexTimesNegI_function
+4 VarComplexTimesPosI=VarComplexTimesPosI_function
+4 VarComplexToPolar=VarComplexToPolar_procedure
+4 VarIsComplex=VarIsComplex_function
+
+3 VarConv
+4 VarAsConvert=VarAsConvert_function
+4 VarConvert=VarConvert_function
+4 VarConvertCreate=VarConvertCreate_function
+4 VarIsConvert=VarIsConvert_function
+
+3 Variants
+4 DynArrayFromVariant=DynArrayFromVariant_procedure
+4 DynArrayToVariant=DynArrayToVariant_procedure
+4 EmptyParam variable=EmptyParam_variable
+4 FindCustomVariantType=FindCustomVariantType_function
+4 Null=Null_function
+4 Unassigned constant=Unassigned_constant
+4 VarArrayCreate=VarArrayCreate_function
+4 VarArrayCreateError=VarArrayCreateError_procedure
+4 VarArrayDimCount=VarArrayDimCount_function
+4 VarArrayGet=VarArrayGet_function
+4 VarArrayHighBound=VarArrayHighBound_function
+4 VarArrayLock=VarArrayLock_function
+4 VarArrayLowBound=VarArrayLowBound_function
+4 VarArrayOf=VarArrayOf_function
+4 VarArrayPut=VarArrayPut_procedure
+4 VarArrayRef=VarArrayRef_function
+4 VarArrayUnlock=VarArrayUnlock_procedure
+4 VarAsType=VarAsType_function
+4 VarCastError=VarCastError_procedure
+4 VarCheckEmpty=VarCheckEmpty_procedure
+4 VarCompareValue=VarCompareValue_function
+4 VarConvertError=VarConvertError_procedure
+4 VarCopyNoInd=VarCopyNoInd_procedure
+4 VarEnsureRange=VarEnsureRange_function
+4 VarFromDateTime=VarFromDateTime_function
+4 VarInRange=VarInRange_function
+4 VarInvalidOp=VarInvalidOp_procedure
+4 VarIsArray=VarIsArray_function
+4 VarIsByRef=VarIsByRef_function
+4 VarIsClear=VarIsClear_function
+4 VarIsCustom=VarIsCustom_function
+4 VarIsEmpty=VarIsEmpty_function
+4 VarIsEmptyParam=VarIsEmptyParam_function
+4 VarIsFloat=VarIsFloat_function
+4 VarIsNull=VarIsNull_function
+4 VarIsNumeric=VarIsNumeric_function
+4 VarIsOrdinal=VarIsOrdinal_function
+4 VarIsStr=VarIsStr_function
+4 VarIsType=VarIsType_function
+4 VarOverflowError=VarOverflowError_procedure
+4 VarSameValue=VarSameValue_function
+4 VarSupports=VarSupports_function
+4 VarToDateTime=VarToDateTime_function
+4 VarToStr=VarToStr_function
+4 VarToStrDef=VarToStrDef_function
+4 VarToWideStr=VarToWideStr_function
+4 VarToWideStrDef=VarToWideStrDef_function
+4 VarType=VarType_function
+4 VarTypeIsValidArrayType=VarTypeIsValidArrayType_function
+4 VarTypeIsValidElementType=VarTypeIsValidElementType_function
+
+3 WebBrokerSoap
+4 GetSOAPWebModule=GetSOAPWebModule_function
+
+3 WebBroker
+4 Application variable (for Web server applications)=ApplicationForWebserverApplications_variable
+
+3 XMLDoc
+4 CreateDOMNode=CreateDOMNode_function
+4 FormatXMLData=FormatXMLData_function
+4 LoadXMLData=LoadXMLData_function
+4 LoadXMLDocument=LoadXMLDocument_function
+4 NewXMLDocument=NewXMLDocument_function
+4 XMLDocError=XMLDocError_procedure
+
+3 xmldom
+4 DefaultDOMVendor variable=DefaultDOMVendor_variable
+4 DOMVendors variable=DOMVendors_variable
+4 DOMWrapperVersion constant=DOMWrapperVersion_constant
+4 ExtractLocalName=ExtractLocalName_function
+4 ExtractPrefix=ExtractPrefix_function
+4 GetDOM function=GetDOM_function
+4 GetDOMVendor=GetDOMVendor_function
+4 IsPrefixed=IsPrefixed_function
+4 MakeNodeName=MakeNodeName_function
+4 NodeMatches=NodeMatches_function
+4 RegisterDOMVendor procedure=RegisterDOMVendor_procedure
+4 SameNamespace=SameNamespace_function
+4 UnRegisterDOMVendor procedure=UnRegisterDOMVendor_procedure
+
+3 XSBuiltIns
+4 DateTimeToXSDateTime=DateTimeToXSDateTime_function
+
+2 Alphabetical Routines Listing
+
+3 A
+4 Abort procedure=Abort_procedure
+4 ActivateClassGroup=ActivateClassGroup_procedure
+4 AddDragFormat=AddDragFormat_function
+4 AdjustForClient=AdjustForClient_procedure
+4 AdjustForFrame=AdjustForFrame_procedure
+4 AdjustLineBreaks=AdjustLineBreaks_function
+4 AnsiCompareFileName=AnsiCompareFileName_function
+4 AnsiCompareStr=AnsiCompareStr_function
+4 AnsiCompareText=AnsiCompareText_function
+4 AnsiContainsStr=AnsiContainsStr_function
+4 AnsiContainsText=AnsiContainsText_function
+4 AnsiDequotedStr=AnsiDequotedStr_function
+4 AnsiEndsStr=AnsiEndsStr_function
+4 AnsiEndsText=AnsiEndsText_function
+4 AnsiExtractQuotedStr=AnsiExtractQuotedStr_function
+4 AnsiIndexStr=AnsiIndexStr_function
+4 AnsiIndexText=AnsiIndexText_function
+4 AnsiLastChar=AnsiLastChar_function
+4 AnsiLowerCase=AnsiLowerCase_function
+4 AnsiLowerCaseFileName=AnsiLowerCaseFileName_function
+4 AnsiMatchStr=AnsiMatchStr_function
+4 AnsiMatchText=AnsiMatchText_function
+4 AnsiPos=AnsiPos_function
+4 AnsiQuotedStr=AnsiQuotedStr_function
+4 AnsiReplaceStr=AnsiReplaceStr_function
+4 AnsiReplaceText=AnsiReplaceText_function
+4 AnsiResemblesProc variable=AnsiResemblesProc_variable
+4 AnsiResemblesText=AnsiResemblesText_function
+4 AnsiSameCaption=AnsiSameCaption_function
+4 AnsiSameStr=AnsiSameStr_function
+4 AnsiSameText=AnsiSameText_function
+4 AnsiStartsStr=AnsiStartsStr_function
+4 AnsiStartsText=AnsiStartsText_function
+4 AnsiStrComp=AnsiStrComp_function
+4 AnsiStrIComp=AnsiStrIComp_function
+4 AnsiStrLastChar=AnsiStrLastChar_function
+4 AnsiStrLComp=AnsiStrLComp_function
+4 AnsiStrLIComp=AnsiStrLIComp_function
+4 AnsiStrLower=AnsiStrLower_function
+4 AnsiStrPos=AnsiStrPos_function
+4 AnsiStrRScan=AnsiStrRScan_function
+4 AnsiStrScan=AnsiStrScan_function
+4 AnsiStrUpper=AnsiStrUpper_function
+4 AnsiToUtf8=AnsiToUtf8_function
+4 AnsiUpperCase=AnsiUpperCase_function
+4 AnsiUpperCaseFileName=AnsiUpperCaseFileName_function
+4 AppendStr=AppendStr_procedure
+4 Application variable (for Web server applications)=ApplicationForWebserverApplications_variable
+4 Application variable=ApplicationForStandardApplications_variable
+4 AppNameSpacePrefix variable=AppNameSpacePrefix_variable
+4 ArcCos=ArcCos_function
+4 ArcCosh=ArcCosh_function
+4 ArcCot=ArcCot_function
+4 ArcCotH=ArcCotH_function
+4 ArcCsc=ArcCsc_function
+4 ArcCscH=ArcCscH_function
+4 ArcSec=ArcSec_function
+4 ArcSecH=ArcSecH_function
+4 ArcSin=ArcSin_function
+4 ArcSinh=ArcSinh_function
+4 ArcTan2=ArcTan2_function
+4 ArcTanh=ArcTanh_function
+4 area unit variables=AreaUnitVariables
+4 AS_ATTRIBUTE constant=AS_ATTRIBUTE_constant
+4 AssignPrn procedure=AssignPrn_procedure
+
+3 B
+4 BcdAdd=BcdAdd_procedure
+4 BcdCompare=BcdCompare_function
+4 BcdDivide=BcdDivide_procedure
+4 BcdMultiply=BcdMultiply_procedure
+4 BcdPrecision=BcdPrecision_function
+4 BcdScale=BcdScale_function
+4 BcdSubtract=BcdSubtract_procedure
+4 BCDToCurr=BCDToCurr_function
+4 BcdToDouble=BcdToDouble_function
+4 BcdToInteger=BcdToInteger_function
+4 BcdToStr=BcdToStr_function
+4 BcdToStrF=BcdToStrF_function
+4 Beep=Beep_function
+4 Beep=Beep_procedure
+4 BeginThread=BeginThread_function
+4 BinToHex=BinToHex_procedure
+4 BoolToStr=BoolToStr_function
+4 Bounds=Bounds_function
+4 ButtonStateToShiftState=ButtonStateToShiftState_function
+4 ByteToCharIndex=ByteToCharIndex_function
+4 ByteToCharLen=ByteToCharLen_function
+4 ByteType=ByteType_function
+
+3 C
+4 Ceil=Ceil_function
+4 CelsiusToFahrenheit=CelsiusToFahrenheit_function
+4 CenterPoint=CenterPoint_function
+4 ChangeFileExt=ChangeFileExt_function
+4 CharLength=CharLength_function
+4 CharToByteIndex=CharToByteIndex_function
+4 CharToByteLen=CharToByteLen_function
+4 ChDir procedure=ChDir_procedure
+4 CheckSqlTimeStamp=CheckSqlTimeStamp_procedure
+4 CheckSynchronize=CheckSynchronize_function
+4 Clipboard=Clipboard_function
+4 CmdLine variable=CmdLine_variable
+4 CmdShow variable=CmdShow_variable
+4 CollectionsEqual=CollectionsEqual_function
+4 ColorToIdent=ColorToIdent_function
+4 ColorToRGB=ColorToRGB_function
+4 ColorToString=ColorToString_function
+4 CompareDate=CompareDate_function
+4 CompareDateTime=CompareDateTime_function
+4 CompareMem=CompareMem_function
+4 CompareStr=CompareStr_function
+4 CompareText=CompareText_function
+4 CompareTime=CompareTime_function
+4 CompareValue=CompareValue_function
+4 CompatibleConversionType=CompatibleConversionType_function
+4 CompatibleConversionTypes=CompatibleConversionTypes_function
+4 ComplexNumberSymbol variable=ComplexNumberSymbol_variable
+4 ComplexNumberSymbolBeforeImaginary variable=ComplexNumberSymbolBeforeImaginary_variable
+4 CompToCurrency=CompToCurrency_function
+4 CompToDouble=CompToDouble_function
+4 Conversion family variables=ConversionFamilyVariables
+4 Convert=Convert_function
+4 ConvertFrom=ConvertFrom_function
+4 ConvertTo=ConvertTo_function
+4 ConvFamilyToDescription=ConvFamilyToDescription_function
+4 ConvTypeToDescription=ConvTypeToDescription_function
+4 ConvTypeToFamily=ConvTypeToFamily_function
+4 ConvUnitAdd=ConvUnitAdd_function
+4 ConvUnitCompareValue=ConvUnitCompareValue_function
+4 ConvUnitDec=ConvUnitDec_function
+4 ConvUnitDiff=ConvUnitDiff_function
+4 ConvUnitInc=ConvUnitInc_function
+4 ConvUnitSameValue=ConvUnitSameValue_function
+4 ConvUnitToStr=ConvUnitToStr_function
+4 ConvUnitWithinNext=ConvUnitWithinNext_function
+4 ConvUnitWithinPrevious=ConvUnitWithinPrevious_function
+4 CopyQStringListToTStrings=CopyQStringListToTStrings_procedure
+4 Cosecant=Cosecant_function
+4 Cosh=Cosh_function
+4 Cot=Cot_function
+4 Cotan=Cotan_function
+4 CotH=CotH_function
+4 CountGenerations=CountGenerations_function
+4 CreateAction=CreateAction_function
+4 CreateDir=CreateDir_function
+4 CreateDOMNode=CreateDOMNode_function
+4 CreateGUID=CreateGUID_function
+4 Csc=Csc_function
+4 CscH=CscH_function
+4 Currency and date/time formatting variables=CurrencyAndDatetimeFormatting_variables
+4 CurrencyToComp=CurrencyToComp_procedure
+4 CurrentGroup variable=CurrentGroup_variable
+4 CurrentYear=CurrentYear_function
+4 CurrToBCD=CurrToBCD_function
+4 CurrToStr=CurrToStr_function
+4 CurrToStrF=CurrToStrF_function
+4 CursorToIdent=CursorToIdent_function
+4 CursorToString=CursorToString_function
+4 CycleToDeg=CycleToDeg_function
+4 CycleToGrad=CycleToGrad_function
+4 CycleToRad=CycleToRad_function
+
+3 D
+4 DatabaseError=DatabaseError_procedure
+4 DatabaseErrorFmt=DatabaseErrorFmt_procedure
+4 Date=Date_function
+4 DateDelta constant=DateDelta_constant
+4 DateOf=DateOf_function
+4 DateTimeToFileDate=DateTimeToFileDate_function
+4 DateTimeToJulianDate=DateTimeToJulianDate_function
+4 DateTimeToModifiedJulianDate=DateTimeToModifiedJulianDate_function
+4 DateTimeToSQLTimeStamp=DateTimeToSQLTimeStamp_function
+4 DateTimeToStr=DateTimeToStr_function
+4 DateTimeToString=DateTimeToString_procedure
+4 DateTimeToTimeStamp=DateTimeToTimeStamp_function
+4 DateTimeToUnix=DateTimeToUnix_function
+4 DateTimeToXSDateTime=DateTimeToXSDateTime_function
+4 DateToStr=DateToStr_function
+4 Day of week constants=DayOfWeekConstants
+4 DayOf=DayOf_function
+4 DayOfTheMonth=DayOfTheMonth_function
+4 DayOfTheWeek=DayOfTheWeek_function
+4 DayOfTheYear=DayOfTheYear_function
+4 DayOfWeek=DayOfWeek_function
+4 DayOfWeekStr=DayOfWeekStr_function
+4 DaysBetween=DaysBetween_function
+4 DaysInAMonth=DaysInAMonth_function
+4 DaysInAYear=DaysInAYear_function
+4 DaysInMonth=DaysInMonth_function
+4 DaysInYear=DaysInYear_function
+4 DaySpan=DaySpan_function
+4 DecodeDate=DecodeDate_procedure
+4 DecodeDateDay=DecodeDateDay_procedure
+4 DecodeDateFully=DecodeDateFully_function
+4 DecodeDateMonthWeek=DecodeDateMonthWeek_procedure
+4 DecodeDateTime=DecodeDateTime_procedure
+4 DecodeDateWeek=DecodeDateWeek_procedure
+4 DecodeDayOfWeekInMonth=DecodeDayOfWeekInMonth_procedure
+4 DecodeSoundExInt=DecodeSoundExInt_function
+4 DecodeSoundExWord=DecodeSoundExWord_function
+4 DecodeTime=DecodeTime_procedure
+4 Default8087CW variable=Default8087CW_variable
+4 DefaultDOMVendor variable=DefaultDOMVendor_variable
+4 DefaultTextLineBreakStyle variable=DefaultTextLineBreakStyle_variable
+4 DegToCycle=DegToCycle_function
+4 DegToGrad=DegToGrad_function
+4 DegToRad=DegToRad_function
+4 DeleteFile=DeleteFile_function
+4 DescriptionToConvFamily=DescriptionToConvFamily_function
+4 DescriptionToConvType=DescriptionToConvType_function
+4 DirectoryExists=DirectoryExists_function
+4 DisposeStr=DisposeStr_procedure
+4 distance unit variables=DistanceUnitVariables
+4 DivMod=DivMod_procedure
+4 DOMVendors variable=DOMVendors_variable
+4 DOMWrapperVersion constant=DOMWrapperVersion_constant
+4 DosPathToUnixPath=DosPathToUnixPath_function
+4 DoubleDecliningBalance=DoubleDecliningBalance_function
+4 DoubleToBcd=DoubleToBcd_function
+4 DoubleToComp=DoubleToComp_function
+4 DragImageList=DragImageList_function
+4 DrawButtonFace=DrawButtonFace_function
+4 DupeString=DupeString_function
+4 DynArrayFromVariant=DynArrayFromVariant_procedure
+4 DynArrayToVariant=DynArrayToVariant_procedure
+
+3 E
+4 EmptyParam variable=EmptyParam_variable
+4 EncodeDate; TryEncodeDate=EncodeDate_function
+4 EncodeDateDay=EncodeDateDay_function
+4 EncodeDateMonthWeek=EncodeDateMonthWeek_function
+4 EncodeDateTime=EncodeDateTime_function
+4 EncodeDateWeek=EncodeDateWeek_function
+4 EncodeDayOfWeekInMonth=EncodeDayOfWeekInMonth_function
+4 EncodeTime;TryEncodeTime=EncodeTime_function
+4 EndOfADay=EndOfADay_function
+4 EndOfAMonth=EndOfAMonth_function
+4 EndOfAWeek=EndOfAWeek_function
+4 EndOfAYear=EndOfAYear_function
+4 EndOfTheDay=EndOfTheDay_function
+4 EndOfTheMonth=EndOfTheMonth_function
+4 EndOfTheWeek=EndOfTheWeek_function
+4 EndOfTheYear=EndOfTheYear_function
+4 EndThread=EndThread_function
+4 EnsureRange=EnsureRange_function
+4 EnumModules=EnumModules_procedure
+4 EnumRegisteredActions=EnumRegisteredActions_procedure
+4 EnumResourceModules=EnumResourceModules_procedure
+4 EqualRect=EqualRect_function
+4 ErrorAddr variable=ErrorAddr_variable
+4 ExceptAddr=ExceptAddr_function
+4 ExceptionErrorMessage=ExceptionErrorMessage_function
+4 ExceptObject=ExceptObject_function
+4 ExcludeTrailingBackslash=ExcludeTrailingBackslash_function
+4 ExcludeTrailingPathDelimiter=ExcludeTrailingPathDelimiter_function
+4 ExitProcessProc variable=ExitProcessProc_variable
+4 ExpandFileName=ExpandFileName_function
+4 ExpandFileNameCase=ExpandFileNameCase_function
+4 ExpandUNCFileName=ExpandUNCFileName_function
+4 ExtractFieldName=ExtractFieldName_function
+4 ExtractFileDir=ExtractFileDir_function
+4 ExtractFileDrive=ExtractFileDrive_function
+4 ExtractFileExt=ExtractFileExt_function
+4 ExtractFileName=ExtractFileName_function
+4 ExtractFilePath=ExtractFilePath_function
+4 ExtractHeaderFields=ExtractHeaderFields_procedure
+4 ExtractHTTPFields=ExtractHTTPFields_procedure
+4 ExtractLocalName=ExtractLocalName_function
+4 ExtractPrefix=ExtractPrefix_function
+4 ExtractRelativePath=ExtractRelativePath_function
+4 ExtractStrings=ExtractStrings_function
+
+3 F
+4 FahrenheitToCelsius=FahrenheitToCelsius_function
+4 FalseBoolStrs=FalseBoolStrs_variable
+4 File name constants=FileName_constants
+4 File open mode constants=FileOpenMode_constants
+4 FileAccessRights variable=FileAccessRights_variable
+4 FileAge=FileAge_function
+4 FileClose=FileClose_procedure
+4 FileCreate=FileCreate_function
+4 FileDateToDateTime=FileDateToDateTime_function
+4 FileExists=FileExists_function
+4 FileGetDate=FileGetDate_function
+4 FileIsReadOnly=FileIsReadOnly_function
+4 FileOpen=FileOpen_function
+4 FileRead=FileRead_function
+4 FileSearch=FileSearch_function
+4 FileSeek=FileSeek_function
+4 FileSetDate=FileSetDate_function
+4 FileSetReadOnly=FileSetReadOnly_function
+4 FileWrite=FileWrite_function
+4 FinalizePackage=FinalizePackage_procedure
+4 FindClass=FindClass_function
+4 FindClassHInstance=FindClassHInstance_function
+4 FindClose=FindClose_procedure
+4 FindCmdLineSwitch=FindCmdLineSwitch_function
+4 FindControl=FindControl_function
+4 FindCustomVariantType=FindCustomVariantType_function
+4 FindDragTarget=FindDragTarget_function
+4 FindFirst=FindFirst_function
+4 FindGlobalComponent=FindGlobalComponent_function
+4 FindHInstance=FindHInstance_function
+4 FindNext=FindNext_function
+4 FindObject=FindObject_function
+4 FindResourceHInstance=FindResourceHInstance_function
+4 FloatToCurr ;TryFloatToCurr=FloatToCurr_function
+4 FloatToDateTime ;TryFloatToDateTime=FloatToDateTime_function;TryFloatToDateTime_function
+4 FloatToDecimal=FloatToDecimal_procedure
+4 FloatToStr=FloatToStr_function
+4 FloatToStrF=FloatToStrF_function
+4 FloatToText=FloatToText_function
+4 FloatToTextFmt=FloatToTextFmt_function
+4 Floor=Floor_function
+4 FmtLoadStr=FmtLoadStr_function
+4 FmtStr=FmtStr_procedure
+4 ForceDirectories=ForceDirectories_function
+4 Format=Format_function
+4 FormatBcd=FormatBcd_function
+4 FormatBuf=FormatBuf_function
+4 FormatCurr=FormatCurr_function
+4 FormatDateTime=FormatDateTime_function
+4 FormatFloat=FormatFloat_function
+4 FormatMaskText=FormatMaskText_function
+4 FormatXMLData=FormatXMLData_function
+4 Frame3D=Frame3D_procedure
+4 FreeAndNil=FreeAndNil_procedure
+4 FreeAndNilProperties=FreeAndNilProperties_function
+4 FreeProcParams=FreeProcParams_procedure
+4 Frexp=Frexp_procedure
+4 FutureValue=FutureValue_function
+
+3 G
+4 Get8087CW=Get8087CW_function
+4 GetCaptureControl=GetCaptureControl_function
+4 GetClass=GetClass_function
+4 GetClsMemberTypeInfo=GetClsMemberTypeInfo_function
+4 GetColorValues=GetColorValues_procedure
+4 GetConvFamilies=GetConvFamilies_procedure
+4 GetConvTypes=GetConvTypes_procedure
+4 GetCurrentDir=GetCurrentDir_function
+4 GetCursorPos=GetCursorPos_procedure
+4 GetCursorValues=GetCursorValues_procedure
+4 GetDOM function=GetDOM_function
+4 GetDOMVendor=GetDOMVendor_function
+4 GetDriverNames=GetDriverNames_procedure
+4 GetEnvironmentVariable=GetEnvironmentVariable_function
+4 GetExceptionMask=GetExceptionMask_function
+4 GetFieldProperty=GetFieldProperty_function
+4 GetFormatSettings=GetFormatSettings_procedure
+4 GetHelpSystem=GetHelpSystem_function
+4 GetHotkey=GetHotKey_function
+4 GetLastError=GetLastError_function
+4 GetLongHint=GetLongHint_function
+4 GetMemoryManager procedure=GetMemoryManager_procedure
+4 GetModuleFileName=GetModuleFileName_function
+4 GetModuleName=GetModuleName_function
+4 GetMouseGrabControl=GetMouseGrabControl_function
+4 GetPackageDescription=GetPackageDescription_function
+4 GetPackageInfo=GetPackageInfo_procedure
+4 GetParentForm=GetParentForm_function
+4 GetPrecisionMode=GetPrecisionMode_function
+4 GetRemotableDataContext=GetRemotableDataContext_function
+4 GetRoundMode=GetRoundMode_function
+4 GetShortHint=GetShortHint_function
+4 GetSOAPWebModule=GetSOAPWebModule_function
+4 GradToCycle=GradToCycle_function
+4 GradToDeg=GradToDeg_function
+4 GradToRad=GradToRad_function
+4 GraphicExtension=GraphicExtension_function
+4 GraphicFileMask=GraphicFileMask_function
+4 GraphicFilter=GraphicFilter_function
+4 GReferenceExpandable=GReferenceExpandable_variable
+4 GroupDescendentsWith=GroupDescendentsWith_procedure
+4 GShowReadOnlyProps=GShowReadOnlyProps_variable
+4 GUIDToString=GUIDToString_function
+
+3 H
+4 HexToBin=HexToBin_function
+4 HInstance variable=HInstance_variable
+4 HintWindowClass variable=HintWindowClass_variable
+4 HourOf=HourOf_function
+4 HourOfTheDay=HourOfTheDay_function
+4 HourOfTheMonth=HourOfTheMonth_function
+4 HourOfTheWeek=HourOfTheWeek_function
+4 HourOfTheYear=HourOfTheYear_function
+4 HoursBetween=HoursBetween_function
+4 HourSpan=HourSpan_function
+4 HtmlTable=HtmlTable_function
+4 HTTPDecode=HTTPDecode_function
+4 HTTPEncode=HTTPEncode_function
+4 Hypot=Hypot_function
+
+3 I
+4 IdentToColor=IdentToColor_function
+4 IdentToCursor=IdentToCursor_function
+4 IdentToInt=IdentToInt_function
+4 IfThen=IfThen_function
+4 IncAMonth=IncAMonth_procedure
+4 IncDay=IncDay_function
+4 IncHour=IncHour_function
+4 IncludeTrailingBackslash=IncludeTrailingBackslash_function
+4 IncludeTrailingPathDelimiter=IncludeTrailingPathDelimiter_function
+4 IncMilliSecond=IncMilliSecond_function
+4 IncMinute=IncMinute_function
+4 IncMonth=IncMonth_function
+4 IncSecond=IncSecond_function
+4 IncWeek=IncWeek_function
+4 IncYear=IncYear_function
+4 InDragDropOperation=InDragDropOperation_function
+4 Infinity constant=Infinity_constant
+4 InitializePackage=InitializePackage
+4 InitInheritedComponent=InitInheritedComponent_function
+4 InitProc variable=InitProc_variable
+4 InputBox=InputBox_function
+4 InputQuery=InputQuery_function
+4 InRange=InRange_function
+4 IntegerToBcd=IntegerToBcd_function
+4 InterestPayment=InterestPayment_function
+4 InterestRate=InterestRate_function
+4 InterlockedDecrement=InterlockedDecrement_function
+4 InterlockedExchange=InterlockedExchange_function
+4 InterlockedExchangeAdd=InterlockedExchangeAdd_function
+4 InterlockedIncrement=InterlockedIncrement_function
+4 InternalRateOfReturn=InternalRateOfReturn_function
+4 IntersectRect=IntersectRect_function
+4 IntPower=IntPower_function
+4 IntToHex=IntToHex_function
+4 IntToIdent=IntToIdent_function
+4 IntToStr=IntToStr_function
+4 InvalidPoint=InvalidPoint_function
+4 InvRegistry=InvRegistry_function
+4 IODeviceFromStream=IODeviceFromStream_function
+4 IsAccel=IsAccel_function
+4 IsBcdNegative=IsBcdNegative_function
+4 IsDelimiter=IsDelimiter_function
+4 IsEqualGUID=IsEqualGUID_function
+4 IsInfinite=IsInfinite_function
+4 IsInLeapYear=IsInLeapYear_function
+4 IsLeapYear=IsLeapYear_function
+4 IsLibrary variable=IsLibrary_variable
+4 IsMemoryManagerSet function=IsMemoryManagerSet_function
+4 IsNan=IsNan_function
+4 IsPathDelimiter=IsPathDelimiter_function
+4 IsPM=IsPM_function
+4 IsPrefixed=IsPrefixed_function
+4 IsPropertyInCategory=IsPropertyInCategory_function
+4 IsRectEmpty=IsRectEmpty_function
+4 IsSameDay=IsSameDay_function
+4 IsToday=IsToday_function
+4 IsUniqueGlobalComponentName=IsUniqueGlobalComponentName_function
+4 IsValidDate=IsValidDate_function
+4 IsValidDateDay=IsValidDateDay_function
+4 IsValidDateMonthWeek=IsValidDateMonthWeek_function
+4 IsValidDateTime=IsValidDateTime_function
+4 IsValidDateWeek=IsValidDateWeek_function
+4 IsValidIdent=IsValidIdent_function
+4 IsValidTime=IsValidTime_function
+4 IsZero=IsZero_function
+
+3 J
+4 JITEnable variable=JITEnable_variable
+4 JulianDateToDateTime=JulianDateToDateTime_function
+
+3 L
+4 LastDelimiter=LastDelimiter_function
+4 Ldexp=Ldexp_function
+4 LeadBytes variable=LeadBytes_variable
+4 LeftStr=LeftStr_function
+4 LibModuleList variable=LibModuleList_variable
+4 LineStart=LineStart_function
+4 LnXP1=LnXP1_function
+4 LoadPackage=LoadPackage_function
+4 LoadParamListItems=LoadParamListItems_procedure
+4 LoadStr=LoadStr_function
+4 LoadXMLData=LoadXMLData_function
+4 LoadXMLDocument=LoadXMLDocument_function
+4 Log10=Log10_function
+4 Log2=Log2_function
+4 LoginDialog=LoginDialog_function
+4 LoginDialogEx=LoginDialogEx_function
+4 LogN=LogN_function
+4 LowerCase=LowerCase_function
+
+3 M
+4 MainInstance variable=MainInstance_variable
+4 MainThreadID variable=MainThreadID_variable
+4 MakeNodeName=MakeNodeName_function
+4 mass unit variables=MassUnitVariables
+4 MatchesMask=MatchesMask_function
+4 MaxComp constant=MaxComp_constant
+4 MaxDouble constant=MaxDouble_constant
+4 MaxExtended constant=MaxExtended_constant
+4 MaxInt constant=MaxInt_constant
+4 MaxIntValue=MaxIntValue_function
+4 MaxLongint constant=MaxLongint_constant
+4 MaxSingle constant=MaxSingle_constant
+4 MaxValue=MaxValue_function
+4 Mean=Mean_function
+4 MeanAndStdDev=MeanAndStdDev_procedure
+4 MessageDlg=MessageDlg_function
+4 MessageDlgPos=MessageDlgPos_function
+4 MidStr=MidStr_function
+4 MilliSecondOf=MilliSecondOf_function
+4 MilliSecondOfTheDay=MilliSecondOfTheDay_function
+4 MilliSecondOfTheHour=MilliSecondOfTheHour_function
+4 MilliSecondOfTheMinute=MilliSecondOfTheMinute_function
+4 MilliSecondOfTheMonth=MilliSecondOfTheMonth_function
+4 MilliSecondOfTheSecond=MilliSecondOfTheSecond_function
+4 MilliSecondOfTheWeek=MilliSecondOfTheWeek_function
+4 MilliSecondOfTheYear=MilliSecondOfTheYear_function
+4 MilliSecondsBetween=MilliSecondsBetween_function
+4 MilliSecondSpan=MilliSecondSpan_function
+4 MinComp constant=MinComp_constant
+4 MinDouble constant=MinDouble_constant
+4 MinExtended constant=MinExtended_constant
+4 MinIntValue=MinIntValue_function
+4 MinSingle constant=MinSingle_constant
+4 MinuteOf=MinuteOf_function
+4 MinuteOfTheDay=MinuteOfTheDay_function
+4 MinuteOfTheHour=MinuteOfTheHour_function
+4 MinuteOfTheMonth=MinuteOfTheMonth_function
+4 MinuteOfTheWeek=MinuteOfTheWeek_function
+4 MinuteOfTheYear=MinuteOfTheYear_function
+4 MinutesBetween=MinutesBetween_function
+4 MinuteSpan=MinuteSpan_function
+4 MinValue=MinValue_function
+4 MkDir procedure=MkDir_procedure
+4 ModifiedJulianDateToDateTime=ModifiedJulianDateToDateTime_function
+4 MomentSkewKurtosis=MomentSkewKurtosis_procedure
+4 MonthOf=MonthOf_function
+4 MonthOfTheYear=MonthOfTheYear_function
+4 MonthsBetween=MonthsBetween_function
+4 MonthSpan=MonthSpan_function
+4 MonthStr=MonthStr_function
+4 Mouse variable=Mouse_variable
+4 Move=Move_procedure
+4 MSecsToTimeStamp=MSecsToTimeStamp_function
+4 MulDiv=MulDiv_function
+
+3 N
+4 NaN constant=NaN_constant
+4 NegInfinity constant=NegInfinity_constant
+4 NetPresentValue=NetPresentValue_function
+4 NewItem=NewItem_function
+4 NewLine=NewLine_function
+4 NewMenu=NewMenu_function
+4 NewPopupMenu=NewPopupMenu_function
+4 NewStr=NewStr_function
+4 NewSubMenu=NewSubMenu_function
+4 NewXMLDocument=NewXMLDocument_function
+4 NextCharIndex=NextCharIndex_function
+4 NodeMatches=NodeMatches_function
+4 NoErrMsg variable=NoErrMsg_variable
+4 Norm=Norm_function
+4 NormalizeBcd=NormalizeBcd_function
+4 Now=Now_function
+4 NthDayOfWeek=NthDayOfWeek_function
+4 Null=Null_function
+4 NullBcd constant=NullBcd_constant
+4 NullSQLTimeStamp constant=NullSQLTimeStamp_constant
+4 NullStr constant=NullStr_constant
+4 NumberOfPeriods=NumberOfPeriods_function
+
+3 O
+4 ObjectBinaryToText=ObjectBinaryToText_procedure
+4 ObjectResourceToText=ObjectResourceToText_procedure
+4 ObjectTextToBinary=ObjectTextToBinary_procedure
+4 ObjectTextToResource=ObjectTextToResource_procedure
+4 OffsetRect=OffsetRect_function
+4 OutOfMemoryError=OutOfMemoryError_procedure
+
+3 P
+4 PackageParams=PackageParams_function
+4 ParamCount=ParamCount_function
+4 ParamStr=ParamStr_function
+4 ParseDate=ParseDate_function
+4 PasswordDialog=PasswordDialog_function
+4 Payment=Payment_function
+4 PeriodPayment=PeriodPayment_function
+4 Point=Point_function
+4 PointsEqual=PointsEqual_function
+4 Poly=Poly_function
+4 PopnStdDev=PopnStdDev_function
+4 PopnVariance=PopnVariance_function
+4 Power=Power_function
+4 PresentValue=PresentValue_function
+4 Printer function=Printer_function
+4 PtInRect=PtInRect_function
+4 PUCS4Chars=PUCS4Chars_function
+
+3 Q
+4 QStringListToTStringList=QStringListToTStringList_function
+4 QuotedStr=QuotedStr_function
+
+3 R
+4 RadToCycle=RadToCycle_function
+4 RadToDeg=RadToDeg_function
+4 RadToGrad=RadToGrad_function
+4 RaiseConversionError=RaiseConversionError_procedure
+4 RaiseLastOSError procedure=RaiseLastOSError_procedure
+4 RandG=RandG_function
+4 RandomFrom=RandomFrom_function
+4 Randomize=Randomize_procedure
+4 RandomRange=RandomRange_function
+4 RandSeed variable=RandSeed_variable
+4 ReadComponentRes=ReadComponentRes_function
+4 ReadComponentResEx=ReadComponentResEx_function
+4 ReadComponentResFile=ReadComponentResFile_function
+4 RecodeDate=RecodeDate_function
+4 RecodeDateTime=RecodeLeaveFieldAsIs_constant
+4 RecodeDay=RecodeDay_function
+4 RecodeHour=RecodeHour_function
+4 RecodeMilliSecond=RecodeMilliSecond_function
+4 RecodeMinute=RecodeMinute_function
+4 RecodeMonth=RecodeMonth_function
+4 RecodeSecond=RecodeSecond_function
+4 RecodeTime=RecodeTime_function
+4 RecodeYear=RecodeYear_function
+4 Rect=Rect_function
+4 Rect=Rect_function2
+4 RegDefIAppServerInvClass=RegDefIAppServerInvClass_procedure
+4 RegisterActions=RegisterActions_procedure
+4 RegisterClass=RegisterClass_procedure
+4 RegisterClassAlias=RegisterClassAlias_procedure
+4 RegisterClasses=RegisterClasses_procedure
+4 RegisterComponentEditor=RegisterComponentEditor_procedure
+4 RegisterComponents=RegisterComponents_procedure
+4 RegisterConversionFamily=RegisterConversionFamily_function
+4 RegisterConversionType=RegisterConversionType_function
+4 RegisterDOMVendor procedure=RegisterDOMVendor_procedure
+4 RegisterFields procedure=RegisterFields_procedure
+4 RegisterNoIcon=RegisterNoIcon_procedure
+4 RegisterPropertiesInCategory=RegisterPropertiesInCategory_function
+4 RegisterPropertyEditor=RegisterPropertyEditor_procedure
+4 RegisterPropertyInCategory=RegisterPropertyInCategory_function
+4 RegisterViewer=RegisterViewer_function
+4 RemClassRegistry=RemClassRegistry_function
+4 RemoteLoginDialog=RemoteLoginDialog_function
+4 RemoveDir=RemoveDir_function
+4 RemTypeRegistry=RemTypeRegistry_function
+4 RenameFile=RenameFile_function
+4 ReplaceDate=ReplaceDate_procedure
+4 ReplaceTime=ReplaceTime_procedure
+4 ReverseString=ReverseString_function
+4 RightStr=RightStr_function
+4 RmDir procedure=RmDir_procedure
+4 RoundTo=RoundTo_function
+4 RTLVersion constant=RTLVersion_constant
+
+3 S
+4 SameDate=SameDate_function
+4 SameDateTime=SameDateTime_function
+4 SameFileName=SameFileName_function
+4 SameNamespace=SameNamespace_function
+4 SameText=SameText_function
+4 SameTime=SameTime_function
+4 SameValue=SameValue_function
+4 SaveDragDataToStream=SaveDragDataToStream_function
+4 Screen variable=Screen_variable
+4 SearchBuf=SearchBuf_Function
+4 Sec=Sec_function
+4 Secant=Secant_function
+4 SecH=SecH_function
+4 SecondOf=SecondOf_function
+4 SecondOfTheDay=SecondOfTheDay_function
+4 SecondOfTheHour=SecondOfTheHour_function
+4 SecondOfTheMinute=SecondOfTheMinute_function
+4 SecondOfTheMonth=SecondOfTheMonth_function
+4 SecondOfTheWeek=SecondOfTheWeek_function
+4 SecondOfTheYear=SecondOfTheYear_function
+4 SecondsBetween=SecondsBetween_function
+4 SecondSpan=SecondSpan_function
+4 SelectDirectory=SelectDirectory_function
+4 Set8087CW=Set8087CW_procedure
+4 SetCaptureControl=SetCaptureControl_procedure
+4 SetClipboard=SetClipboard_function
+4 SetCurrentDir=SetCurrentDir_function
+4 SetExceptionMask=SetExceptionMask_function
+4 SetMemoryManager=SetMemoryManager_procedure
+4 SetMouseGrabControl=SetMouseGrabControl_procedure
+4 SetPrecisionMode=SetPrecisionMode_function
+4 SetPrinter function=SetPrinter_function
+4 SetRemotableDataContext=SetRemotableDataContext_procedure
+4 SetRoundMode=SetRoundMode_function
+4 ShortCut=ShortCut_function
+4 ShortCutToKey=ShortCutToKey_procedure
+4 ShortCutToText=ShortCutToText_function
+4 ShowException=ShowException_procedure
+4 ShowMessage=ShowMessage_procedure
+4 ShowMessageFmt=ShowMessageFmt_procedure
+4 ShowMessagePos=ShowMessagePos_procedure
+4 Sign=Sign_function
+4 SimpleRoundTo=SimpleRoundTo_function
+4 SinCos=SinCos_procedure
+4 Sinh=Sinh_function
+4 Sleep=Sleep_procedure
+4 SLNDepreciation=SLNDepreciation_function
+4 SmallPoint=SmallPoint_function
+4 SoundEx=SoundEx_function
+4 SoundExCompare=SoundExCompare_function
+4 SoundExInt=SoundExInt_function
+4 SoundExProc=SoundExProc_function
+4 SoundExSimilar=SoundExSimilar_function
+4 SoundExWord=SoundExWord_function
+4 SQLDayOfWeek=SQLDayOfWeek_function
+4 SQLTimeStampToDateTime=SQLTimeStampToDateTime_function
+4 SQLTimeStampToStr=SQLTimeStampToStr_function
+4 StartClassGroup=StartClassGroup_procedure
+4 StartOfADay=StartOfADay_function
+4 StartOfAMonth=StartOfAMonth_function
+4 StartOfAWeek=StartOfAWeek_function
+4 StartOfAYear=StartOfAYear_function
+4 StartOfTheDay=StartOfTheDay_function
+4 StartOfTheMonth=StartOfTheMonth_function
+4 StartOfTheWeek=StartOfTheWeek_function
+4 StartOfTheYear=StartOfTheYear_function
+4 StatusString=StatusString_function
+4 StdDev=StdDev_function
+4 StrAlloc=StrAlloc_function
+4 StrBufSize=StrBufSize_function
+4 StrByteType=StrByteType_function
+4 StrCat=StrCat_function
+4 StrCharLength=StrCharLength_function
+4 StrComp=StrComp_function
+4 StrCopy=StrCopy_function
+4 StrDispose=StrDispose_procedure
+4 StrECopy=StrECopy_function
+4 StrEnd=StrEnd_function
+4 StrFmt=StrFmt_function
+4 StrIComp=StrIComp_function
+4 StringReplace=StringReplace_function
+4 StringToColor=StringToColor_function
+4 StringToCursor=StringToCursor_function
+4 StringToGUID=StringToGUID_function
+4 StringToWideChar=StringToWideChar_function
+4 StripHotKey=StripHotKey_function
+4 StrLCat=StrLCat_function
+4 StrLComp=StrLComp_function
+4 StrLCopy=StrLCopy_function
+4 StrLen=StrLen_function
+4 StrLFmt=StrLFmt_function
+4 StrLIComp=StrLIComp_function
+4 StrLower=StrLower_function
+4 StrMove=StrMove_function
+4 StrNew=StrNew_function
+4 StrNextChar=StrNextChar_function
+4 StrPas=StrPas_function
+4 StrPCopy=StrPCopy_function
+4 StrPLCopy=StrPLCopy_function
+4 StrPos=StrPos_function
+4 StrRScan=StrRScan_function
+4 StrScan=StrScan_function
+4 StrToBcd=StrToBcd_function
+4 StrToBool=StrToBool_function
+4 StrToBoolDef=StrToBoolDef_function
+4 StrToConvUnit=StrToConvUnit_function
+4 StrToCurr=StrToCurr_function
+4 StrToCurrDef=StrToCurrDef_function
+4 StrToDate=StrToDate_function
+4 StrToDateDef=StrToDateDef_function
+4 StrToDateTime=StrToDateTime_function
+4 StrToDateTimeDef=StrToDateTimeDef_function
+4 StrToFloat=StrToFloat_function
+4 StrToFloatDef=StrToFloatDef_function
+4 StrToInt64=StrToInt64_function
+4 StrToInt64Def=StrToInt64Def_function
+4 StrToInt=StrToInt_function
+4 StrToIntDef=StrToIntDef_function
+4 StrToSQLTimeStamp=StrToSQLTimeStamp_function
+4 StrToTime=StrToTime_function
+4 StrToTimeDef=StrToTimeDef_function
+4 StrUpper=StrUpper_function
+4 StuffString=StuffString_function
+4 Sum=Sum_function
+4 SumInt=SumInt_function
+4 SumOfSquares=SumOfSquares_function
+4 SumsAndSquares=SumsAndSquares_procedure
+4 SupportedDragFormats=SupportedDragFormats_procedure
+4 Supports=Supports_function
+4 SYDDepreciation=SYDDepreciation_function
+4 SysErrorMessage=SysErrorMessage_function
+4 SysFreeMem=SysFreeMem_function
+4 SysGetMem=SysGetMem_function
+4 SysReallocMem=SysReallocMem_function
+
+3 T
+4 Tan=Tan_function
+4 Tanh=Tanh_function
+4 temperature unit variables=TemperatureUnitVariables
+4 TestStreamFormat=TestStreamFormat_function
+4 TextToShortCut=TextToShortCut_function
+4 time unit variables=TimeUnitVariables
+4 Time=Time_function
+4 TimeOf=TimeOf_function
+4 TimeStampToDateTime=TimeStampToDateTime_function
+4 TimeStampToMSecs=TimeStampToMSecs_function
+4 TimeToStr=TimeToStr_function
+4 Today=Today_function
+4 Tomorrow=Tomorrow_function
+4 TotalVariance=TotalVariance_function
+4 Trim=Trim_function
+4 TrimLeft=TrimLeft_function
+4 TrimRight=TrimRight_function
+4 TrueBoolStrs=TrueBoolStrs_variable
+4 TryConvTypeToFamily=TryConvTypeToFamily_function
+4 TryEncodeDateDay=TryEncodeDateDay_function
+4 TryEncodeDateMonthWeek=TryEncodeDateMonthWeek_function
+4 TryEncodeDateTime=TryEncodeDateTime_function
+4 TryEncodeDateWeek=TryEncodeDateWeek_function
+4 TryEncodeDayOfWeekInMonth=TryEncodeDayOfWeekInMonth_function
+4 TryJulianDateToDateTime=TryJulianDateToDateTime_function
+4 TryModifiedJulianDateToDateTime=TryModifiedJulianDateToDateTime_function
+4 TryRecodeDateTime=TryRecodeDateTime_function
+4 TryStrToBcd=TryStrToBcd_function
+4 TryStrToBool=TryStrToBool_function
+4 TryStrToConvUnit=TryStrToConvUnit_function
+4 TryStrToCurr=TryStrToCurr_function
+4 TryStrToDate=TryStrToDate_function
+4 TryStrToDateTime=TryStrToDateTime_function
+4 TryStrToFloat=TryStrToFloat_function
+4 TryStrToInt64=TryStrToInt64_function
+4 TryStrToInt=TryStrToInt_function
+4 TryStrToSQLTimeStamp=TryStrToSQLTimeStamp_function
+4 TryStrToTime=TryStrToTime_function
+4 TStringsToQStringList=TStringsToQStringList_function
+
+3 U
+4 UCS4StringToWideString=UCS4StringToWideString_function
+4 Unassigned constant=Unassigned_constant
+4 UnicodeToUtf8=UnicodeToUtf8_function
+4 UnionRect=UnionRect_function
+4 UniqueString=UniqueString_procedure
+4 UnixDateDelta constant=UnixDateDelta_constant
+4 UnixPathToDosPath=UnixPathToDosPath_function
+4 UnixToDateTime=UnixToDateTime_function
+4 UnloadPackage=UnloadPackage_procedure
+4 UnpackParams=UnpackParams_procedure
+4 UnRegisterActions=UnRegisterActions_procedure
+4 UnregisterClass=UnregisterClass_procedure
+4 UnregisterClasses=UnregisterClasses_procedure
+4 UnregisterConversionFamily=UnregisterConversionFamily_procedure
+4 UnregisterConversionType=UnregisterConversionType_procedure
+4 UnRegisterDOMVendor procedure=UnRegisterDOMVendor_procedure
+4 UnregisterModuleClasses=UnregisterModuleClasses_procedure
+4 UpCase=UpCase_function
+4 UpperCase=UpperCase_function
+4 UTF8Decode=Utf8Decode_function
+4 UTF8Encode=Utf8Encode_function
+4 Utf8ToAnsi=Utf8ToAnsi_function
+4 Utf8ToUnicode=Utf8ToUnicode_function
+
+3 V
+4 ValidMenuHotkeys=ValidMenuHotkeys_variable
+4 ValidParentForm=ValidParentForm_function
+4 VarArrayCreate=VarArrayCreate_function
+4 VarArrayCreateError=VarArrayCreateError_procedure
+4 VarArrayDimCount=VarArrayDimCount_function
+4 VarArrayFromStrings=VarArrayFromStrings_function
+4 VarArrayGet=VarArrayGet_function
+4 VarArrayHighBound=VarArrayHighBound_function
+4 VarArrayLock=VarArrayLock_function
+4 VarArrayLowBound=VarArrayLowBound_function
+4 VarArrayOf=VarArrayOf_function
+4 VarArrayPut=VarArrayPut_procedure
+4 VarArrayRedim=VarArrayRedim_procedure
+4 VarArrayRef=VarArrayRef_function
+4 VarArrayUnlock=VarArrayUnlock_procedure
+4 VarAsComplex=VarAsComplex_function
+4 VarAsConvert=VarAsConvert_function
+4 VarAsType=VarAsType_function
+4 VarCastError=VarCastError_procedure
+4 VarCheckEmpty=VarCheckEmpty_procedure
+4 VarClear=VarClear_procedure
+4 VarCompareValue=VarCompareValue_function
+4 VarComplex=VarComplex_function
+4 VarComplexAbs=VarComplexAbs_function
+4 VarComplexAbsSqr=VarComplexAbsSqr_function
+4 VarComplexAngle=VarComplexAngle_function
+4 VarComplexArcCos=VarComplexArcCos_function
+4 VarComplexArcCosH=VarComplexArcCosH_function
+4 VarComplexArcCot=VarComplexArcCot_function
+4 VarComplexArcCsc=VarComplexArcCotH_function
+4 VarComplexArcCscH=VarComplexArcCscH_function
+4 VarComplexArcSec=VarComplexArcSec_function
+4 VarComplexArcSecH=VarComplexArcSecH_function
+4 VarComplexArcSin=VarComplexArcSin_function
+4 VarComplexArcSinH=VarComplexArcSinH_function
+4 VarComplexArcTan=VarComplexArcTan_function
+4 VarComplexArcTanH=VarComplexArcTanH_function
+4 VarComplexConjugate=VarComplexConjugate_function
+4 VarComplexCos=VarComplexCos_function
+4 VarComplexCosH=VarComplexCosH_function
+4 VarComplexCot=VarComplexCot_function
+4 VarComplexCreate=VarComplexCotH_function
+4 VarComplexCsc=VarComplexCsc_function
+4 VarComplexCscH=VarComplexCscH_function
+4 VarComplexExp=VarComplexExp_function
+4 VarComplexFromPolar=VarComplexFromPolar_function
+4 VarComplexInverse=VarComplexInverse_function
+4 VarComplexLn=VarComplexLn_function
+4 VarComplexPower=VarComplexPower_function
+4 VarComplexSec=VarComplexSec_function
+4 VarComplexSecH=VarComplexSecH_function
+4 VarComplexSimplify=VarComplexSimplify_function
+4 VarComplexSin=VarComplexSin_function
+4 VarComplexSinH=VarComplexSinH_function
+4 VarComplexSqr=VarComplexSqr_function
+4 VarComplexSqrt=VarComplexSqrt_function
+4 VarComplexTan=VarComplexTan_function
+4 VarComplexTanH=VarComplexTanH_function
+4 VarComplexTimesNegI=VarComplexTimesNegI_function
+4 VarComplexTimesPosI=VarComplexTimesPosI_function
+4 VarComplexToPolar=VarComplexToPolar_procedure
+4 VarConvert=VarConvert_function
+4 VarConvertCreate=VarConvertCreate_function
+4 VarConvertError=VarConvertError_procedure
+4 VarCopyNoInd=VarCopyNoInd_procedure
+4 VarEnsureRange=VarEnsureRange_function
+4 VarFMTBcd=VarFMTBcd_function
+4 VarFMTBcdCreate=VarFMTBcdCreate_function
+4 VarFromDateTime=VarFromDateTime_function
+4 Variance=Variance_function
+4 VarInRange=VarInRange_function
+4 VarInvalidOp=VarInvalidOp_procedure
+4 VarIsArray=VarIsArray_function
+4 VarIsByRef=VarIsByRef_function
+4 VarIsClear=VarIsClear_function
+4 VarIsComplex=VarIsComplex_function
+4 VarIsConvert=VarIsConvert_function
+4 VarIsCustom=VarIsCustom_function
+4 VarIsEmpty=VarIsEmpty_function
+4 VarIsEmptyParam=VarIsEmptyParam_function
+4 VarIsFloat=VarIsFloat_function
+4 VarIsFMTBcd=VarIsFMTBcd_function
+4 VarIsNull=VarIsNull_function
+4 VarIsNumeric=VarIsNumeric_function
+4 VarIsOrdinal=VarIsOrdinal_function
+4 VarIsSQLTimeStamp=VarIsSQLTimeStamp_function
+4 VarIsStr=VarIsStr_function
+4 VarIsType=VarIsType_function
+4 VarOverflowError=VarOverflowError_procedure
+4 VarSameValue=VarSameValue_function
+4 VarSQLTimeStamp=VarSQLTimeStamp_function
+4 VarSQLTimeStampCreate=VarSQLTimeStampCreate_function
+4 VarSupports=VarSupports_function
+4 VarToBcd=VarToBcd_function
+4 VarToDateTime=VarToDateTime_function
+4 VarToSQLTimeStamp=VarToSQLTimeStamp_function
+4 VarToStr=VarToStr_function
+4 VarToStrDef=VarToStrDef_function
+4 VarToWideStr=VarToWideStr_function
+4 VarToWideStrDef=VarToWideStrDef_function
+4 VarType=VarType_function
+4 VarTypeIsValidArrayType=VarTypeIsValidArrayType_function
+4 VarTypeIsValidElementType=VarTypeIsValidElementType_function
+4 VarTypeToDataType function=VarTypeToDataType_functions
+4 volume unit variables=VolumeUnitVariables
+
+3 W
+4 WakeMainThread variable=WakeMainThread_variable
+4 WeekOf=WeekOf_function
+4 WeekOfTheMonth=WeekOfTheMonth_function
+4 WeekOfTheYear=WeekOfTheYear_function
+4 WeeksBetween=WeeksBetween_function
+4 WeeksInAYear=WeeksInAYear_function
+4 WeeksInYear=WeeksInYear_function
+4 WeekSpan=WeekSpan_function
+4 WideCharLenToString=WideCharLenToString_function
+4 WideCharLenToStrVar=WideCharLenToStrVar_procedure
+4 WideCharToString=WideCharToString_function
+4 WideCharToStrVar=WideCharToStrVar_procedure
+4 WideCompareStr=WideCompareStr_function
+4 WideCompareText=WideCompareText_function
+4 WideFmtStr=WideFmtStr_procedure
+4 WideFormat=WideFormat_function
+4 WideFormatBuf=WideFormatBuf_function
+4 WideLowerCase=WideLowerCase_function
+4 WideSameCaption=WideSameCaption_function
+4 WideSameStr=WideSameStr_function
+4 WideSameText=WideSameText_function
+4 WideStringToUCS4String=WideStringToUCS4String_function
+4 WideUpperCase=WideUpperCase_function
+4 WithinPastDays=WithinPastDays_function
+4 WithinPastHours=WithinPastHours_function
+4 WithinPastMilliSeconds=WithinPastMilliSeconds_function
+4 WithinPastMinutes=WithinPastMinutes_function
+4 WithinPastMonths=WithinPastMonths_function
+4 WithinPastSeconds=WithinPastSeconds_function
+4 WithinPastWeeks=WithinPastWeeks_function
+4 WithinPastYears=WithinPastYears_function
+4 WrapText=WrapText_function
+4 WriteComponentResFile=WriteComponentResFile_procedure
+
+3 X
+4 XMLDocError=XMLDocError_procedure
+
+3 Y
+4 YearOf=YearOf_function
+4 YearsBetween=YearsBetween_function
+4 YearSpan=YearSpan_function
+4 Yesterday=Yesterday_function

@@ -1,0 +1,7 @@
+:Base SQLBUILD.HLP>main
+:Title SQL Builder Help
+:Index SQL Builder Help=SQLBUILD.HLP
+:INCLUDE BCB6XTRA.OHL
+:INCLUDE SQLBUILD.TOC
+
+

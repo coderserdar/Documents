@@ -1,0 +1,5 @@
+:Base ibx.hlp>main
+:Title InterBase Express Reference
+:Index InterBase Express Reference=ibx.hlp
+:Include bcb6.ohl
+:Include ibx.toc

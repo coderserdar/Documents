@@ -1,0 +1,25 @@
+:Base etm.hlp>main
+:Title Translation Tools
+;
+1 Translation Tools
+2 Translation Tools overview=ITEOverview
+2 Files generated using Translation Tools=ITEGeneratedFiles
+2 Localizing applications from the IDE
+3 Localizing applications from the IDE=LocalizingApplicationsFromTheIDE
+3 Adding languages to a project=AddingLanguagesToAProject
+3 About the Resource DLL wizard=AboutTheResourceDLLWizard
+3 Removing languages from a project=RemovingLanguagesFromAProject
+3 Updating resource DLLs=UpdatingResourceDLLs
+3 Removing languages from a project=RemovingLanguagesFromAProject
+3 Setting the active language=SettingTheActiveLanguage
+2 Localizing applications from outside the IDE
+3 Localizing applications with the External Translation Manager=LocalizingApplicationsWithTheETM
+3 Setting up the External Translation Manager=SettingUpETM
+2 Using the Translation Manager
+3 Using the Translation Manager=UsingTheTranslationManager
+3 Editing in the Translation Manager=EditingInTheTranslationManager
+3 Translation Manager toolbars and menus=TranslationManagerToolbarsAndMenus
+2 Using the Translation Repository
+3 Using the Translation Repository=UsingTheRepository
+3 Setting up a Translation Repository=SettingUpATranslationRepository
+

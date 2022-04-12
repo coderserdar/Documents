@@ -1,0 +1,64 @@
+;WHAT'S NEW, IDE HELP
+:Index What's New in Borland C++Builder =bcb6new.hlp
+:Index Borland C++Builder Help =bcb6.hlp
+
+;DEVELOPER'S GUIDE
+:Index Programming with Borland C++Builder =bcb6prog.hlp
+:Index Developing Database Applications =bcb6dbd.hlp
+:Index Developing Distributed Applications =bcb6dap.hlp
+:Index Creating Custom Components =bcb6cw.hlp
+:Index Developing COM-based Applications  =bcb6com.hlp
+
+;:Index C++Builder Language Guide =bcb6lang.hlp
+;:Index C Runtime Library Reference =bcb6rtl.hlp
+:Index C++Builder Tools =bcb6tool.hlp
+;:Index C++Builder Error Messages and Warnings =bcb6errs.hlp
+;:Index Standard C++ Library =bcb6scl.hlp
+
+;OTHER BORLAND IDE HELP
+:Index CodeGuard Help =cg.hlp
+:Index External Translation Manager =etm.hlp
+:Index Package Collection Editor Help =pce.hlp
+:Index Resource DLL Wizard =rdw.hlp
+:Index XMLMapper =xmlmap.hlp
+:Index DBExpress =dbxpress.hlp
+
+;VCL/BORLAND COMPONENT REFERENCE
+;:Index Visual Component Library Reference=bcb6vcl.hlp
+;:Index VCL Reference (ILIB)=bcb6ilib.hlp
+;:Index OpenTools API Reference (IOTA)=bcb6iota.hlp
+
+;CLX COMPONENT REFERENCE
+;:Link blx2clx.hlp
+
+;INTERBASE EXPRESS COMPONENTS
+;:Index InterBase Express Help =ibx.hlp
+
+;THIRD-PARTY HELP
+;Indy
+;:Index Indy=indy.hlp
+;Fastnet components
+;:Index FastNet SMTP Help=nmsmtp.hlp
+;:Index FastNet URL Encode/Decode Help=nmurl.hlp
+;:Index FastNet UUProcessor Help=nmuue.hlp
+;:Index NMMSG unit=nmmsg.hlp
+;:Index NMpop3 unit=nmpop3.hlp
+;:Index PSock=psock.hlp
+;:Index TNMDayTime component=nmdaytim.hlp
+;:Index TNMEcho component=nmecho.hlp
+;:Index TNMFinger component=nmfngr.hlp
+;:Index TNMFTP component=nmftp.hlp
+;:Index TNMHTTP component=nmhttp.hlp
+;:Index TNMNNTP component=nmnntp.hlp
+;:Index TNMStrm component=nmstrm.hlp
+;:Index TNMTime component=nmtime.hlp
+;:Index TNMUDP component=nmudp.hlp
+;
+;QuickReports
+;:Index QuickReports=quickrpt.hlp
+;
+;Teechart
+;:Index TeeChart=teechart.hlp
+;
+;;;;
+

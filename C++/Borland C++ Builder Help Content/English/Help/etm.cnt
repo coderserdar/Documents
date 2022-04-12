@@ -1,0 +1,5 @@
+:Base etm.hlp>main
+:Title External Translation Manager
+:Index External Translation Manager=etm.hlp
+:Include bcb6.ohl
+:Include etm.toc

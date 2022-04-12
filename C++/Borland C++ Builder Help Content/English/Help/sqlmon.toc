@@ -1,0 +1,6 @@
+:Base SQLMON.HLP
+:Title SQL Monitor Help
+:Index SQL Monitor=SQLMON.HLP
+;
+1 SQL Monitor
+2 SQL Monitor: Overview=SQLMonitor

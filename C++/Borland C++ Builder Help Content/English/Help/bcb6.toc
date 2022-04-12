@@ -1,0 +1,51 @@
+:Base bcb6.hlp>main
+:Title C++Builder Help
+;;
+1 Tutorials
+;;
+2 Text Editor Tutorial
+3 Creating a text editor--a tutorial=CreatingATextEditorATutorial
+3 Starting a new application=StartingANewApplication2
+3 Setting property values=SettingPropertyValues2
+3 Adding components to the form=AddingObjectsToTheForm2
+3 Adding support for a menu and a toolbar=AddingSupportForAMenuAndAToolbar2
+3 Adding images to the Action Manager (Enterprise and Professional edition)=AddingImagesToTheActionManager
+3 Adding actions to the Action Manager (Enterprise and Professional edition)=AddingActionsToTheActionManager
+3 Adding standard actions to the Action Manager (Enterprise and Professional edition)=AddingStandardActionsToTheActionManager
+3 Adding a menu (Enterprise edition)=AddingAMenu2
+3 Adding a toolbar (Enterprise and Professional edition)=AddingAToolbarEnterprise
+3 Adding an image list and images (Personal edition)=AddingImagesToTheImageList
+3 Adding actions to the action list (Personal edition)=AddingActionstotheActionList
+3 Adding standard actions to the action list (Personal edition)=AddingStandardActionsToTheActionList
+3 Adding a menu (Personal edition)=AddingAMenu
+3 Adding a toolbar (Personal edition)=AddingAToolbar2
+3 Clearing the text area (all editions)=ClearingTheTextArea
+3 Writing event handlers=WritingAnEventHandler2
+3 Creating an event handler for the New command=CreatingAnEventHandlerForTheNewCommand
+3 Creating an event handler for the Open command=CreatingAnEventHandlerForTheOpenCommand
+3 Creating an event handler for the Save command=CreatingAnEventHandlerForTheSaveCommand
+3 Creating an event handler for the Save As command=CreatingAnEventHandlerForTheSaveAsCommand
+3 Creating a Help file=CreatingAHelpFile
+3 Creating an event handler for the Help Contents command=CreatingAnEventHandlerForTheHelpContentsCommand
+3 Creating an event handler for the Help Index command=CreatingAnEventHandlerForTheHelpIndexCommand
+3 Creating an About box=CreatingAnAboutBox
+3 Completing your application=CompletingYourApplication
+2 Database Tutorial
+3 Creating a CLX database application--a tutorial=FHXR20421
+3 Setting up data access components=OverviewOfDatabaseArchitecture
+3 Creating a new CLX application=CreatingANewCLXApplication
+3 Setting up data access components=SettingUpDataAccessComponents
+3 Setting up the database connection=SettingUpTheDatabaseConnection
+3 Setting up the unidirectional dataset=SettingUpTheUnidirectionalDataset
+3 Setting up the provider, client dataset, and data source=SettingUpDataAccess
+3 Designing the user interface=CreatingTheUserInterface
+3 Creating the grid and navigation bar=CreatingTheGridAndNavigationBar
+3 Adding support for a menu=AddingSupportForAMenu
+3 Adding a menu=AddingAMenu3
+3 Adding a button=AddingAButton
+3 Displaying a title and an image=DisplayingImages
+3 Writing an event handler=WritingAnEventHandler3
+3 Writing the Update Now! command event handler=WritingTheUpdateNowCommandEventHandler
+3 Writing the Exit command event handler=WritingTheExitCommandEventHandler
+3 Writing the FormClose event handler=WritingTheFormCloseEventHandler
+

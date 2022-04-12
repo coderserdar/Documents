@@ -1,0 +1,21 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE NMUUE.hlp
+:TITLE FastNet UUProcessor Help
+:INCLUDE bcb6.OHL
+1 TNMUUProcessor component
+2 TNMUUProcessor component Reference=Scribble1010
+2 Properties
+3 InputStream=Scribble1020
+3 Method=Scribble1025
+3 OutputStream=Scribble1030
+2 Methods
+3 Decode=Scribble1035
+3 Encode=Scribble1040
+2 Events
+3 OnBeginDecode event=Scribble1092
+3 OnBeginEncode event=Scribble1052
+3 OnEndDecode event=Scribble1099
+3 OnEndEncode event=Scribble1072
+3 OnError event=Scribble1102

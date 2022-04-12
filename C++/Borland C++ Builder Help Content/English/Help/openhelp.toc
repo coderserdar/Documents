@@ -1,0 +1,16 @@
+:Base openhelp.hlp
+:Title Borland OpenHelp Help
+;
+1 Borland OpenHelp
+2 OpenHelp overview
+3 OpenHelp overview = ohOpenHelpOverview
+3 Adding and removing files from the master table of contents=ohAddingFilesToTheMasterTableOfContents
+3 Adding and removing files from the master index=ohAddingFilesToTheMasterIndex
+3 Adding and removing files from the context-sensitive Help search range= ohAddingFilesToTheLinkRange 
+3 Cleaning up the system registry=ohCleaningUpTheSystemRegistry
+2 Working with projects
+3 Working with projects = ohWorkingWithOpenHelpProjects
+3 Creating a project=ohCreatingAProject
+3 Opening a project=ohOpeningAProject
+3 Editing a project=ohEditingAProject
+3 Saving a project=ohSavingAProject

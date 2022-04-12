@@ -1,0 +1,6 @@
+:Base ibctrls.hlp>main
+:Title InterBase Controls Help
+:Index InterBase Controls Help=ibctrls.hlp
+:include delphi6.ohl
+:include bcb6.ohl
+:include ibctrls.toc

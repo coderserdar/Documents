@@ -1,0 +1,8 @@
+:Base bcb6.HLP>main
+:Title Borland C++Builder Help
+
+:Include bcb6.ohc
+:Include bcb6.ohi
+:Include bcb6.ohl
+:Include bcb6xtra.ohl
+

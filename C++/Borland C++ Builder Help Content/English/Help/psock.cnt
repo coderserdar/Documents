@@ -1,0 +1,83 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE psock.hlp
+:TITLE FastNet Powersock Help
+:INCLUDE bcb6.OHL
+1 Psock Unit Contents=Scribble1000
+1 TPowersock component
+2 TPowersock component Reference=Scribble1010
+2 Properties
+3 BeenCanceled=Scribble1020
+3 BeenTimedOut=Scribble1025
+3 BytesRecvd=Scribble1030
+3 BytesSent=Scribble1035
+3 BytesTotal=Scribble1040
+3 Connected=Scribble1045
+3 Handle=Scribble1050
+3 Host=Scribble1055
+3 LastErrorNo=Scribble1060
+3 LocalIP=Scribble1070
+3 Port=Scribble1085
+3 RemoteIP=Scribble1090
+3 ReplyNumber=Scribble1095
+3 ReportLevel=Scribble1100
+3 Status=Scribble1105
+3 TimeOut=Scribble1110
+3 TransactionReply=Scribble1115
+3 WSAInfo=Scribble1120
+2 Methods
+3 Abort=Scribble1155
+3 Accept=Scribble1125
+3 Cancel=Scribble1160
+3 CaptureFile=Scribble1165
+3 CaptureStream=Scribble1170
+3 CaptureString=Scribble1175
+3 CertifyConnect=Scribble1180
+3 Close=Scribble1185
+3 Connect=Scribble1190
+3 Disconnect=Scribble1195
+3 FilterHeader=Scribble1200
+3 Listen=Scribble1205
+3 read=Scribble1140
+3 ReadLn=Scribble1145
+3 RequestCloseSocket=Scribble1210
+3 ResolveRemoteHost=Scribble1215
+3 SendBuffer=Scribble1220
+3 SendFile=Scribble1225
+3 SendStream=Scribble1230
+3 Transaction=Scribble1150
+3 write=Scribble1235
+3 writeln=Scribble1240
+2 Events
+3 OnConnect=Scribble1245
+3 OnConnectionFailed=Scribble1250
+3 OnDisconnect=Scribble1255
+3 OnHostResolved=Scribble1075
+3 OnInvalidHost=Scribble1260
+3 OnPacketRecvd=Scribble1265
+3 OnPacketSent=Scribble1270
+3 OnStatus=Scribble1080
+1 TNMGeneralServer component
+2 TNMGeneralServer component Reference=Scribble1300
+2 Properties
+3 Port=Scribble1085
+2 Methods
+3 CaptureFile method=Scribble1165
+3 CaptureStream method=Scribble1170
+3 CaptureString method=Scribble1175
+3 read method=Scribble1140
+3 ReadLn method=Scribble1145
+3 SendBuffer method=Scribble1220
+3 SendFile method=Scribble1225
+3 SendStream method=Scribble1230
+3 Serve=Scribble1310
+3 Transaction method=Scribble1150
+3 write method=Scribble1235
+3 writeln method=Scribble1240
+2 Events
+3 OnClientContact=Scribble1315
+2 Independent Functions & Procedures
+3 NthPos function=Scribble1500
+3 NthWord function=Scribble1505
+3 StreamLn procedure=Scribble1510

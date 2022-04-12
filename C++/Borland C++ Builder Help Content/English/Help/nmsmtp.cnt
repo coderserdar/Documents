@@ -1,0 +1,46 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmsmtp.hlp
+:TITLE FastNet SMTP Help
+:INCLUDE bcb6.OHL
+1 TPostMessage object
+2 TPostMessage object Reference=Scribble1010
+2 Properties
+3 Attachments=Scribble1020
+3 Body=Scribble1025
+3 Date=Scribble1030
+3 FromAddress=Scribble1035
+3 FromName=Scribble1040
+3 LocalProgram=Scribble1045
+3 ReplyTo=Scribble1050
+3 Subject=Scribble1055
+3 ToAddress=Scribble1060
+3 ToBlindCarbonCopy=Scribble1065
+3 ToCarbonCopy=Scribble1070
+2 Methods
+1 TNMSMTP component
+2 TNMSMTP component Reference=Scribble1100
+2 Properties
+3 ClearParams=Scribble1110
+3 EncodeType=Scribble1115
+3 FinalHeader=Scribble1120
+3 PostMessage=Scribble1155
+3 UserID=Scribble1165
+2 Methods
+3 ExpandList=Scribble1170
+3 ExtractAddress=Scribble1175
+3 Verify=Scribble1180
+3 ClearParameters=Scribble1185
+3 SendMail=Scribble1190
+2 Events
+3 OnAttachmentNotFound=Scribble1125
+3 OnAuthenticationFailed=Scribble1195
+3 OnEncodeEnd=Scribble1130
+3 OnEncodeStart=Scribble1135
+3 OnFailure=Scribble1200
+3 OnHeaderIncomplete=Scribble1140
+3 OnMailListReturn=Scribble1145
+3 OnRecipientNotFound=Scribble1150
+3 OnSendStart=Scribble1205
+3 OnSuccess=Scribble1210

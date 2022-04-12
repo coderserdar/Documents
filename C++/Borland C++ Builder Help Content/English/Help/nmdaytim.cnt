@@ -1,0 +1,10 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmdaytim.hlp
+:TITLE FastNet DayTime Help
+:INCLUDE bcb6.OHL
+1 TNMDayTime component
+2 TNMDayTime component Reference=Scribble1010
+2 Properties
+3 DayTimeStr=Scribble1020

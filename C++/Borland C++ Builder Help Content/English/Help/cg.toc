@@ -1,0 +1,30 @@
+:Base cg.hlp>main
+:Title CodeGuard User's Guide
+;
+1 CodeGuard Help
+
+2 Using CodeGuard
+3 About CodeGuard=WhatIsCodeGuard
+3 Using CodeGuard in the IDE=UsingCodeGuardInTheIDE
+3 Using CodeGuard from the command line=UsingCodeGuardFromTheCommandLine
+3 Running applications with CodeGuard=RunningYourAppUsingCodeGuard
+3 CodeGuard compiler options=IDH_OpCodeguard
+3 Linking=Linking
+
+2 Configuring CodeGuard
+3 CodeGuard Configuration Utility=CodeGuardConfigurationUtility
+3 Preferences page=IDH_Preferences
+3 Resource Options page=IDH_ResourceOptions
+3 Function Options page=IDH_FunctionOverrides
+3 Ignored modules page=idh_IgnoredModules
+
+2 CodeGuard errors and warnings
+3 CodeGuard error messages=CodeGuardErrorMessages
+3 Access errors=IDH_AccessErrors
+3 Resource errors=IDH_ResourceErrors
+3 Exception errors=IDH_ExceptionErrors
+3 Function failure errors=IDH_FunctionFailureErrors
+3 String comparison warnings=StringComparisons
+3 Memory block comparison warnings=MemoryBlockComparisons
+3 Path-name merging and splitting warnings=PathNameMergingAndSplitting
+

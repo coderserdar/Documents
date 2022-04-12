@@ -1,0 +1,49 @@
+:Base sqlbuild.HLP>main
+:Title SQL Builder Help
+:Index SQL Builder=sqlbuild.hlp
+;
+1 SQL Builder topics
+2 SQL Builder overview=SQLBuilderOverview
+2 Heterogeneous queries=HeterogeneousQueries
+2 SQL Builder user interface
+3 SQL Query Text Entry window=SQLQueryTextEntryWindow
+3 Query Results window=QueryResultsWindow
+3 SQL Builder toolbar=SQLBuildertoolbar
+3 Table pane
+3 Table pane=TablePane
+4 Adding tables=AddingTables
+4 Selecting fields=SelectingFields
+3 Query notebook
+3 Query notebook=QueryNotebook
+3 Operators=Operators
+4 Criteria page
+4 Criteria page=Criteriapage
+4 Adding selection criteria=AddingSelectionCriteria
+4 Combining selection criteria=CombiningSelectionCriteria
+4 Grouping selection criteria=GroupingSelectionCriteria
+4 Selection page
+4 Selection page=selectionpage
+4 Grouping page
+4 Grouping page=Groupingpage
+4 Creating a grouped query=GroupingPage
+4 Group Criteria page
+4 Group Criteria page=GroupCriteriapage
+4 Sorting page
+4 Sorting page=Sortingpage
+4 Joins page
+4 Joins Page=JoinsPage
+4 Creating joins=CreatingJoins
+3 Menu commands
+4 File menu commands=FileMenuCommands
+4 Edit menu commands=EditMenuCommands
+4 Query menu commands=QueryMenuCommands
+4 Help menu commands=HelpMenuCommands
+2 Working with SQL Builder
+3 Adding tables=AddingTables
+3 Selecting fields=SelectingFields
+3 Adding selection criteria=AddingSelectionCriteria
+3 Creating a grouped query=GroupingPage
+3 Sorting query results=SortingPage
+3 Creating joins=CreatingJoins
+3 Viewing and editing a query as text=SQLQueryTextEntryWindow
+3 Viewing query results=QueryResultsWindow

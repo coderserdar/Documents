@@ -1,0 +1,709 @@
+:Base bcb6scl.hlp>main
+:Title Standard C++ Library Help
+;
+1 Standard C++ Library
+;
+2 User's Guide
+3 Part I: Introduction and product overview
+3 Introduction=sclIntro
+4 Product overview
+5 Components=Components
+5 Unique features=Unique features
+5 Relationship to Tools.h++=Relationship to Toolsh
+5 Compatibility issues=Compatibility issues
+5 Documentation assumptions=Assumptions
+3 Part II: Fundamentals
+4 Iterators
+5 Overview: iterators=Overview iterators
+6 Varieties of iterators=Varieties of iterators
+6 Input iterators=Input iterators
+6 Kinds of input iterators=Kinds of input iterators
+6 Output iterators=Output iterators
+6 Forward iterators=Forward iterators
+6 Bidirectional iterators=Bidirectional iterators
+6 Random access iterators=Random access iterators
+6 Reverse iterators=Reverse iterators
+6 Stream iterators=Stream iterators
+6 Input stream iterators=Input stream iterators
+6 Output stream iterators=Output stream iterators
+6 Insert iterators=Insert iterators
+6 Iterator operations=Iterator operations
+4 Functions and predicates
+5 Functions=Functions
+6 Predicates=Predicates
+5 Function objects
+6 Overview: Function objects=Overview function objects
+7 To employ existing standard library function objects=To employ existing standard library function objects
+7 To access or set state information=To access or set state information
+5 Function adaptors
+6 Overview: Function adaptors=Overview Function adaptors
+7 Adapting global functions=Adapting global functions
+7 Adapting member functions=Adapting member functions
+6 Negators and binders=Negators and binders
+3 Part III: Containers
+4 Container classes
+5 Overview: Container classes=Overview Container classes
+6 Selecting a container=Selecting a container
+6 Memory management issues=Memory management issues
+6 Container types not found in the standard library=Container types not found in the standard library
+4 vector and vector<bool>
+5 The vector data abstraction=The vector data abstraction
+6 Vector operations=Vector operations
+6 Declaration and initialization of vectors=Declaration and initialization of vectors
+6 vector type definitions=vector type definitions
+6 Subscripting a vector=Subscripting a vector
+6 vector extent and size-changing operations=vector extent and size-changing operations
+6 Inserting and removing elements=Inserting and removing elements
+6 vector iteration=vector iteration
+6 vectors: testing for inclusion=vectors testing for inclusion
+6 Sorting and sorted vector operations=Sorting and sorted vector operations
+6 Useful generic algorithms for vectors=Useful generic algorithms for vectors
+6 Boolean vectors=Boolean vectors
+6 Example program: the sieve of Eratosthenes=Example program the sieve of Eratosthenes
+4 list
+5 The list data abstraction=The list data abstraction
+6 list operations=list operations
+6 Declaration and initialization of lists=Declaration and initialization of lists
+6 list type definitions=list type definitions
+6 Placing elements into a list=Placing elements into a list
+6 Splicing=Splicing
+6 Removing elements=Removing elements
+6 list extent and size-changing operations=list extent and size-changing operations
+6 Access and iteration=Access and iteration
+6 lists: testing for inclusion=lists testing for inclusion
+6 Sorting and sorted list operations=Sorting and sorted list operations
+6 lists: searching operations=lists searching operations
+6 lists: in-place transformations=lists in-place transformations
+6 lists: other operations=lists other operations
+6 Example program: an inventory system=Example program an inventory system
+4 deque
+5 The deque data abstraction=The deque data abstraction
+6 Deque operations=Deque operations
+6 Example program: radix sort=Example program radix sort
+4 set, multiset, and bitset
+5 The set data abstraction=The set data abstraction
+6 Set and multiset operations=Set and multiset operations
+6 Declaration and initialization of set=Declaration and initialization of set
+6 set type definitions=set type definitions
+6 set insertion=set insertion
+6 Removal of elements from a set=Removal of elements from a set
+6 sets: searching and counting=sets searching and counting
+6 set iterators=set iterators
+6 set and multiset operations=set and multiset operations
+6 Subset test=Subset test
+6 set union or intersection=set union or intersection
+6 set difference=set difference
+6 sets: other generic algorithms=sets other generic algorithms
+6 Example program: a spelling checker=Example program a spelling checker
+6 The bitset abstraction=The bitset abstraction
+6 Declaration and initialization of bitset=Declaration and initialization of bitset
+6 Accessing and testing elements=Accessing and testing elements
+6 set operations on bitsets=set operations on bitsets
+6 bitset conversions=bitset conversions
+4 map and multimap
+5 The map data abstraction=The map data abstraction
+8 map and multimap operations=map and multimap operations
+6 Declaration and initialization of map=Declaration and initialization of map
+6 map type definitions=map type definitions
+6 map: insertion and access=map insertion and access
+6 Removal of values=Removal of values
+6 Iterators=Iterators
+6 Searching and counting=Searching and counting
+6 Element comparisons=Element comparisons
+6 Other map operations=Other map operations
+6 Example: a telephone database=Example a telephone database
+6 An example: graphs=An example graphs
+6 Example: a concordance=Example a concordance
+4 stack and queue
+5 Overview: stack and queue=Overview stack and queue
+6 The stack data abstraction=The stack data abstraction
+6 Declaration and initialization of stack=Declaration and initialization of stack
+6 Example program: an RPN calculator=Example program an RPN calculator
+6 The queue data abstraction=The queue data abstraction
+6 Declaration and initialization of queue=Declaration and initialization of queue
+6 Example program: bank teller simulation=Example program bank teller simulation
+4 priority queue
+5 The priority queue data abstraction=The priority queue data abstraction
+6 The priority queue operations=The priority queue operations
+6 Declaration and initialization of priority queue=Declaration and initialization of priority queue
+6 Example program: event-driven simulation=Example program event-driven simulation
+6 Example program: an ice cream store simulation=Example program an ice cream store simulation
+4 string
+5 The string abstraction=The string abstraction
+6 Declaration and initialization of string=Declaration and initialization of string
+6 string: resetting size and capacity=string resetting size and capacity
+6 Assignment, append, and swap=Assignment, append, and swap
+6 Character access=Character access
+6 string iterators=string iterators
+6 string insertion, removal, and replacement=string nsertion, removal, and replacement
+6 Copy and substring=Copy and substring
+6 string comparisons=string comparisons
+6 string searching operations=string searching operations
+6 Example function: split a line into words=Example function split a line into words
+3 Part IV: Algorithms
+4 Generic algorithms
+5 Overview: Generic algorithms=Overview Generic algorithms
+6 Initialization algorithms=Initialization algorithms
+6 Fill a sequence with an initial value=Fill a sequence with an initial value
+6 Copy one sequence into another sequence=Copy one sequence into another sequence
+6 Initialize a sequence with generated values=Initialize a sequence with generated values
+6 Swap values from two parallel ranges=Swap values from two parallel ranges
+6 Searching operations=Searching operations
+6 Find an element satisfying a condition=Find an element satisfying a condition
+6 Find consecutive duplicate elements=Find consecutive duplicate elements
+6 Find the first occurrence of any value from a sequence=Find the first occurrence of any value from a sequence
+6 Find a sub-sequence within a sequence=Find a sub-sequence within a sequence
+6 Find the last occurrence of a sub-sequence=Find the last occurrence of a sub-sequence
+6 Locate maximum or minimum element=Locate maximum or minimum element
+6 Locate the first mismatched elements in parallel sequences=Locate the first mismatched elements in parallel sequences
+6 In-place transformations=In-place transformations
+6 Reverse elements in a sequence=Reverse elements in a sequence
+6 Replace certain elements with fixed value=Replace certain elements with fixed value
+6 Rotate elements around a midpoint=Rotate elements around a midpoint
+6 Partition a sequence into two groups=Partition a sequence into two groups
+6 Generate permutations in sequence=Generate permutations in sequence
+6 Merge two adjacent sequences into one=Merge two adjacent sequences into one
+6 Randomly rearrange elements in a sequence=Randomly rearrange elements in a sequence
+6 Removal algorithms=Removal algorithms
+6 Remove unwanted elements=Remove unwanted elements
+6 Remove runs of similar values=Remove runs of similar values
+6 Scalar-producing algorithms=Scalar-producing algorithms
+6 Count the number of elements that satisfy a condition=Count the number of elements that satisfy a condition
+6 Reduce sequence to a single value=Reduce sequence to a single value
+6 Generalized inner product=Generalized inner product
+6 Test two sequences for pairwise equality=Test two sequences for pairwise equality
+6 Lexical comparison=Lexical comparison
+6 Sequence-generating algorithms=Sequence-generating algorithms
+6 Transform one or two sequences=Transform one or two sequences
+6 Partial sums=Partial sums
+6 Adjacent differences=Adjacent differences
+6 The for_each algorithm=The for_each algorithm
+4 Ordered collection algorithms
+5 Overview: Ordered collection algorithms=Overview Ordered collection algorithms
+6 Sorting algorithms=Sorting algorithms
+6 Partial sort=Partial sort
+6 nth element=nth element
+6 Binary search=Binary search
+6 Merge ordered sequences=Merge ordered sequences
+6 set operations=set operations
+6 heap operations=heap operations
+3 Part V: Special techniques
+4 Using allocators
+5 Overview: Using allocators=Overview Using allocators
+6 Using allocators with existing standard library containers=Using allocators with existing standard library containers
+6 Building your own allocators=Building your own allocators
+6 Using the standard allocator interface=Using the standard allocator interface
+6 Using Rogue Wave's alternative interface=Using Rogue Wave's alternative interface
+6 How to support both interfaces=How to support both interfaces
+4 Building containers and generic algorithms
+5 Extending the library=Extending the library
+6 Building on the standard containers=Building on the standard containers
+6 Inheritance=Inheritance
+6 Generic inheritance=Generic inheritance
+6 Generic composition=Generic composition
+6 Creating your own containers=Creating your own containers
+6 Meeting the container requirements=Meeting the container requirements
+6 Meeting the allocator interface requirements=Meeting the allocator interface requirements
+6 Iterator requirements=Iterator requirements
+5 Tips and techniques for building algorithms
+5 The iterator_traits template=The iterator_traits template
+6 The distance and advance primitives=The distance and advance primitives
+4 The traits parameter
+5 Traits: defining the problem=Traits defining the problem
+6 Using the traits technique=Using the traits technique
+4 Exception handling
+5 Overview: Exception handling=Overview Exception handling
+6 The standard exception hierarchy=The standard exception hierarchy
+6 Using exceptions=Using exceptions
+6 Example program: exceptions=Example program exceptions
+3 Part VI: Special classes
+4 auto_ptr
+5 Overview: auto_ptr=Overview auto_ptr
+6 Declaration and initialization of autopointers=Declaration and initialization of autopointers
+4 complex
+5 Overview: complex class=Overview complex class
+6 Declaring complex numbers=Declaring complex numbers
+6 Accessing complex number values=Accessing complex number values
+6 Arithmetic operations=Arithmetic operations
+6 Comparing complex values=Comparing complex values
+6 Stream input and output=Stream input and output
+6 Norm and absolute value=Norm and absolute value
+6 Trigonometric functions=Trigonometric functions
+6 Complex numbers: transcendental functions=Complex numbers transcendental functions
+6 Example program: roots of a polynomial=Example program roots of a polynomial
+4 numeric limits
+5 Overview: numeric_limits=Overview numeric_limits
+6 Fundamental datatypes=Fundamental datatypes
+6 numeric_limits members=numeric_limits members
+6 Members common to all types=Members common to all types
+6 Members specific to floating point values=Members specific to floating point values
+4 valarray
+5 valarray overview=valarray overview
+6 Performance issues=Performance issues
+6 valarray type restrictions=valarray type restrictions
+6 A class that meets the type restrictions=A class that meets the type restrictions
+6 A class that doesn't meet the type restrictions=A class that doesnt meet the type restrictions
+6 Other unique features=Other unique features
+6 Declaring a valarray=Declaring a valarray
+6 Assignment operators=Assignment operators
+6 Ordinary index operators=Ordinary index operators
+6 Subset operators=Subset operators
+6 The slice operation=The slice operation
+6 The gslice operation=The gslice operation
+6 Boolean mask=Boolean mask
+6 Indirect operation=Indirect operation
+6 Unary operators=Unary operators
+6 Computed assignment operators=Computed assignment operators
+6 Member functions=Member functions
+6 Binary operators=Binary operators
+6 valarray transcendental functions=valarray transcendental functions
+2 Locales and Iostreams
+3 Part I: Introduction and document organization
+4 Introduction=locales and iostreams introduction
+4 Document organization=lio_Document organization
+3 Part II: Locales
+4 Internationalization and localization
+5 Defining the terms=Defining the terms
+5 Localizing cultural conventions=Localizing cultural conventions
+5 Localization and language=Localization and language
+5 Localization and numbers=Localization and numbers
+5 Localization and currency=Localization and currency
+5 Localization and time/date=Localization and time_date
+5 Localization and collation=Localization and collation
+5 Character encodings for localizing alphabets=Character encodings for localizing alphabets
+5 Multibyte encodings=Multibyte encodings
+5 JIS encoding=JIS encoding
+5 Shift-JIS encoding=Shift-JIS encoding
+5 EUC encoding=EUC encoding
+5 Uses of the three multibyte encodings=Uses of the three multibyte encodings
+5 Wide characters=Wide characters
+5 Conversion between multibyte and wide characters=Conversion between multibyte and wide characters
+4 The C and C++ locales
+5 The C locale=The C locale
+5 The C++ locales=The Cplusplus locales
+5 Facet classes=Facet classes
+5 The standard facets=The standard facets
+5 Differences between the C locale and the C++ locales=Differences between the C locale and the Cplusplus locales
+5 Common uses of the C locale=Common uses of the C locale
+5 Common uses of C++ locales=Common uses of Cplusplus locales
+5 The relationship between the C locale and the C++ locale=The relationship between the C locale and the Cplusplus locale
+5 The locale object=The locale object
+4 Facets
+5 Understanding facet types=Understanding facet types
+5 Facet lifetimes=Facet lifetimes
+5 Accessing a locale's facets=Accessing a locales facets
+5 Using a stream's facet=Using a streams facet
+5 Modifying a standard facet's behavior=Modifying a standard facets behavior
+5 Creating a new base facet class=Creating a new base facet class
+4 Building your own facet class
+5 An example of formatting phone numbers=An example of formatting phone numbers
+5 A phone number class=A phone number class
+5 A phone number formatting facet class=A phone number formatting facet class
+5 An inserter for phone numbers=An inserter for phone numbers
+5 The phone number facet class revisited=The phone number facet class revisited
+5 Adding data members=Adding data members
+5 Adding country codes=Adding country codes
+5 An example of a derived facet class=An example of a derived facet class
+5 Using phone number facets=Using phone number facets
+5 Formatting phone numbers=Formatting phone numbers
+5 Improving the inserter function=Improving the inserter function
+5 Primitive caching=Primitive caching
+5 Registration of a callback function=Registration of a callback function
+5 Improving the inserter=Improving the inserter
+3 Part III: Iostreams
+4 The architecture of iostreams
+5 Overview: Standard iostreams=Overview Standard iostreams
+5 Type safety=Type safety
+5 Extensibility to new types=Extensibility to new types
+5 How do the standard iostreams work?=How do the standard iostreams work?
+5 The iostream layers=The iostream layers
+5 The formatting layer=The formatting layer
+5 The transport layer=The transport layer
+5 Locales=Locales
+5 File and in-memory I/O=File and in-memory IO
+5 How do the standard iostreams help solve problems?=How do the standard iostreams help solve problems?
+5 The internal structure of the iostreams layers=The internal structure of the iostreams layers
+5 The internal structure of the formatting layer=The internal structure of the formatting layer
+5 Iostreams base class ios_base=Iostreams base class ios_base
+5 The iostreams character type-dependent base class=The iostreams character type-dependent base class
+5 Character traits=Character traits
+5 The input and output streams=The input and output streams
+5 The file streams=The file streams
+5 The string streams=The string streams
+5 The transport layer’s internal structure=The transport layers internal structure
+5 The stream buffer=The stream buffer
+5 The file buffer=The file buffer
+5 The string stream buffer=The string stream buffer
+5 Collaboration of streams and stream buffers=Collaboration of streams and stream buffers
+5 Collaboration of locales and iostreams=Collaboration of locales and iostreams
+4 Formatted input and output
+5 The predefined streams=The predefined streams
+5 Input and output operators=Input and output operators
+5 Format control using the stream’s format state
+6 Format parameters=Format parameters
+6 Parameters that can have an arbitrary value=Parameters that can have an arbitrary value
+6 Parameters that can have only a few different values=Parameters that can have only a few different values
+6 Manipulators=Manipulators
+4 Localization using the stream’s locale=Localization using the streams locale
+4 Formatted Input=Formatted Input
+4 Skipping characters=Skipping characters
+4 Input of strings=Input of strings
+4 Error state of streams
+5 About flags=About flags
+5 Checking the stream state=Checking the stream state
+5 Catching exceptions=Catching exceptions
+4 File input and output
+5 About file streams=About file streams
+5 The difference between predefined streams and file streams=The difference between predefined streams and file streams
+5 Code conversion in wide character streams=Code conversion in wide character streams
+5 Working with file streams
+6 Creating and opening file stream objects=Creating and opening file stream objects
+4 Checking a file stream’s status=Checking a file streams status
+4 Closing a file stream=Closing a file stream
+5 The open mode=The open mode
+5 The open mode flags=The open mode flags
+5 The in and out open modes=The in and out open modes
+5 The open modes ate, app, and trunc=The open modes ate, app, and trunc
+5 Combining open modes=Combining open modes
+5 Default open modes=Default open modes
+5 Binary and text mode=Binary and text mode
+5 File positioning=File positioning
+5 How positioning works with the iostream architecture=How positioning works with the iostream architecture
+4 Input and output in memory
+5 About stringstreams=About stringstreams
+5 The internal buffer=The internal buffer
+5 The open modes=The open modes
+4 Input and output of user types
+5 A note on user-defined types=A note on user-defined types
+5 An example with a user-defined type=An example with a user-defined type
+5 A simple extractor and inserter for the example=A simple extractor and inserter for the example
+5 Improved extractors and inserters=Improved extractors and inserters
+5 More improved extractors and inserters=More improved extractors and inserters
+5 Applying the recommendations to the example=Applying the recommendations to the example
+5 Additional notes on inserters and extractors=Additional notes on inserters and extractors
+5 Patterns for extractors and inserters of user-defined types=Patterns for extractors and inserters of user-defined types
+4 Manipulators
+5 A recap of manipulators=A recap of manipulators
+5 Manipulators without parameters=Manipulators without parameters
+5 Examples of manipulators without parameters=Examples of manipulators without parameters
+5 A remark on the manipulator endl=A remark on the manipulator endl
+5 Manipulators with parameters=Manipulators with parameters
+5 The standard manipulators=The standard manipulators
+5 The principle of manipulators with parameters=The principle of manipulators with parameters
+5 Examples of manipulators with parameters=Examples of manipulators with parameters
+4 Streams and stream buffers
+5 Streams as objects=Streams as objects
+5 Copying and assigning stream objects=Copying and assigning stream objects
+5 Copying a stream's data members=Copying a streams data members
+5 Using pointers or references to streams=Using pointers or references to streams
+5 Sharing a stream buffer among streams=Sharing a stream buffer among streams
+5 Several format settings for the same stream=Several format settings for the same stream
+5 Several locales for the same stream=Several locales for the same stream
+5 Input and output to the same stream=Input and output to the same stream
+5 Copies of the stream buffer=Copies of the stream buffer
+4 Synchronizing streams
+5 Sharing files among streams=Sharing files among streams
+5 Explicit synchronization=Explicit synchronization
+5 Output streams=Output streams
+5 Input streams=Input streams
+5 Implicit synchronization using the unitbuf format flag=Implicit synchronization using the unitbuf format flag
+5 Implicit synchronization by tying streams=Implicit synchronization by tying streams
+5 Synchronizing the predefined standard streams=Synchronizing the predefined standard streams
+5 Synchronization with the C standard i/o=Synchronization with the C standard io
+4 Stream storage for private use
+5 Adding data to a stream=Adding data to a stream
+5 An example: storing a date format string=An example storing a date format string
+5 Another look at the date format string=Another look at the date format string
+5 Caveat=Caveat
+4 Registration of callback functions
+5 Defining callback functions=Defining callback functions
+5 An example=An example
+4 Creating new stream classes by derivation
+5 Deriving a new stream type=Deriving a new stream type
+5 Choosing a base class=Choosing a base class
+5 Construction and initialization=Construction and initialization
+5 Derivation from file stream or string stream classes like (i/o)fstream<> or (i/o)stringstream<>=iostream derivation
+5 Derivation from the stream classes basic_(i/o)stream<>=iostream derivation from the stream classes
+5 The derived stream class=The derived stream class
+5 The date inserter=The date inserter
+5 The manipulator=The manipulator
+5 A remark on performance=A remark on performance
+5 Using iword/pword for rtti in derived streams=Using iword pword for rtti in derived streams
+4 Stream buffers
+5 Class streambuf: the sequence abstraction=Class streambuf the sequence abstraction
+5 The streambuf hierarchy=The streambuf hierarchy
+5 The streambuf interface=The streambuf interface
+5 Deriving new stream buffer classes=Deriving new stream buffer classes
+5 Connecting iostream and streambuf objects=Connecting iostream and streambuf objects
+4 Defining a code conversion facet
+5 Overview: Defining a code conversion facet=Overview Defining a code conversion facet
+5 Categories of code conversions=Categories of code conversions
+5 Example 1: Defining a Tiny Character Code Conversion (ASCII <-> EBCDIC)=example defining a tiny character code conversion
+6 Derive a new facet type=Derive a new facet type
+6 Specialize the new facet type and implement the member functions=Specialize the new facet type and implement the member functions
+6 Applying the new code conversion facet=Applying the new code conversion facet to example 1
+6 Error indication in code conversion facets=Error indication in code conversion facets
+5 Example 2: Defining a multibyte character code conversion (JIS <-> Unicode)=example defining a multibyte character code conversion
+6 Define a new conversion state type=Define a new conversion state type
+6 Define a new character traits type=Define a new character traits type
+6 Define the code conversion facet=Define the code conversion facet
+6 Applying the new code conversion facet=Applying the new code conversion facet to example 2
+4 Defining your own character types
+5 User-defined character types=User-defined character types
+5 Requirements for user-defined character types=Requirements for user-defined character types
+5 Defining traits and facets for user-defined types=Defining traits and facets for user-defined types
+5 Creating and using streams instantiated on user-defined types=Creating and using streams instantiated on user-defined types
+4 Locales
+5 Locales and Iostreams=Locales and Iostreams
+5 When to imbue a new locale=When to imbue a new locale
+5 Example: imbuing a new locale on a stream=Example imbuing a new locale on a stream
+4 Stream iterators
+5 Stream iterators defined=Stream iterators defined
+5 Differences between stream iterators and container iterators=Differences between stream iterators and container iterators
+5 Error indication by stream iterators=Error indication by stream iterators
+5 Several iterators on one stream=Several iterators on one stream
+4 Iostreams and multithreading
+5 Multithread-Safe: Level 2=Multithread Safe Level 2
+5 The locking mechanism=The locking mechanism
+5 Protecting the buffer=Protecting the buffer
+5 Locking several stream operations=Locking several stream operations
+5 The location of locks=The location of locks
+4 Standard versus traditional iostreams
+5 The character type=The character type
+5 Internationalization=Internationalization
+5 Connecting files and streams=Connecting files and streams
+5 The file buffer=The file buffer
+5 String streams=String streams
+5 Streams with assign=Streams with assign
+4 Standard versus Rogue Wave iostreams
+5 Extensions=sclExtensions
+5 File descriptors=File descriptors
+5 Multithreaded environments=Multithreaded environments
+5 Restrictions=Restrictions
+5 Deprecated features=Deprecated features
+4 Additional information
+5 Implementation notes=Implementation notes
+2 Standard C++ Library Class Reference
+3 Class Reference Overview=scl_class_reference
+4 accumulate=accumulate
+4 adjacent_difference=adjacent_difference
+4 adjacent_find=adjacent_find
+4 advance=advance
+4 Algorithms=Algorithms
+4 allocator=allocator
+4 Associative Containers=Associative Containers
+4 auto_ptr=auto_ptr
+4 back_insert_iterator, back_inserter=back_insert_iterator, back_inserter
+4 basic_filebuf=basic_filebuf
+4 basic_fstream=basic_fstream
+4 basic_ifstream=basic_ifstream
+4 basic_ios=basic_ios
+4 basic_iostream=basic_iostream
+4 basic_istream=basic_istream
+4 basic_istringstream=basic_istringstream
+4 basic_ofstream=basic_ofstream
+4 basic_ostream=basic_ostream
+4 basic_ostringstream=basic_ostringstream
+4 basic_streambuf=basic_streambuf
+4 basic_string=basic_string
+4 basic_stringbuf=basic_stringbuf
+4 basic_stringstream=basic_stringstream
+4 Bidirectional Iterators=Bidirectional Iterators
+4 binary_function=binary_function
+4 binary_negate=binary_negate
+4 binary_search=binary_search
+4 bind1st, bind2nd, binder1st, binder2nd=bind1st, bind2nd, binder1st, binder2nd
+4 bitset=bitset
+4 cerr=cerr
+4 char_traits=char_traits
+4 cin=cin
+4 clog=clog
+4 codecvt=codecvt
+4 codecvt_byname=codecvt_byname
+4 collate, collate_byname=collate, collate_byname
+4 compare=compare
+4 complex=complex
+4 Containers=Containers
+4 copy, copy_backward=copy, copy_backward
+4 count, count_if=count, count_if
+4 cout=cout
+4 ctype=ctype
+4 ctype<char>=ctype_char
+4 ctype_byname=ctype_byname
+4 deque=deque
+4 distance=distance
+4 __distance_type=__distance_type
+4 divides=divides
+4 equal=equal
+4 equal_range=equal_range
+4 equal_to=equal_to
+4 exception=exception
+4 facets=facets
+4 fill, fill_n=fill, fill_n
+4 find=find
+4 find_end=find_end
+4 find_first_of=find_first_of
+4 find_if=find_if
+4 for_each=for_each
+4 Forward Iterators=Forward Iterators
+4 fpos=fpos
+4 front_insert_iterator, front_inserter=front_insert_iterator, front_inserter
+4 Function Objects=Function Objects
+4 generate, generate_n=generate, generate_n
+4 get_temporary_buffer=get_temporary_buffer
+4 greater=greater
+4 greater_equal=greater_equal
+4 gslice=gslice
+4 gslice_array=gslice_array
+4 has_facet=has_facet
+4 Heap Operations=Heap Operations
+4 includes=includes
+4 indirect_array=indirect_array
+4 inner_product=inner_product
+4 inplace_merge=inplace_merge
+4 Input Iterators=Input Iterators
+4 Insert Iterators=Insert Iterators
+4 insert_iterator, inserter=insert_iterator, inserter
+4 ios_base=ios_base
+4 iosfwd=iosfwd
+4 isalnum=isalnum
+4 isalpha=isalpha
+4 iscntrl=iscntrl
+4 isdigit=isdigit
+4 isgraph=isgraph
+4 islower=islower
+4 isprint=isprint
+4 ispunct=ispunct
+4 isspace=isspace
+4 istream_iterator=istream_iterator
+4 istreambuf_iterator=istreambuf_iterator
+4 istrstream=istrstream
+4 isupper=isupper
+4 isxdigit=isxdigit
+4 iter_swap=iter_swap
+4 iterator=iterator
+4 __iterator_category=__iterator_category
+4 iterator_traits=iterator_traits
+4 Iterators=Iterators
+4 less=less
+4 less_equal=less_equal
+4 lexicographical_compare=lexicographical_compare
+4 limits=limits
+4 list=list
+4 locale=locale
+4 logical_and=logical_and
+4 logical_not=logical_not
+4 logical_or=logical_or
+4 lower_bound=lower_bound
+4 make_heap=make_heap
+4 map=map
+4 mask_array=mask_array
+4 max=max
+4 max_element=max_element
+4 mem_fun, mem_fun1, mem_fun_ref, mem_fun_ref1=mem_fun, mem_fun1, mem_fun_ref, mem_fun_ref1
+4 merge=merge
+4 messages, messages_byname=messages, messages_byname
+4 min=min
+4 min_element=min_element
+4 minus=minus
+4 mismatch=mismatch
+4 modulus=modulus
+4 money_get=money_get
+4 money_put=money_put
+4 moneypunct, moneypunct_byname=moneypunct, moneypunct_byname
+4 multimap=multimap
+4 multiplies=multiplies
+4 multiset=multiset
+4 negate=negate
+4 Negators=Negators
+4 next_permutation=next_permutation
+4 not1=not1
+4 not2=not2
+4 not_equal_to=not_equal_to
+4 nth_element=nth_element
+4 num_get=num_get
+4 num_put=num_put
+4 numeric_limits=numeric_limits
+4 numpunct, numpunct_byname=numpunct, numpunct_byname
+4 Operators=Operators
+4 ostream_iterator=ostream_iterator
+4 ostreambuf_iterator=ostreambuf_iterator
+4 ostrstream=ostrstream
+4 Output Iterators=Output Iterators
+4 pair=pair
+4 partial_sort=partial_sort
+4 partial_sort_copy=partial_sort_copy
+4 partial_sum=partial_sum
+4 partition=partition
+4 permutation=permutation
+4 plus=plus
+4 pointer_to_binary_function=pointer_to_binary_function
+4 pointer_to_unary_function=pointer_to_unary_function
+4 pop_heap=pop_heap
+4 Predicates=Predicates
+4 prev_permutation=prev_permutation
+4 priority_queue=priority_queue
+4 ptr_fun=ptr_fun
+4 push_heap=push_heap
+4 queue=queue
+4 Random Access Iterators=Random Access Iterators
+4 random_shuffle=random_shuffle
+4 raw_storage_iterator=raw_storage_iterator
+4 remove=remove
+4 remove_copy=remove_copy
+4 remove_copy_if=remove_copy_if
+4 remove_if=remove_if
+4 replace=replace
+4 replace_copy=replace_copy
+4 replace_copy_if=replace_copy_if
+4 replace_if=replace_if
+4 return_temporary_buffer=return_temporary_buffer
+4 reverse=reverse
+4 __reverse_bi_iterator, reverse_iterator=__reverse_bi_iterator, reverse_iterator
+4 reverse_copy=reverse_copy
+4 reverse_iterator=reverse_iterator
+4 rotate, rotate_copy=rotate, rotate_copy
+4 search, search_n=search, search_n
+4 Sequences=Sequences
+4 set=set
+4 set_difference=set_difference
+4 set_intersection=set_intersection
+4 set_symmetric_difference=set_symmetric_difference
+4 set_union=set_union
+4 slice=slice
+4 slice_array=slice_array
+4 smanip, smanip_fill=smanip, smanip_fill
+4 sort=sort
+4 sort_heap=sort_heap
+4 stable_partition=stable_partition
+4 stable_sort=stable_sort
+4 stack=stack
+4 Stream Iterators=Stream Iterators
+4 string=string
+4 strstream=strstream
+4 strstreambuf=strstreambuf
+4 swap=swap
+4 swap_ranges=swap_ranges
+4 time_get=time_get
+4 time_get_byname=time_get_byname
+4 time_put=time_put
+4 time_put_byname=time_put_byname
+4 tolower=tolower
+4 toupper=toupper
+4 transform=transform
+4 unary_function=unary_function
+4 unary_negate=unary_negate
+4 uninitialized_copy=uninitialized_copy
+4 uninitialized_fill=uninitialized_fill
+4 uninitialized_fill_n=uninitialized_fill_n
+4 unique, unique_copy=unique, unique_copy
+4 upper_bound=upper_bound
+4 use_facet=use_facet
+4 valarray=valarray
+4 vector=vector
+4 wcerr=wcerr
+4 wcin=wcin
+4 wclog=wclog
+4 wcout=wcout
+4 wstring=wstring
+

@@ -1,0 +1,132 @@
+:Base bcb6tool.hlp>main
+:Title C++Builder Command-line Tools
+
+1 Command-line Tools
+2 An overview of the Borland C++Builder tools = BctoolsOverview
+
+2 The C++ compiler, BCC32.EXE
+3 Using the command-line compiler = UsingTheCommandLineCompiler
+3 Using compiler configuration files = UsingCompilerConfigurationFiles
+3 Using compiler response files = UsingCompilerResponseFiles
+3 Option precedence rules = CompilerOptionPrecedenceRules
+3 Entering directories for command-line options = EnteringDirectoriesForCommandLineOptions
+
+2 The linker, ILINK32.EXE
+3 Using the linker
+4 Using ILINK32 = TLINK
+4 ILINK32, the incremental linker = ILINK32
+4 ILINK32 command-line syntax = TLINKCommandLineSyntax
+4 ILINK32.CFG File = TLINKCFG
+4 Linker response files = ResponseFiles
+4 Using ILINK32 with BCC.EXE = UsingTLINKWithBCC.EXE
+3 Module definition files
+4 Module definition files = ModuleDefinitionFile
+4 CODE Statement (module definition file) = CODEStatement
+4 DATA Statement (module definition file) = DATAStatement
+4 DESCRIPTION Statement (module definition file) = DESCRIPTIONStatement
+4 EXETYPE Statement (module definition file) = EXETYPEStatement
+4 EXPORTS Statement (module definition file) = EXPORTSStatement
+4 IMPORTS Statement (module definition file) = IMPORTSStatement
+4 LIBRARY Statement (module definition file) = LIBRARYStatement
+4 NAME Statement (module definition file) = NAMEStatement
+4 SEGMENTS Statement (module definition file) = SEGMENTSStatement
+4 STACKSIZE Statement (module definition file) = STACKSIZEStatement
+4 STUB Statement (module definition file) = STUBStatement
+4 Example module definition file = ExampleModuleDefinitionFile
+
+2 BRC32.EXE
+3 Using the command-line resource tools = ResourceTools
+3 BRCC32.EXE = BRCC32
+3 BRC32.EXE = BRC32
+
+2 CPP32.EXE
+3 CPP32, the preprocessor = CPP
+3 Using CPP32 = CPP_Using
+3 CPP32 as a macro preprocessor = CPP_MacroPreprocessor
+3 Using MIDL with CPP32 = CPP_MIDL
+3 CPP32 and UUIDs = CPP_UUID
+
+2 GREP.EXE
+3 GREP: A text-search utility = GREP
+3 GREP: Command-line syntax = GREP_CommandLineSyntax
+3 GREP: Command-line options = GREP_CommandLineOptions
+3 GREP: The search string = GREP_TheSearchString
+3 GREP: File specifications = GREP_FileSpecifications
+3 GREP examples
+4 GREP: Examples = GREP_Ex
+4 GREP: Example 1 = GREP_Ex1
+4 GREP: Example 2 = GREP_Ex2
+4 GREP: Example 3 = GREP_Ex3
+4 GREP: Example 4 = GREP_Ex4
+4 GREP: Example 5 = GREP_Ex5
+
+2 WSDLIMP.EXE
+3 WSDLIMP: The WSDL document importer = WSDLIMP
+3 WSDLIMP command-line options = WSDLIMPCommandLineOptions 
+
+2 VCTOBPR.EXE
+3 Using VCTOBPR.EXE = UsingVCTOBPR
+
+2 COFF2OMF.EXE
+3 Using COFF2OMF import library conversion tool= COFF2OMF
+
+2 IMPLIB.EXE
+3 Using IMPLIB = IMPLIB
+3 Using the module definition file manager (IMPDEF) = IMPDEF
+3 Classes in a DLL = ClassesInADLL
+3 Functions in a DLL = FunctionsInADLL
+
+2 MAKE.EXE
+3 Using MAKE
+3 Using MAKE = UsingMAKE
+3 Default MAKE actions = DefaultMAKEActions
+3 Using makefiles = UsingMakefiles
+3 Symbolic targets = SymbolicTargets
+3 BUILTINS.MAK = BUILTINSMAK
+3 Using TOUCH = UsingTOUCH
+3 MAKE options
+4 MAKE options = MAKEOptions
+4 Compatibility with Microsoft's NMAKE = CompatibilityWithMicrosoftSNMAKE
+3 Explicit and implicit rules
+4 Explicit and implicit rules = ExplicitAndImplicitRules
+4 Explicit rule syntax = ExplicitRuleSyntax
+4 Implicit rule syntax = ImplicitRuleSyntax
+3 Command syntax
+4 Command syntax = CommandSyntax
+4 MAKE command operators = MakeCommandOperators
+3 MAKE macros
+4 Using MAKE macros = UsingMAKEMacros
+4 Defining MAKE macros = DefiningMAKEMacros
+4 String substitutions in MAKE macros = StringSubstitutionsInMAKEMacros
+4 Default MAKE macros = DefaultMAKEMacros
+4 Modifying default MAKE macros = ModifyingDefaultMAKEMacros
+3 Make directives
+4 Using MAKE directives = UsingMAKEDirectives
+4 .autodepend = MAKE_autodepend
+4 !error = MAKE_error
+4 !if and other conditional directives = MAKE_IfAndOtherConditionalDirectives
+4 !include = MAKE_include
+4 !message = MAKE_message
+4 .path.ext = MAKE_pathExt
+4 .precious = MAKE_precious
+4 .suffixes = MAKE_suffixes
+4 !undef = MAKE_undef
+4 Using macros in directives = UsingMacrosInDirectives
+4 Null macros = NullMacros
+
+2 TDUMP.EXE
+3 TDUMP: The file dumping utility = TDUMP
+3 TDUMP command-line options = TDUMPCommandLineOptions
+
+2 TLIB.EXE
+3 Using TLIB = TLIB
+3 TLIB command-line options = TLIBCommandLineOptions
+3 Using TLIB response files = ResponseFiles
+3 TLIB /C option = TLIBCOption
+3 TLIB /E option = TLIBEOption
+3 TLIB /P option = TLIBPOption
+3 Operation list = OperationList
+3 TLIB examples = TLIBExamples
+
+2 TRIGRAPH.EXE
+3 TRIGRAPH: A character-conversion utility = TRIGRAPH

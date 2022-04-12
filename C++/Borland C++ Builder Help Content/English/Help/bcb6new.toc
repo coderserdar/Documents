@@ -1,0 +1,45 @@
+:BASE bcb6new.hlp>main
+:TITLE What's New in C++Builder
+;
+1 What's New
+2 Introducing C++Builder 6=bcb6_intro
+2 What’s new in C++Builder 6=HC_MHelpWhatsNew
+2 New IDE features
+3 New Data Module Designer features=NewDataModules
+3 New Object TreeView=NewObjectTreeView
+3 Diagram page=DiagramPage
+3 Project Manager enhancements=ProjectManagerEnhancements
+3 New Object Inspector features=NewObjectInspector
+3 New Code Insight features=CodeInsightTools
+3 Component palette changes=NewComponentPalette
+3 New Environment Options features=NewEnvironmentOptions
+3 Main menu changes=MainMenuChanges
+3 Miscellaneous IDE changes=MiscellaneousIDEChanges
+2 Web technology
+3 New Internet features=Internetfeatures
+3 New WebSnap technology=NewWebSnapArchitecture
+3 XML support=XMLsupport
+3 Object Repository additions=ObjectRepositoryAdditions
+2 COM/ActiveX
+3 New COM/ActiveX features=COMActiveXfeatures
+2 Database technology
+3 New database features=Databasefeatures
+2 Actions and action bands
+3 New Actions features=Actionsfeatures
+2 Compiler and debugger enhancements
+3 New compiler features=CompilerDebuggerfeatures
+3 Debugger enhancements=DebuggerEnhancements
+2 VCL, CLX, and RTL
+3 New VCL units and features=VCLfeatures
+3 New RTL units and features=RTLfeatures
+3 CLX=NewCrossPlatformDev
+2 Translation Tools
+3 Improved translation tools=TranslationTools
+3 Deployment changes=NewDeployment
+2 Documentation highlights=NewDocumentation
+2 C++Builder Registration
+3 C++Builder activation and registration=howtoregister
+1 Upgrading to C++Builder 6
+2 Compatibility issues=UpgradingToBCB6
+2 Updating projects from previous releases=BCB6UpgradingProjectsFromPreviousReleases
+; end of TOC

@@ -1,0 +1,35 @@
+:Base ibctrls.hlp>main
+:Title InterBase Controls Help
+;
+1 InterBase Controls Help
+2 Contents=Contents_registered
+2 Components, properties, events, and methods
+3 TIBDatabase Component=TIBDatabase_Component
+3 TIBEventAlerter Component= TIBEventAlerter
+3 AliasName property= AliasName_property
+3 TIBDatabase properties= TIBDatabase_properties
+3 Connected property= Connected_property
+3 DatabaseName property= DatabaseName_property
+3 Handle property= Handle_property
+3 Params property= Params_property
+3 Password property= Password_property
+3 UserName property= UserName_property
+3 TIBDatabase methods= TIBDatabase_methods
+3 Close method= Close_method
+3 CreateDatabase method= CreateDatabase_method
+3 DropDatabase method= DropDatabase_method
+3 Open method= Open_method
+3 Events property= Events_property
+3 TIBEventAlerter properties= TIBEventAlerter_properties
+3 IBDatabase property= IBDatabase_property
+3 Registered property= Registered_property
+3 OnEventAlert event= OnEventAlert_event
+3 TIBEventAlerter events= TIBEventAlerter_events
+3 TIBEventAlerter methods= TIBEventAlerter_methods
+3 CancelEvents method= CancelEvents_method
+3 RegisterEvents method= RegisterEvents_method
+3 QueueEvents method= QueueEvents_method
+3 UnregisterEvents method= UnregisterEvents_method
+3 SQL property= SQL_property
+3 DDL definition= DDL_definition
+3 ExecSQL method= ExecSQL_method

@@ -1,0 +1,5 @@
+:Base indy.hlp>main
+:Title Indy Help
+:Index Indy Help=indy.hlp
+:Include bcb6.ohl
+:Include indy.toc

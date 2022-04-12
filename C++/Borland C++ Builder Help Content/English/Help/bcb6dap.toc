@@ -1,0 +1,260 @@
+:Base bcb6dap.hlp>main
+:Title Developing Internet Applications
+
+2 Writing CORBA applications
+3 Writing CORBA applications=CorbaWritingCORBAApplications
+3 Overview of a CORBA application=CorbaOverviewOfACorbaApplication
+3 Understanding stubs and skeletons=CorbaUnderstandingStubsAndSkeletons
+3 Using Smart Agents=CorbaUsingSmartAgents
+3 Activating server applications=CorbaActivatingServerApplications
+3 Binding interface calls dynamically=CorbaBindingInterfaceCallsDynamically
+3 Writing CORBA servers=CorbaWritingCORBAServers
+3 Defining object interfaces=CorbaDefiningObjectInterfaces
+3 Using the CORBA Server Wizard=CorbaUsingTheCorbaServerWizard
+3 Generating stubs and skeletons from an IDL file=CorbaGeneratingStubsAndSkeletonsFromAnIDLFile
+3 Using the CORBA Object Wizard=CorbaUsingTheCORBAObjectWizard
+3 Instantiating CORBA objects=CorbaInstantiatingCORBAObjects
+3 Using the delegation model=CorbaUsingTheDelegationModel
+3 Viewing and editing changes=CorbaViewingAndEditingChanges
+3 Implementing CORBA objects=CorbaImplementingCORBAObjects
+3 Guarding against thread conflicts=CorbaGuardingAgainstThreadConflicts
+3 Changing CORBA interfaces=CorbaUpdatingCORBAInterfaces
+3 Registering server interfaces=CorbaRegisteringServerInterfaces
+3 Writing CORBA clients=CorbaWritingCORBAClients
+3 Using stubs=CorbaUsingStubs
+3 Using the dynamic invocation interface=CorbaUsingTheDynamicInvocationInterface
+3 Testing CORBA servers=CorbaTestingCORBAServers
+3 Recording and running test scripts=CorbaRecordingAndRunningTestScripts
+1 Writing Distributed Applications
+2 Creating Internet server applications
+3 Creating Internet applications: Overview=WServerCreatingInternetServerApplications
+3 About Web Broker and WebSnap=WServerAboutWebBrokerandWebSnap
+3 Terminology and standards
+4 Terminology and standards=WServerTerminologyAndStandards
+4 Parts of a Uniform Resource Locator=WServerPartsOfAUniformResourceLocator
+4 HTTP request header information=WServerHTTPRequestHeaderInformation
+3 HTTP server activity
+4 HTTP server activity=WServerHTTPServerActivity
+4 Composing client requests=WServerComposingClientRequests
+4 Serving client requests=WServerServingClientRequests
+4 Responding to client requests=WServerRespondingToClientRequests
+4 Types of Web server applications=WServerTypesOfWebServerApplications
+3 Debugging server appliations
+4 Debugging server applications=WServerDebuggingServerApplications
+4 Using the Web Application Debugger=WServerUsingTheWebApplicationDebugger
+4 Debugging Web applications that are DLLs=WServerDebuggingISAPIandNSAPIApplications
+2 Using Web Broker
+3 Using Web Broker=WebbrokerUsingWebBroker
+3 Creating Web server applications with Web Broker=WebbrokerCreatingWebServerApplications
+4 The Web module=WServerTheWebModule
+3 The Web Application object=WServerTheWebApplicationObject
+3 The structure of a Web server application
+4 The structure of a Web server application=WServerTheStructureOfAWebServerApplication
+4 The Web dispatcher
+5 The Web dispatcher=WServerTheWebDispatcher
+5 Adding actions to the dispatcher=WServerAddingActionsToTheDispatcher
+5 Dispatching request messages=WServerDispatchingRequestMessages
+4 Action items
+5 Action items=WServerActionItems
+5 Determining when action items fire=WServerDeterminingWhenActionItemsFire
+5 The target URL=WServerTheTargetURL
+5 The request method type=WServerTheRequestMethodType
+5 Enabling and disabling action items=WServerEnablingAndDisablingActionItems
+5 Choosing a default action item=WServerChoosingADefaultActionItem
+5 Responding to request messages with action items=WServerRespondingToRequestMessagesWithActionItems
+4 Accessing client request information
+5 Accessing client request information=WServerAccessingClientRequestInformation
+5 Properties that contain request header information=WServerPropertiesThatContainRequestHeaderInformation
+5 Properties that identify the target=WServerPropertiesThatIdentifyTheTarget
+5 Properties that describe the Web client=WServerPropertiesThatDescribeTheWebClient
+5 Properties that identify the purpose of the request=WServerPropertiesThatIdentifyThePurposeOfTheRequest
+5 Properties that describe the expected response=WServerPropertiesThatDescribeTheExpectedResponse
+5 Properties that describe the content=WServerPropertiesThatDescribeTheContent
+5 The content of HTTP request messages=WServerTheContentOfHTTPRequestMessages
+4 Creating HTTP response messages
+5 Creating HTTP response messages=WServerCreatingHTTPResponseMessages
+5 Filling in the response header=WServerFillingInTheResponseHeader
+5 Indicating the response status=WServerIndicatingTheResponseStatus
+5 Indicating the need for client action=WServerIndicatingTheNeedForClientAction
+5 Describing the server application=WServerDescribingTheServerApplication
+5 Describing the content=WServerDescribingTheContent
+5 Setting the response content=WServerSettingTheResponseContent
+5 Sending the response=WServerSendingTheResponse
+3 Generating the content of response messages
+4 Generating the content of response messages=WServerGeneratingTheContentOfResponseMessages
+4 Using page producer components=WServerUsingPageProducerComponents
+4 HTML templates=WServerHTMLTemplates
+4 Using predefined HTML-transparent tag names=WServerUsingPredefinedHTMLTransparentTagNames
+4 Specifying the HTML template=WServerSpecifyingTheHTMLTemplate
+4 Converting HTML-transparent tags=WServerConvertingHTMLTransparentTags
+4 Using page producers from an action item=WServerUsingPageProducersFromAnActionItem
+4 Chaining page producers together=WServerChainingPageProducersTogether
+4 Using database information in responses
+5 Using database information in responses=WServerUsingDatabaseInformationInResponses
+5 Adding a session to the Web module=WServerAddingASessionToTheWebModule
+5 Representing a dataset in HTML=WServerRepresentingADatasetInHTML
+5 Using dataset page producers=WServerUsingDataSetPageProducers
+5 Using table producers=WServerUsingdatasetTableProducers
+5 Specifying the table attributes=WServerSpecifyingTheTableAttributes
+5 Specifying the row attributes=WServerSpecifyingTheRowAttributes
+5 Specifying the columns=WServerSpecifyingTheColumns
+5 Embedding tables in HTML documents=WServerEmbeddingTablesInHTMLDocuments
+5 Using TDataSetTableProducer=WServerUsingTDataSetTableProducer
+5 Using TQueryTableProducer=WServerUsingTQueryTableProducer
+2 Using WebSnap
+3 Creating Web Server Applications Using WebSnap=WSnapUsingWebSnap
+3 Fundamental WebSnap components
+4 Fundamental WebSnap components=WSnapFundamentalComponents
+4 Web modules
+5 Web modules=WSnapWebModules
+5 Web application module types=WSnapWebAppModuleTypes
+5 Web page modules=WSnapWebPageModules
+5 Web data modules=WSnapWebDataModules
+4 Adapters=WSnapAdapters
+4 Page producers=WSnapPageProducers
+3 Creating Web server applications with WebSnap
+4 Creating Web server applications with WebSnap=WSnapCreatingWebserverapplications
+4 Selecting a server type=WSnapServerType
+4 Specifying application module components=WSnapApplicationComponents
+4 Selecting Web application module options=WSnapWebAppModuleOptions
+3 WebSnap tutorial
+4 WebSnap tutorial=WSnapTutorial
+4 WebSnap Tutorial Part I: Create a new application=WSnapCreateANewApp
+4 WebSnap Tutorial Part II: Create a CountryTable page=WSnapCreateACountryTablePg
+4 WebSnap Tutorial Part III: Add data components to the CountryTable module=WSnapAddDataComponentsToTheCountryTable
+4 WebSnap Tutorial Part IV: Create a grid to display the data=WSnapCreateAGridToDisplayData
+4 WebSnap Tutorial Part V: Add an edit form=WSnapAddAnEditForm
+4 WebSnap Tutorial Part VII: Run the completed application=WSnapRunTheCompletedApp
+4 WebSnap Tutorial Part VI: Add error reporting=WSnapAddErrorReporting
+3 Advanced HTML design=WSnapAdvancedHTMLDesign
+3 Introduction
+4 Login support=WSnapLoginSupport
+4 Adding login support=WSnapAddingLoginSupport
+4 Using the sessions service=WSnapUsingTheSessionsService
+4 Login pages=WSnapLoginPages
+4 Setting pages to require logins=WSnapSettingPagesToRequireLogins
+4 User access rights=WSnapUserAccessRights
+3 Server-side scripting in WebSnap=WSnapServerSideScripting
+3 Script objects=WSnapScriptObjects
+3 Introduction
+4 Dispatching requests and responses=WSnapDispatchingRequests
+4 Dispatcher components=WSnapDispatcherComponents
+4 Adapter dispatcher
+5 Adapter dispatcher operation=WSnapAdapterDispatcherOperation
+5 Receiving adapter requests and generating responses=WSnapAdapterRequestsAndResponses
+4 Dispatching action items=WSnapDispatchingActionItems
+4 Page dispatcher operation=WSnapPageDispatcherOperation
+2 Working with XML documents
+3 Working with XML documents=XMLDocWorkingWithXMLDocuments
+3 Using the Document Object Model=XMLDocUsingTheDocumentObjectModel
+3 Working with XML components=XMLDocWorkingWithXMLComponents
+3 Using TXMLDocument=XMLDocUsingTXMLDocument
+3 Working with XML nodes=XMLDocWorkingWithXMLNodes
+3 Abstracting XML documents with the Data Binding wizard=XMLDocAbstractingXMLDocumentsWithTheDataBindingWizard
+3 Using the XML Data Binding wizard=XMLUsingTheXMLDataBindingWizard
+3 Using code that the XML Data Binding wizard generates=XMLUsingCodeThatTheXMLDataBindingWizardGenerates
+2 Using Web Services
+3 Using Web Services=SOAPUsingWebServices
+3 Understanding invokable interfaces=SOAPUnderstandingInvokableInterfaces
+3 Using the SOAP application wizard=SOAPUsingComplexTypesInInvokableInterfaces
+3 Registering nonscalar types=SOAPRegisteringNonscalarTypes
+3 Registering typedef'ed types and enumerated types=SOAPRegisteringDynamicArraysAndEnumeratedTypes
+3 Using remotable objects=SOAPUsingRemotableObjects
+3 Remotable object example=SOAPRemotableObjectExample
+3 Using nonscalar types in invokable interfaces=SOAPWritingServersthatSupportWebServices
+3 Using the SOAP application wizard=SOAPUsingTheSOAPApplicationWizard
+3 Adding new Web Services=SOAPAddingWebServices
+3 Using the Web Services Importer=SOAPUsingTheWebServicesImporter
+3 Creating custom exception classes for Web Services=SOAPCreatingCustomExceptionClassesForWebServices
+3 Generating WSDL documents for a Web Service application=SOAPGeneratingWSDLDocumentsforAWebServiceApplication
+3 Writing clients for Web Services=SOAPWritingSOAPClients
+2 Working with sockets
+3 Working with sockets=WSocketWorkingWithSockets
+3 Implementing services
+4 Implementing services=WSocketImplementingServices
+4 Service protocols=WSocketUnderstandingServiceProtocols
+3 Services and ports=WSocketServicesAndPorts
+3 Types of socket connections
+4 Types of socket connections=WSocketTypesOfSocketConnections
+4 Client connections=WSocketClientConnections
+4 Listening connections=WSocketListeningConnections
+4 Server connections=WSocketServerConnections
+3 Describing sockets
+4 Describing sockets=WSocketDescribingSockets
+4 Describing the host=WSocketDescribingTheHost
+4 Using ports=WSocketUsingPorts
+3 Using socket components
+4 Using socket components=WSocketUsingSocketComponents
+5 Getting information about the connection=WSocketGettingInformationAboutThClientConnection
+4 Using client sockets
+5 Using client sockets=WSocketUsingClientSockets
+5 Specifying the desired server=WSocketSpecifyingTheDesiredServer
+5 Forming the connection=WSocketFormingTheConnection
+5 Getting information about the connection=WSocketGettingInformationAboutTheConnection
+5 Closing the connection=WSocketClosingTheConnection
+4 Using server sockets
+5 Using server sockets=WSocketUsingServerSockets
+5 Specifying the port=WSocketSpecifyingThePort
+5 Listening for client requests=WSocketListeningForClientRequests
+5 Connecting to clients=WSocketConnectingToClients
+5 Closing server connections=WSocketClosingServerConnections
+3 Responding to socket events
+4 Responding to socket events=WSocketRespondingToSocketEvents
+4 Error events=WSocketErrorEvents
+4 Client events=WSocketClientEvents
+4 Server events=WSocketServerEvents
+3 Reading and writing over socket connections
+4 Reading and writing over socket connections=WSocketReadingAndWritingOverSocketConnections
+4 Non-blocking connections=WSocketNonBlockingConnections
+4 Reading and writing events=WSocketReadingAndWritingEvents
+4 Blocking connections=WSocketBlockingConnections
+2 WebSnap server-side scripting reference
+3 WebSnap server-side scripting reference=WSnapServerSideScriptingReference
+3 Object types
+4 Object types=WSnapServerSideScriptingObjectTypes
+4 Adapter type=WSnapServerSideScriptingAdapterType
+4 AdapterAction type=WSnapServerSideScriptingAdapterActionType
+4 AdapterErrors type=WSnapServerSideScriptingAdapterErrorsType
+4 AdapterField type=WSnapServerSideScriptingAdapterFieldType
+4 AdapterFieldValues type=WSnapServerSideScriptingAdapterFieldValuesType
+4 AdapterFieldValuesList type=WSnapServerSideScriptingAdapterFieldValuesListType
+4 AdapterHiddenFields type=WSnapServerSideScriptingAdapterHiddenFieldsType
+4 AdapterImage type=WSnapServerSideScriptingAdapterImageType
+4 Module type=WSnapServerSideScriptingModuleType
+4 Page type=WSnapServerSideScriptingPageType
+3 Global objects
+4 Global objects=WSnapServerSideScriptingGlobalObjects
+4 Application=WSnapServerSideScriptingApplication
+4 EndUser=WSnapServerSideScriptingEndUser
+4 Modules=WSnapServerSideScriptingModules
+4 Page=WSnapServerSideScriptingPage
+4 Pages=WSnapServerSideScriptingPages
+4 Producer=WSnapServerSideScriptingProducer
+4 Request=WSnapServerSideScriptingRequest
+4 Response=WSnapServerSideScriptingResponse
+4 Session=WSnapServerSideScriptingSession
+3 JScript Examples
+4 JScript Examples=WSnapServerSideScriptingExamples
+4 Example 1=WSnapServerSideScriptingExample1
+4 Example 2=WSnapServerSideScriptingExample2
+4 Example 3=WSnapServerSideScriptingExample3
+4 Example 4=WSnapServerSideScriptingExample4
+4 Example 5=WSnapServerSideScriptingExample5
+4 Example 6=WSnapServerSideScriptingExample6
+4 Example 7=WSnapServerSideScriptingExample7
+4 Example 8=WSnapServerSideScriptingExample8
+4 Example 9=WSnapServerSideScriptingExample9
+4 Example 10=WSnapServerSideScriptingExample10
+4 Example 11=WSnapServerSideScriptingExample11
+4 Example 12=WSnapServerSideScriptingExample12
+4 Example 13=WSnapServerSideScriptingExample13
+4 Example 14=WSnapServerSideScriptingExample14
+4 Example 15=WSnapServerSideScriptingExample15
+4 Example 16=WSnapServerSideScriptingExample16
+4 Example 17=WSnapServerSideScriptingExample17
+4 Example 18=WSnapServerSideScriptingExample18
+4 Example 19=WSnapServerSideScriptingExample19
+4 Example 20=WSnapServerSideScriptingExample20
+4 Example 21=WSnapServerSideScriptingExample21
+4 Example 22=WSnapServerSideScriptingExample22
+

@@ -1,0 +1,5 @@
+:Base bcb6xtra.hlp>main
+:Title Borland C++Builder Productivity Tools
+1 Borland C++Builder Productivity Tools
+2 Overview=BorlandToolsetOverview
+

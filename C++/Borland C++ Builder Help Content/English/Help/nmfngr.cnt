@@ -1,0 +1,11 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmfngr.hlp
+:TITLE FastNet Finger Help
+:INCLUDE bcb6.OHL
+1 TNMFinger component
+2 TNMFinger component Reference=Scribble1010
+2 Properties
+3 FingerStr=Scribble1020
+3 User=Scribble1025

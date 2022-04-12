@@ -1,0 +1,214 @@
+:Base ibx.hlp>main
+;
+1 InterBase Express Reference
+2 Getting started with InterBase Express=GS_IBXGettingStarted
+
+2 Object and Component Listing, by Unit
+
+3 DBLocalA
+4 TIBClientDataSet=TIBClientDataSet
+
+3 IBBatchMove
+4 TIBBatchMove=TIBBatchMove
+
+3 IBBlob
+4 TIBBlobStream=TIBBlobStream
+
+3 IBCustomDataSet
+4 TIBBCDField=TIBBCDField
+4 TIBCustomDataSet=TIBCustomDataSet
+4 TIBDataLink=TIBDataLink
+4 TIBDataSet=TIBDataSet
+4 TIBDataSetUpdateObject=TIBDataSetUpdateObject
+4 TIBDSBlobStream=TIBDSBlobStream
+4 TIBGeneratorField=TIBGeneratorField
+4 TIBStringField=TIBStringField
+
+3 IBDatabaseInfo
+4 TIBDatabaseInfo=TIBDatabaseInfo
+
+3 IBDataBase
+4 IIBEventNotifier=IIBEventNotifier
+4 TIBBase=TIBBase
+4 TIBDatabase=TIBDatabase
+4 TIBTransaction=TIBTransaction
+
+3 IBEvents
+4 TIBEvents=TIBEvents
+
+3 IBExtract
+4 TIBExtract=TIBExtract
+
+3 IBInstall
+4 EIBInstall=EIBInstall
+4 TIBInstall=TIBInstall
+4 TIBSetup=TIBSetup
+4 TIBUnInstall=TIBUnInstall
+4 TInstallOptions=TInstallOptions
+
+3 IBQuery
+4 TIBQuery=TIBQuery
+
+3 IBServices
+4 TIBBackupRestoreService=TIBBackupRestoreService
+4 TIBBackupService=TIBBackupService
+4 TIBConfigService=TIBConfigService
+4 TIBControlAndQueryService=TIBControlAndQueryService
+4 TIBControlService=TIBControlService
+4 TIBCustomService=TIBCustomService
+4 TIBLicensingService=TIBLicensingService
+4 TIBLogService=TIBLogService
+4 TIBRestoreService=TIBRestoreService
+4 TIBSecurityService=TIBSecurityService
+4 TIBServerProperties=TIBServerProperties
+4 TIBStatisticalService=TIBStatisticalService
+4 TIBValidationService=TIBValidationService
+
+3 IBSQLMonitor
+4 TIBCustomSQLMonitor=TIBCustomSQLMonitor
+4 TIBSQLMonitor=TIBSQLMonitor
+
+3 IBSQL
+4 TIBBatch=TIBBatch
+4 TIBBatchInput=TIBBatchInput
+4 TIBBatchOutput=TIBBatchOutput
+4 TIBSQL=TIBSQL
+4 TIBXSQLDA=TIBXSQLDA
+4 TIBXSQLVAR=TIBXSQLVAR
+
+3 IBStoredProc
+4 TIBStoredProc=TIBStoredProc
+
+3 IBTable
+4 TIBMasterDataLink=TIBMasterDataLink
+4 TIBTable=TIBTable
+
+3 IBUpdateSQL
+4 TIBUpdateSQL=TIBUpdateSQL
+
+3 IB
+4 EIBClientError=EIBClientError
+4 EIBError=EIBError
+4 EIBInterBaseError=EIBInterBaseError
+4 EIBInterbaseRoleError=EIBInterbaseRoleError
+
+2 Alphabetical Object and Component Listing
+
+3 EI
+4 EIBClientError=EIBClientError
+4 EIBError=EIBError
+4 EIBInstall=EIBInstall
+4 EIBInterBaseError=EIBInterBaseError
+4 EIBInterbaseRoleError=EIBInterbaseRoleError
+
+3 I
+4 IIBEventNotifier=IIBEventNotifier
+
+3 TI
+4 TIBBackupRestoreService=TIBBackupRestoreService
+4 TIBBackupService=TIBBackupService
+4 TIBBase=TIBBase
+4 TIBBatch=TIBBatch
+4 TIBBatchInput=TIBBatchInput
+4 TIBBatchMove=TIBBatchMove
+4 TIBBatchOutput=TIBBatchOutput
+4 TIBBCDField=TIBBCDField
+4 TIBBlobStream=TIBBlobStream
+4 TIBClientDataSet=TIBClientDataSet
+4 TIBConfigService=TIBConfigService
+4 TIBControlAndQueryService=TIBControlAndQueryService
+4 TIBControlService=TIBControlService
+4 TIBCustomDataSet=TIBCustomDataSet
+4 TIBCustomService=TIBCustomService
+4 TIBCustomSQLMonitor=TIBCustomSQLMonitor
+4 TIBDatabase=TIBDatabase
+4 TIBDatabaseInfo=TIBDatabaseInfo
+4 TIBDataLink=TIBDataLink
+4 TIBDataSet=TIBDataSet
+4 TIBDataSetUpdateObject=TIBDataSetUpdateObject
+4 TIBDSBlobStream=TIBDSBlobStream
+4 TIBEvents=TIBEvents
+4 TIBExtract=TIBExtract
+4 TIBGeneratorField=TIBGeneratorField
+4 TIBInstall=TIBInstall
+4 TIBLicensingService=TIBLicensingService
+4 TIBLogService=TIBLogService
+4 TIBMasterDataLink=TIBMasterDataLink
+4 TIBQuery=TIBQuery
+4 TIBRestoreService=TIBRestoreService
+4 TIBSecurityService=TIBSecurityService
+4 TIBServerProperties=TIBServerProperties
+4 TIBSetup=TIBSetup
+4 TIBSQL=TIBSQL
+4 TIBSQLMonitor=TIBSQLMonitor
+4 TIBStatisticalService=TIBStatisticalService
+4 TIBStoredProc=TIBStoredProc
+4 TIBStringField=TIBStringField
+4 TIBTable=TIBTable
+4 TIBTransaction=TIBTransaction
+4 TIBUnInstall=TIBUnInstall
+4 TIBUpdateSQL=TIBUpdateSQL
+4 TIBValidationService=TIBValidationService
+4 TIBXSQLDA=TIBXSQLDA
+4 TIBXSQLVAR=TIBXSQLVAR
+4 TInstallOptions=TInstallOptions
+
+2 Categorical Routines Listing
+
+2 Routines Listing, by Unit
+
+3 IBIntf
+4 CheckIBInstallLoaded procedure=CheckIBInstallLoaded_procedure
+4 CheckIBLoaded procedure=CheckIBLoaded_procedure
+4 FreeIBInstallLibrary procedure=FreeIBInstallLibrary_procedure
+4 FreeIBLibrary procedure=FreeIBLibrary_procedure
+4 GetIBClientVersion function=GetIBClientVersion_function
+4 LoadIBInstallLibrary procedure=LoadIBInstallLibrary_procedure
+4 LoadIBLibrary procedure=LoadIBLibrary_procedure
+
+3 IBSQLMonitor
+4 DisableMonitoring procedure=DisableMonitoring_procedure
+
+3 IB
+4 CheckStatusVector function=CheckStatusVector_function
+4 GetIBDataBaseErrorMessages function=GetIBDataBaseErrorMessages_function
+4 IBAlloc procedure=IBAlloc_procedure
+4 IBDataBaseError procedure=IBDataBaseError_procedure
+4 IBError procedure=IBError_procedure
+4 SetIBDataBaseErrorMessages procedure=SetIBDataBaseErrorMessages_procedure
+4 StatusVector function=StatusVector_function
+4 StatusVectorArray function=StatusVectorArray_function
+4 StatusVectorAsText function=StatusVectorAsText_function
+
+2 Alphabetical Routines Listing
+
+3 C
+4 CheckIBInstallLoaded procedure=CheckIBInstallLoaded_procedure
+4 CheckIBLoaded procedure=CheckIBLoaded_procedure
+4 CheckStatusVector function=CheckStatusVector_function
+
+3 D
+4 DisableMonitoring procedure=DisableMonitoring_procedure
+
+3 F
+4 FreeIBInstallLibrary procedure=FreeIBInstallLibrary_procedure
+4 FreeIBLibrary procedure=FreeIBLibrary_procedure
+
+3 G
+4 GetIBClientVersion function=GetIBClientVersion_function
+4 GetIBDataBaseErrorMessages function=GetIBDataBaseErrorMessages_function
+
+3 I
+4 IBAlloc procedure=IBAlloc_procedure
+4 IBDataBaseError procedure=IBDataBaseError_procedure
+4 IBError procedure=IBError_procedure
+
+3 L
+4 LoadIBInstallLibrary procedure=LoadIBInstallLibrary_procedure
+4 LoadIBLibrary procedure=LoadIBLibrary_procedure
+
+3 S
+4 SetIBDataBaseErrorMessages procedure=SetIBDataBaseErrorMessages_procedure
+4 StatusVector function=StatusVector_function
+4 StatusVectorArray function=StatusVectorArray_function
+4 StatusVectorAsText function=StatusVectorAsText_function

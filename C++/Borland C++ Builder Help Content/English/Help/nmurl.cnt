@@ -1,0 +1,14 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmurl.hlp
+:TITLE FastNet URL Encode/Decode Help
+:INCLUDE bcb6.OHL
+1 TNMURL component
+2 TNMURL component Reference=Scribble1010
+2 Properties
+3 Decode=Scribble1020
+3 Encode=Scribble1025
+3 InputString=Scribble1035
+2 Events
+3 OnError=Scribble1047

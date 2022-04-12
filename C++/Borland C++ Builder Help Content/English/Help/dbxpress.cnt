@@ -1,0 +1,5 @@
+:Base dbxpress.hlp>main
+:Title DBExpress Help
+:Index DBExpress=dbxpress.hlp
+:Include bcb6.ohl
+:Include dbxpress.toc

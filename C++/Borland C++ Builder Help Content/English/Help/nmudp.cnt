@@ -1,0 +1,27 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmudp.hlp
+:TITLE FastNet UDP Help
+:INCLUDE bcb6.OHL
+1 TNMUDP component
+2 TNMUDP component Reference=Scribble1010
+2 Properties
+3 LocalPort=Scribble1020
+3 OnBufferInvalid=Scribble1025
+3 OnDataReceived=Scribble1030
+3 OnStatus=Scribble1035
+3 OnStreamInvalid=Scribble1040
+3 RemoteHost=Scribble1045
+3 RemotePort=Scribble1050
+3 ReportLevel=Scribble1055
+2 Methods
+3 Create=Scribble1060
+3 Destroy=Scribble1065
+3 ReadBuffer=Scribble1070
+3 ReadStream=Scribble1075
+3 SendBuffer=Scribble1080
+3 SendStream=Scribble1085
+2 Events
+3 OnDataSend=Scribble1090
+3 OnInvalidHost=Scribble1095

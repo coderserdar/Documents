@@ -1,0 +1,12 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmecho.hlp
+:TITLE FastNet Echo Help
+:INCLUDE bcb6.OHL
+1 TNMEcho component
+2 TNMEcho component Reference=Scribble1010
+2 Properties
+3 ElapsedTime=Scribble1020
+2 Methods
+3 Echo=Scribble1025

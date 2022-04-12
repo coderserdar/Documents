@@ -1,0 +1,28 @@
+:Base IMAGEDIT.HLP>main
+:Title Borland Image Editor Help
+:Index Image Editor=imagedit.hlp
+;
+1 Borland Image Editor
+2 About the Image Editor=IEImageEditor
+2 Using the Image Editor
+3 Working with Bitmaps=IEAboutBitmaps
+3 Working with Cursors=IEAboutCursors
+3 Working with Icons=IEAboutIcons
+3 Adding Text to an Image=IEAddTextToImage
+3 Choosing the Number of Colors for an Image=IEChooseNumberColors
+3 Displaying Your Image in the Form=IEDisplayImageOnForm
+3 Moving a Zoomed Image=IEMoveZoomedImage
+3 Using the Colors Palette=IEPEColorsPalette
+3 Using the Zoom Accelerators=IEUseZoomAccelerators
+3 Zooming Images=IEZoomImages
+2 Image Editor menus
+3 File menu=IEMFileMenu
+3 Edit menu=IEMEditMenu
+3 Icon menu=IEMImageMenu
+3 Resource Menu=IEMResourceMenu
+3 Text Menu=IEMTextMenu
+3 View Menu=IEMViewMenu
+3 Window Menu=IEMWindowMenu
+3 Help Menu=IEMHelpMenu
+2 Using the Image Editor tools palette
+3 Image Editor tools palette=IEToolsPalette

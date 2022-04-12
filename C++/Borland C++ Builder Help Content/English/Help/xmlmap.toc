@@ -1,0 +1,11 @@
+:Base xmlmap.hlp>main
+;
+1 XML Mapper
+;
+2 XML Mapper = HC_XMLMap
+2 XML Document pane = HC_XMLDocument 
+2 Datapacket pane = HC_DataPacket
+2 Mapping pane = HC_MappingsPane
+2 Node Repository Page = HC_NodeRepository
+2 Mapping page = HC_MappingPage
+2 Creating a transformation file = CreatingTransformationFiles

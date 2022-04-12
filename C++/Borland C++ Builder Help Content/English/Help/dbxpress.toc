@@ -1,0 +1,12 @@
+:Base dbxpress.hlp>main
+:Title dbExpress Help
+:Link dbxpress.hlp
+:Index dbExpress Help=dbxpress.hlp
+
+1 dbExpress
+2 dbExpress = dbExpress
+2 SQLDriver = SQLDriver_class 
+2 SQLConnection = SQLConnection_class
+2 SQLCommand = SQLCommand_class
+2 SQLMetaData = SQLMetaData_class
+2 Fetching the driver interface = FetchingTheDriver

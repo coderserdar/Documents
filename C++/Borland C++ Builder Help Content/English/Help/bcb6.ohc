@@ -1,0 +1,19 @@
+:Include bcb6new.toc
+:Include bcb6.toc
+:Include bcb6prog.toc
+:Include bcb6dbd.toc
+:Include bcb6dap.toc
+:Include bcb6cw.toc
+:Include bcb6com.toc
+:Include bcb6lang.toc
+:Include bcb6rtl.toc
+:Include bcb6scl.toc
+:Include bcb6tool.toc
+:Include bcb6vcl.toc
+:Include blx2clx.toc
+:Include ibx.toc
+:Include cg.toc
+:Include etm.toc
+1 Glossary
+2 Glossary=glossary
+;;

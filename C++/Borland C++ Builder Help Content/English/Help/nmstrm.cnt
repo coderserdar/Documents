@@ -1,0 +1,18 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE NMStrm.hlp
+:TITLE FastNet Stream Help
+:INCLUDE bcb6.OHL
+1 TNMStrm component
+2 TNMStrm component Reference=Scribble1010
+2 Properties
+3 FromName=Scribble1020
+2 Methods
+3 PostIt=Scribble1025
+2 Events
+3 OnMessageSent=Scribble1030
+1 TNMStrmServ component
+2 TNMStrmServ component Reference=Scribble1100
+2 Events
+3 OnMSG=Scribble1110

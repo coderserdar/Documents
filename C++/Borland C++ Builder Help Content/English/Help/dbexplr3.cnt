@@ -1,0 +1,5 @@
+:Base dbexplr3.hlp>main
+:Title Database Explorer Help
+:Index Database Explorer Help=dbexplr3.hlp
+:include bcb6.ohl
+:include dbexplr3.toc

@@ -1,0 +1,25 @@
+:Base WINSIGHT.HLP>main
+:Title WinSight Help
+:Index WinSight=winsight.hlp
+;
+1 WinSight Help
+2 Basics
+3 Overview=essentials
+3 Window Tree view=WindowTreeview
+3 Class List view=ClassListview
+3 Message Trace view=MessageTraceview
+3 Find=FindWindows
+3 Trace=TraceMessages
+3 Getting Started=GettingStarted
+3 Messages WinSight Tracks=MessageGroups 
+3 WinSight Views=WinSightViews
+2 Tasks
+3 Tracing Messages=TraceMessages
+3 Using the Find Window Mode=FindWindows
+3 Using the Keyboard with WinSight=UseKeyboard
+3 Using the Messages Menu to Trace Messages=MMessages
+3 Using the Mouse with WinSight=UseMouse
+3 Using the Spy Menu to Display Window Details=MSpy
+3 Using the Start! and Stop! Menu=MStopStart
+3 Using the Tree Menu to Display the Window Tree View=MTree
+3 Using the View Menu to Display WinSight Views=MView

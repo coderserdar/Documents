@@ -1,0 +1,6 @@
+:Base bcb6ilib.hlp>main
+:Title VCL Reference (ILIB)
+:Index VCL Reference=bcb6vcl.hlp
+:Index VCL Reference (ILIB)=bcb6ilib.hlp
+:Include bcb6.ohl
+:Include bcb6vcl.toc

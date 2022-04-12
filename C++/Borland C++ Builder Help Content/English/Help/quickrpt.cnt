@@ -1,0 +1,5 @@
+:Base quickrpt.hlp>main
+:Title QuickReport Help
+:Index QuickReport Help=quickrpt.hlp
+:Include bcb6.ohl
+:Include quickrpt.toc

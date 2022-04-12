@@ -1,0 +1,6 @@
+:Base SQLMON.HLP>main
+:Title SQL Monitor Help
+:Index SQL Monitor Help=SQLMON.HLP
+:INCLUDE BCB6XTRA.OHL
+:INCLUDE SQLMON.TOC
+

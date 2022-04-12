@@ -1,0 +1,11 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmtime.hlp
+:TITLE FastNet Time Help
+:INCLUDE bcb6.OHL
+1 TNMTime component
+2 TNMTime component Reference=Scribble1010
+2 Properties
+3 TimeInt=Scribble1020
+3 TimeStr=Scribble1025

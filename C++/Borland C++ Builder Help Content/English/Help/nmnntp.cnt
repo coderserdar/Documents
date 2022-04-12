@@ -1,0 +1,67 @@
+; This contents file was created with HelpScribble 3.5.6
+; Registered to: NetMasters
+
+:BASE nmnntp.hlp
+:TITLE FastNet NNTP Help
+:INCLUDE bcb6.OHL
+1 TPostRecordType object
+2 TPostRecordType object Reference=Scribble1010
+2 Properties
+3 PrAppName=Scribble1020
+3 PrArticleId=Scribble1025
+3 PrDistribution=Scribble1030
+3 PrFromAddress=Scribble1035
+3 PrNewsGroups=Scribble1040
+3 PrReplyTo=Scribble1045
+3 PrSubject=Scribble1050
+3 PrTimeDate=Scribble1055
+1 TNMNNTP component
+2 TNMNNTP component Reference=Scribble1100
+2 Properties
+3 AttachFilePath=Scribble1110
+3 Attachments=Scribble1115
+3 Body=Scribble1120
+3 CacheMode=Scribble1125
+3 CurrentArticle=Scribble1130
+3 GroupList=Scribble1135
+3 Header=Scribble1140
+3 HeaderRecord=Scribble1145
+3 HiMessage=Scribble1150
+3 LoMessage=Scribble1155
+3 NewsDir=Scribble1160
+3 ParseAttachments=Scribble1165
+3 Password=Scribble1170
+3 PostAttachments=Scribble1175
+3 PostBody=Scribble1180
+3 PostHeader=Scribble1185
+3 Posting=Scribble1190
+3 PostRecord=Scribble1195
+3 SelectedGroup=Scribble1200
+3 UserId=Scribble1205
+2 Methods
+3 GetArticle=Scribble1210
+3 GetArticleBody=Scribble1215
+3 GetArticleHeader=Scribble1220
+3 GetArticleList=Scribble1225
+3 GetGroupList=Scribble1230
+3 PostArticle=Scribble1235
+3 SetGroup=Scribble1240
+2 Events
+3 OnAbort=Scribble1245
+3 OnArticle=Scribble1250
+3 OnArticleCacheUpdate=Scribble1255
+3 OnAuthenticationFailed=Scribble1260
+3 OnAuthenticationNeeded=Scribble1265
+3 OnBody=Scribble1270
+3 OnBodyCacheUpdate=Scribble1275
+3 OnGroupListCacheUpdate=Scribble1280
+3 OnGroupListUpdate=Scribble1285
+3 OnGroupSelect=Scribble1290
+3 OnGroupSelectRequired=Scribble1295
+3 OnHeader=Scribble1300
+3 OnHeaderCacheUpdate=Scribble1305
+3 OnHeaderList=Scribble1310
+3 OnHeaderListCacheUpdate=Scribble1315
+3 OnInvalidArticle=Scribble1320
+3 OnPosted=Scribble1325
+3 OnPostFailed=Scribble1330

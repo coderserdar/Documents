@@ -1,0 +1,5 @@
+:Base xmlmap.hlp>main
+:Title XMLMapper Help
+:Index XMLMapper=xmlmap.hlp
+:Include bcb6.ohl
+:Include xmlmap.toc

@@ -1,0 +1,5 @@
+:Base pce.hlp>main
+:Title Package Collection Editor Help
+;
+1 Package Collection Editor
+2 Overview=packagecollectioneditor
