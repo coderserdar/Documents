@@ -17,6 +17,7 @@ There are sub section in this repository like (You can look at Documents site ma
    + [*Embarcadero WhitePapers*](https://github.com/coderserdar/Documents/tree/main/Delphi/Embarcadero%20WhitePapers)
    + [*Other Books*](https://github.com/coderserdar/Documents/tree/main/Delphi/Other%20Books)
    + [*Books About RAD Studio*](https://github.com/coderserdar/Documents/tree/main/Delphi/RAD%20Studio)
+   + [*Books In TheSwissBay.ch*](https://github.com/coderserdar/Documents/tree/main/Delphi/The%20Swiss%20Bay)
  - [**Lazarus**](https://github.com/coderserdar/Documents/tree/main/Lazarus)
  - [**C++**](https://github.com/coderserdar/Documents/tree/main/C++)
  - [**Data Structures & Algorithms**](https://github.com/coderserdar/Documents/tree/main/Data%20Structures%20%26%20Algorithms)
