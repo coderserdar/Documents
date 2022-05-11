@@ -36,6 +36,6 @@ There are sub section in this repository like (You can look at Documents site ma
    + [*Flutter*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Flutter)
    + [*Kotlin*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Kotlin)
    + [*Unity*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Unity)
- - [**QNB Finans GÝB Servisleri**](https://github.com/coderserdar/Documents/tree/main/QNB%20Finans%20GIB%20Servisleri)
+ - [**QNB Finans GIB Servisleri**](https://github.com/coderserdar/Documents/tree/main/QNB%20Finans%20GIB%20Servisleri)
 
 And if you code with **C** type languages and interested in **Pascal** language, you should look [GuvaCode](https://github.com/GuvaCode)'s [Pascal For C Users](https://github.com/GuvaCode/Pascal-for-C-users) guide
