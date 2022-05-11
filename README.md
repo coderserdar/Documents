@@ -8,6 +8,7 @@ You can find *free e-books* and *whitepapers* about
  - **RDBMS (Relational Data Base Management Systems)**
  - **Mobile Development**
  - **Data Structures and Algorithms**
+ - **ORM (Object Relational Mapping) Tools**
  - **Network**
  
 There are sub section in this repository like (You can look at Documents site map)
@@ -20,9 +21,10 @@ There are sub section in this repository like (You can look at Documents site ma
    + [*Books About RAD Studio*](https://github.com/coderserdar/Documents/tree/main/Delphi/RAD%20Studio)
    + [*Books In TheSwissBay.ch*](https://github.com/coderserdar/Documents/tree/main/Delphi/The%20Swiss%20Bay)
  - [**Lazarus**](https://github.com/coderserdar/Documents/tree/main/Lazarus)
- - [**C++**](https://github.com/coderserdar/Documents/tree/main/C++)
- - [**Data Structures & Algorithms**](https://github.com/coderserdar/Documents/tree/main/Data%20Structures%20%26%20Algorithms)
- - [**Network**](https://github.com/coderserdar/Documents/tree/main/Network)
+ - [**ORM Tools**](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping))
+   + [*Dapper*](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping)/Dapper)
+   + [*Entity Framework*](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping)/Entity%20Framework)
+   + [*NHibernate*](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping)/NHibernate)
  - [**Database**](https://github.com/coderserdar/Documents/tree/main/Database/)
    + [*General*](https://github.com/coderserdar/Documents/tree/main/Database/General)
    + [*Interbase*](https://github.com/coderserdar/Documents/tree/main/Database/Interbase)
@@ -36,6 +38,9 @@ There are sub section in this repository like (You can look at Documents site ma
    + [*Flutter*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Flutter)
    + [*Kotlin*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Kotlin)
    + [*Unity*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Unity)
+ - [**C++**](https://github.com/coderserdar/Documents/tree/main/C++)
+ - [**Data Structures & Algorithms**](https://github.com/coderserdar/Documents/tree/main/Data%20Structures%20%26%20Algorithms)
+ - [**Network**](https://github.com/coderserdar/Documents/tree/main/Network)
  - [**QNB Finans GIB Servisleri**](https://github.com/coderserdar/Documents/tree/main/QNB%20Finans%20GIB%20Servisleri)
 
 And if you code with **C** type languages and interested in **Pascal** language, you should look [GuvaCode](https://github.com/GuvaCode)'s [Pascal For C Users](https://github.com/GuvaCode/Pascal-for-C-users) guide
