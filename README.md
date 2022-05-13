@@ -10,6 +10,8 @@ You can find *free e-books* and *whitepapers* about
  - **Data Structures and Algorithms**
  - **ORM (Object Relational Mapping) Tools**
  - **Network**
+ - **Cyber Security**
+ - **Non-Categorized Technologies**
  
 There are sub section in this repository like (You can look at Documents site map)
  - [**Delphi**](https://github.com/coderserdar/Documents/tree/main/Delphi/)
