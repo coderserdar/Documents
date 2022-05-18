@@ -10,6 +10,7 @@ You can find *free e-books* and *whitepapers* about
  - **Data Structures and Algorithms**
  - **ORM (Object Relational Mapping) Tools**
  - **Network**
+ - **Operating Systems**
  - **Cyber Security**
  - **Non-Categorized Technologies**
  
@@ -40,7 +41,11 @@ There are sub section in this repository like (You can look at Documents site ma
    + [*Flutter*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Flutter)
    + [*Kotlin*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Kotlin)
    + [*Unity*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Unity)
+ - [**Operating Systems**](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems)
+   + [*Linux*](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems/Linux)
+   + [*Windows*](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems/Windows)
  - [**C++**](https://github.com/coderserdar/Documents/tree/main/C++)
+ - [**Python**](https://github.com/coderserdar/Documents/tree/main/Python)
  - [**Data Structures & Algorithms**](https://github.com/coderserdar/Documents/tree/main/Data%20Structures%20%26%20Algorithms)
  - [**Network**](https://github.com/coderserdar/Documents/tree/main/Network)
  - [**Other**](https://github.com/coderserdar/Documents/tree/main/Other)
