@@ -12,6 +12,8 @@ You can find *free e-books* and *whitepapers* about
  - **Network**
  - **Operating Systems**
  - **Cyber Security**
+ - **Machine Learning**
+ - **Clean Code**
  - **Non-Categorized Technologies**
  
 There are sub section in this repository like (You can look at Documents site map)
@@ -48,8 +50,10 @@ There are sub section in this repository like (You can look at Documents site ma
  - [**Python**](https://github.com/coderserdar/Documents/tree/main/Python)
  - [**Data Structures & Algorithms**](https://github.com/coderserdar/Documents/tree/main/Data%20Structures%20%26%20Algorithms)
  - [**Network**](https://github.com/coderserdar/Documents/tree/main/Network)
- - [**Other**](https://github.com/coderserdar/Documents/tree/main/Other)
  - [**Cyber Security**](https://github.com/coderserdar/Documents/tree/main/Cyber%20Security)
+ - [**Machine Learning**](https://github.com/coderserdar/Documents/tree/main/Machine%20Learning)
+ - [**Clean Code**](https://github.com/coderserdar/Documents/tree/main/Clean%20Code)
+ - [**Other**](https://github.com/coderserdar/Documents/tree/main/Other)
  - [**QNB Finans GIB Servisleri**](https://github.com/coderserdar/Documents/tree/main/QNB%20Finans%20GIB%20Servisleri)
 
 And if you code with **C** type languages and interested in **Pascal** language, you should look [GuvaCode](https://github.com/GuvaCode)'s [Pascal For C Users](https://github.com/GuvaCode/Pascal-for-C-users) guide
