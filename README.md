@@ -7,13 +7,12 @@ You can find *free e-books* and *whitepapers* about
  - **Programming Languages**
  - **RDBMS (Relational Data Base Management Systems)**
  - **Mobile Development**
- - **Data Structures and Algorithms**
+ - **Data Structures and Algorithms**, **Clean Code**, **Code Quality**, **Analysis**
  - **ORM (Object Relational Mapping) Tools**
  - **Network**
  - **Operating Systems**
  - **Cyber Security**
  - **Machine Learning**
- - **Clean Code**
  - **Non-Categorized Technologies**
  
 There are sub section in this repository like (You can look at Documents site map)
