@@ -49,6 +49,7 @@ There are sub section in this repository like (You can look at Documents site ma
  - [**Python**](https://github.com/coderserdar/Documents/tree/main/Python)
  - [**Data Structures & Algorithms**](https://github.com/coderserdar/Documents/tree/main/Data%20Structures%20%26%20Algorithms)
  - [**Clean Code**](https://github.com/coderserdar/Documents/tree/main/Clean%20Code)
+ - [**Code Quality**](https://github.com/coderserdar/Documents/tree/main/Code%20Quality)
  - [**Analysis**](https://github.com/coderserdar/Documents/tree/main/Analysis)
  - [**Network**](https://github.com/coderserdar/Documents/tree/main/Network)
  - [**Cyber Security**](https://github.com/coderserdar/Documents/tree/main/Cyber%20Security)
