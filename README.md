@@ -56,6 +56,7 @@ There are sub section in this repository like (You can look at Documents site ma
  - [**Clean Code**](https://github.com/coderserdar/Documents/tree/main/Clean%20Code)
  - [**Code Quality**](https://github.com/coderserdar/Documents/tree/main/Code%20Quality)
  - [**Analysis**](https://github.com/coderserdar/Documents/tree/main/Analysis)
+ - [**Data Science**](https://github.com/coderserdar/Documents/tree/main/Data%20Science)
  - [**Project Management**](https://github.com/coderserdar/Documents/tree/main/Project%20Management)
  - [**Network**](https://github.com/coderserdar/Documents/tree/main/Network)
  - [**Cyber Security**](https://github.com/coderserdar/Documents/tree/main/Cyber%20Security)
