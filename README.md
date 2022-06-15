@@ -7,6 +7,7 @@ You can find *free e-books* and *whitepapers* about
  - **Programming Languages**
  - **RDBMS (Relational Data Base Management Systems)**
  - **Mobile Development**
+ - **Web Development**
  - **Data Structures and Algorithms**, **Clean Code**, **Code Quality**, **Analysis**
  - **ORM (Object Relational Mapping) Tools**
  - **Network**
