@@ -20,7 +20,7 @@
 [ISO](http://altd.embarcadero.com/download/radstudio/10.2/delphicbuilder10_2_3_2631.iso)
 
 **RAD Studio 10.2.2 Tokyo**
-[Web Installer](https://altd.embarcadero.com/download/radstudio/10.2/radstudio10_2_2_esd_2004.exe)|
+[Web Installer](https://altd.embarcadero.com/download/radstudio/10.2/radstudio10_2_2_esd_2004.exe) 
 [ISO](http://altd.embarcadero.com/download/radstudio/10.2/delphicbuilder10_2_2_2004.iso)
 
 **RAD Studio 10.2 Tokyo**
