@@ -1,7 +1,7 @@
 **RAD Studio 10.4.1**
 [Web Installer](https://altd.embarcadero.com/download/radstudio/10.4/RADStudio-10-4-1-esd-1461.exe) & 
 [ISO](http://altd.embarcadero.com/download/radstudio/10.4/radstudio_10_4_99797b.iso) & 
-[Update packs](https://cc.embarcadero.com/reg/delphi) & 
+[Update packs](https://cc.embarcadero.com/reg/delphi)
 
 **RAD Studio 10.3.3 Rio**
 [Web Installer](https://altd.embarcadero.com/download/radstudio/10.3/radstudio_10_3_3_esd7899_nt.exe) & 
