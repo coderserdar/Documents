@@ -11,6 +11,7 @@ You can find *free e-books* and *whitepapers* about
  - **Data Structures and Algorithms**, **Clean Code**, **Code Quality**, **Analysis**
  - **ORM (Object Relational Mapping) Tools**
  - **Network**
+ - **Interviews**
  - **Operating Systems**
  - **Cyber Security**
  - **Machine Learning**
@@ -28,6 +29,7 @@ There are sub section in this repository like (You can look at Documents site ma
    + [*Caliber RM & StarTeam Study Notes (In Turkish)*](https://github.com/coderserdar/Documents/tree/main/Delphi/CaliberRM%20Ve%20StarTeam)
    + [*StarTeam & Delphi Study Notes (In Turkish)*](https://github.com/coderserdar/Documents/tree/main/Delphi/StarTeam%20ve%20Delphi)
  - [**Lazarus**](https://github.com/coderserdar/Documents/tree/main/Lazarus)
+ - [**Interview** (*Some helpful documents before IT Job interviews*)](https://github.com/coderserdar/Documents/tree/main/Interview)
  - [**ORM Tools**](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping))
    + [*Dapper*](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping)/Dapper)
    + [*Entity Framework*](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping)/Entity%20Framework)
