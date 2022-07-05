@@ -6,15 +6,11 @@ This repo includes some kind of documentation files about Information Technologi
 You can find *free e-books* and *whitepapers* about
  - **Programming Languages**
  - **RDBMS (Relational Data Base Management Systems)**
- - **Mobile Development**
- - **Web Development**
- - **Data Structures and Algorithms**, **Clean Code**, **Code Quality**, **Analysis**
+ - **Mobile Development**, **Web Development**
+ - **Data Structures and Algorithms**, **Clean Code**, **Code Quality**, **Analysis**, **Data Science**, **Machine Learning**
  - **ORM (Object Relational Mapping) Tools**
- - **Network**
- - **Interviews**
- - **Operating Systems**
- - **Cyber Security**
- - **Machine Learning**
+ - **Network**, **Operating Systems**
+ - **Cyber Security & Hacking**
  - **Non-Categorized Technologies**
  
 There are sub section in this repository like (You can look at Documents site map)
@@ -63,7 +59,7 @@ There are sub section in this repository like (You can look at Documents site ma
  - [**Data Science**](https://github.com/coderserdar/Documents/tree/main/Data%20Science)
  - [**Project Management**](https://github.com/coderserdar/Documents/tree/main/Project%20Management)
  - [**Network**](https://github.com/coderserdar/Documents/tree/main/Network)
- - [**Cyber Security**](https://github.com/coderserdar/Documents/tree/main/Cyber%20Security)
+ - [**Cyber Security & Hacking**](https://github.com/coderserdar/Documents/tree/main/Cyber%20Security%20%26%20Hacking)
  - [**Machine Learning**](https://github.com/coderserdar/Documents/tree/main/Machine%20Learning)
  - [**Other**](https://github.com/coderserdar/Documents/tree/main/Other)
  - [**QNB Finans GIB Servisleri**](https://github.com/coderserdar/Documents/tree/main/QNB%20Finans%20GIB%20Servisleri)
