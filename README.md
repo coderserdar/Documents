@@ -66,6 +66,7 @@ There are sub section in this repository like (You can look at Documents site ma
  - [**Cyber Security & Hacking**](https://github.com/coderserdar/Documents/tree/main/Cyber%20Security%20%26%20Hacking)
  - [**Machine Learning**](https://github.com/coderserdar/Documents/tree/main/Machine%20Learning)
  - [**Other**](https://github.com/coderserdar/Documents/tree/main/Other)
+   - [*LibreOffice*](https://github.com/coderserdar/Documents/tree/main/Other/LibreOffice)
  - [**QNB Finans GIB Servisleri**](https://github.com/coderserdar/Documents/tree/main/QNB%20Finans%20GIB%20Servisleri)
 
 And if you code with **C** type languages and interested in **Pascal** language, you should look [GuvaCode](https://github.com/GuvaCode)'s [Pascal For C Users](https://github.com/GuvaCode/Pascal-for-C-users) guide
