@@ -47,6 +47,7 @@ There are sub section in this repository like (You can look at Documents site ma
  - [**Operating Systems**](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems)
    + [*Linux*](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems/Linux)
    + [*Windows*](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems/Windows)
+   + [*FreeBSD*](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems/FreeBSD)
  - [**Assembly**](https://github.com/coderserdar/Documents/tree/main/Assembly)
  - [**C**](https://github.com/coderserdar/Documents/tree/main/C)
  - [**C++**](https://github.com/coderserdar/Documents/tree/main/C++)
