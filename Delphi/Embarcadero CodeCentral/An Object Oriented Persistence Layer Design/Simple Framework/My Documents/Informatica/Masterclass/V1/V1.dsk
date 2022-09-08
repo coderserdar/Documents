@@ -1,0 +1,66 @@
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=1
+Width=1024
+Height=105
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1016
+ClientHeight=78
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=108
+Width=190
+Height=620
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=180
+ClientHeight=594
+TBDockHeight=620
+LRDockWidth=190
+Dockable=1
+SplitPos=87
+
+[Closed Files]
+File_0=SourceModule,'D:\My Documents\Informatica\Masterclass\Appointmate\Framework.pas',0,1,251,1,50,0,0
+File_1=SourceModule,'D:\My Documents\Informatica\Masterclass\V1\ProblemDomain3.pas',0,1,234,1,260,0,0
+File_2=SourceModule,'D:\My Documents\Informatica\Masterclass\Appointmate\ProblemDomain.pas',0,1,456,66,433,0,0
+File_3=SourceModule,'D:\My Documents\Informatica\Masterclass\V1\MainForm.pas',0,1,12,48,27,1,0
+File_4=SourceModule,'D:\My Documents\Informatica\Masterclass\V1\BaseDetails.pas',0,1,69,1,71,1,0
+File_5=SourceModule,'D:\My Documents\Informatica\Masterclass\V1\DoctorDetails.pas',0,1,1,17,25,0,0
+File_6=SourceModule,'D:\My Documents\Informatica\Masterclass\V1\IDAllocation.pas',0,1,9,1,25,0,0
+File_7=SourceModule,'D:\My Documents\Informatica\Masterclass\V1\Framework.pas',0,1,29,1,50,0,0
+File_8=SourceModule,'D:\My Documents\Informatica\Masterclass\V1\PatientDetails.pas',0,1,31,1,44,1,0
+File_9=SourceModule,'D:\My Documents\Informatica\Masterclass\V1\ProblemDomain2.pas',0,1,25,1,73,0,0
+
+[Modules]
+Count=0
+EditWindowCount=0
+
+[E:\Temp\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[D:\My Documents\Informatica\Masterclass\V1\V1.dpr]
+FormState=0
+FormOnTop=0
+
+[DockHosts]
+DockHostCount=0
+
+[Watches]
+Count=0
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
