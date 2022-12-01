@@ -12,6 +12,8 @@ You can find *free e-books* and *whitepapers* about
  - **Network**, **Operating Systems**
  - **Cyber Security & Hacking**
  - **Non-Categorized Technologies**
+
+**Important note:** I remove the books which are in Turkish from this repo. If you want to access them, you can lookup to [*TurkceKaynaklar*](https://github.com/coderserdar/TurkceKaynaklar) repo address.
  
 There are sub section in this repository like (You can look at Documents site map)
  - [**Delphi**](https://github.com/coderserdar/Documents/tree/main/Delphi/)
@@ -21,9 +23,7 @@ There are sub section in this repository like (You can look at Documents site ma
    + [*Other Books*](https://github.com/coderserdar/Documents/tree/main/Delphi/Other%20Books)
    + [*Books About RAD Studio*](https://github.com/coderserdar/Documents/tree/main/Delphi/RAD%20Studio)
    + [*Books In TheSwissBay.ch*](https://github.com/coderserdar/Documents/tree/main/Delphi/The%20Swiss%20Bay)
-   + [*DataSnap Books Which Has Turkish Translation*](https://github.com/coderserdar/Documents/tree/main/Delphi/DataSnap)
-   + [*Caliber RM & StarTeam Study Notes (In Turkish)*](https://github.com/coderserdar/Documents/tree/main/Delphi/CaliberRM%20Ve%20StarTeam)
-   + [*StarTeam & Delphi Study Notes (In Turkish)*](https://github.com/coderserdar/Documents/tree/main/Delphi/StarTeam%20ve%20Delphi)
+   + [*DataSnap*](https://github.com/coderserdar/Documents/tree/main/Delphi/DataSnap)
  - [**Lazarus**](https://github.com/coderserdar/Documents/tree/main/Lazarus)
  - [**Interview** (*Some helpful documents before IT Job interviews*)](https://github.com/coderserdar/Documents/tree/main/Interview)
  - [**ORM Tools**](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping))
@@ -35,9 +35,7 @@ There are sub section in this repository like (You can look at Documents site ma
    + [*Interbase*](https://github.com/coderserdar/Documents/tree/main/Database/Interbase)
    + [*Microsoft SQL Server*](https://github.com/coderserdar/Documents/tree/main/Database/Microsoft%20SQL%20Server)
    + [*MySQL*](https://github.com/coderserdar/Documents/tree/main/Database/MySQL)
-   + [*Oracle*](https://github.com/coderserdar/Documents/tree/main/Database/Oracle)
    + [*PostgreSQL*](https://github.com/coderserdar/Documents/tree/main/Database/PostgreSQL)
-   + [*T-SQL*](https://github.com/coderserdar/Documents/tree/main/Database/T-SQL)
  - [**Mobile Development**](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development)
    + [*Android*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Android)
    + [*Flutter*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Flutter)
@@ -66,8 +64,6 @@ There are sub section in this repository like (You can look at Documents site ma
  - [**Cyber Security & Hacking**](https://github.com/coderserdar/Documents/tree/main/Cyber%20Security%20%26%20Hacking)
  - [**Machine Learning**](https://github.com/coderserdar/Documents/tree/main/Machine%20Learning)
  - [**Other**](https://github.com/coderserdar/Documents/tree/main/Other)
-   - [*LibreOffice*](https://github.com/coderserdar/Documents/tree/main/Other/LibreOffice)
    - [*Excel*](https://github.com/coderserdar/Documents/tree/main/Other/Excel)
- - [**QNB Finans GIB Servisleri**](https://github.com/coderserdar/Documents/tree/main/QNB%20Finans%20GIB%20Servisleri)
 
 And if you code with **C** type languages and interested in **Pascal** language, you should look [GuvaCode](https://github.com/GuvaCode)'s [Pascal For C Users](https://github.com/GuvaCode/Pascal-for-C-users) guide
