@@ -16,7 +16,7 @@ You can find *free e-books* and *whitepapers* about
 **Important note:** I remove the books which are in Turkish from this repo. If you want to access them, you can lookup to [*TurkceKaynaklar*](https://github.com/coderserdar/TurkceKaynaklar) repo address.
  
 There are sub section in this repository like (You can look at Documents site map)
- - [**Programming Languages**](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi)
+ - [**Programming Languages**](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages)
    - [*Delphi*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/)
      + [*Delphi 27th Webinar Free E-Books*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/Delphi%2027th%20Webinar)
      + [*Embarcadero CodeCentral Free E-Books*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/Embarcadero%20CodeCentral)
