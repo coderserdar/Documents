@@ -8,6 +8,7 @@ You can find *free e-books* and *whitepapers* about
  - **RDBMS (Relational Data Base Management Systems)**
  - **Mobile Development**, **Web Development**
  - **Data Structures and Algorithms**, **Clean Code**, **Code Quality**, **Analysis**, **Data Science**, **Machine Learning**
+ - **Interview**, **Software Testing**
  - **ORM (Object Relational Mapping) Tools**
  - **Network**, **Operating Systems**
  - **Cyber Security & Hacking**
