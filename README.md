@@ -24,6 +24,8 @@ There are sub section in this repository like (You can look at Documents site ma
      + [*Embarcadero WhitePapers*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/Embarcadero%20WhitePapers)
      + [*Other Books*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/Other%20Books)
      + [*Books About RAD Studio*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/RAD%20Studio)
+       + [*Developer Direct Mobile School 2014*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/RAD%20Studio/Developer%20Direct%20Mobile%20School%202014)
+       + [*Windows And Mac Development Coursebook*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/RAD%20Studio/Windows%20And%20Mac%20Development%20Coursebook)
      + [*Books In TheSwissBay.ch*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/The%20Swiss%20Bay)
      + [*DataSnap*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Delphi/DataSnap)
    - [*Lazarus*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Lazarus)
