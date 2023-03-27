@@ -47,6 +47,7 @@ There are sub section in this repository like (You can look at Documents site ma
    - [*CI-CD (Continuous Integration-Continuous Development)*](https://github.com/coderserdar/Documents/tree/main/Programming%20Methodologies/CI-CD)
    - [*DevOps*](https://github.com/coderserdar/Documents/tree/main/Programming%20Methodologies/DevOps)
    - [*Git*](https://github.com/coderserdar/Documents/tree/main/Programming%20Methodologies/Git)
+   - [*Other (Non categorized books)*](https://github.com/coderserdar/Documents/tree/main/Programming%20Methodologies/Other)
  - [**ORM Tools**](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping))
    + [*Dapper*](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping)/Dapper)
    + [*Entity Framework*](https://github.com/coderserdar/Documents/tree/main/ORM%20(Object%20Relational%20Mapping)/Entity%20Framework)
