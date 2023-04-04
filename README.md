@@ -98,5 +98,8 @@ There are sub section in this repository like (You can look at Documents site ma
  - [**Machine Learning**](https://github.com/coderserdar/Documents/tree/main/Machine%20Learning)
  - [**Other**](https://github.com/coderserdar/Documents/tree/main/Other)
    - [*Excel*](https://github.com/coderserdar/Documents/tree/main/Other/Excel)
+   - [*Apache Kafka*](https://github.com/coderserdar/Documents/tree/main/Other/Apache%20Kafka)
+   - [*Statistics*](https://github.com/coderserdar/Documents/tree/main/Other/Statistics)
+   - [*Power BI*](https://github.com/coderserdar/Documents/tree/main/Other/Power%20BI)
 
 And if you code with **C** type languages and interested in **Pascal** language, you should look [GuvaCode](https://github.com/GuvaCode)'s [Pascal For C Users](https://github.com/GuvaCode/Pascal-for-C-users) guide
