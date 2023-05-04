@@ -80,6 +80,7 @@ There are sub section in this repository like (You can look at Documents site ma
    - [*Amazon Web Services*](https://github.com/coderserdar/Documents/tree/main/Web%20Development/AWS)
    - [*Azure*](https://github.com/coderserdar/Documents/tree/main/Web%20Development/Azure)
    - [*Docker*](https://github.com/coderserdar/Documents/tree/main/Web%20Development/Docker)
+   - [*Google Cloud*](https://github.com/coderserdar/Documents/tree/main/Web%20Development/Google%20Cloud)
    - [*HTML5*](https://github.com/coderserdar/Documents/tree/main/Web%20Development/HTML5)
    - [*JavaScript*](https://github.com/coderserdar/Documents/tree/main/Web%20Development/JavaScript)
    - [*Jenkins*](https://github.com/coderserdar/Documents/tree/main/Web%20Development/Jenkins)
