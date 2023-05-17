@@ -41,6 +41,7 @@ There are sub section in this repository like (You can look at Documents site ma
    - [*Visual Basic*](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Visual%20Basic)
    - [*Other* (*Haskell, Matlab, Perl etc.*)](https://github.com/coderserdar/Documents/tree/main/Programming%20Languages/Other)
  - [**Interview** (*Some helpful documents before IT Job interviews*)](https://github.com/coderserdar/Documents/tree/main/Interview)
+   - [*Cyber Security*](https://github.com/coderserdar/Documents/tree/main/Interview/Cyber%20Security)
    - [*Data Science*](https://github.com/coderserdar/Documents/tree/main/Interview/Data%20Science)
    - [*General*](https://github.com/coderserdar/Documents/tree/main/Interview/General)
    - [*Machine Learning*](https://github.com/coderserdar/Documents/tree/main/Interview/Machine%20Learning)
