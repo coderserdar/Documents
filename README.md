@@ -74,6 +74,7 @@ There are sub section in this repository like (You can look at Documents site ma
    + [*Unity*](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Unity)
    + [*Other* (*React Native, Xamarin etc.*)](https://github.com/coderserdar/Documents/tree/main/Mobile%20Development/Other)
  - [**Operating Systems**](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems)
+   + [*General*](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems/General)
    + [*Linux*](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems/Linux)
    + [*Windows*](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems/Windows)
    + [*FreeBSD*](https://github.com/coderserdar/Documents/tree/main/Operating%20Systems/FreeBSD)
